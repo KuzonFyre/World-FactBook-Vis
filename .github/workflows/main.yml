@@ -23,7 +23,7 @@ jobs:
     - name: Copy Data from External Repo to My Repo
       run: |
         ls
-        cp -r externalrepo/north-america/ myrepo/data/
+        cp -r externalrepo/north-america/ myrepo/data/north-america
 
     - name: Commit and Push if there are changes
       run: |
@@ -32,4 +32,4 @@ jobs:
         git config user.email "actions@github.com"
         git add data/
         git commit -m "Updated data from external repo" || echo "No changes to commit"
-        git push https://${{ secrets.GIT_TOKEN }}@github.com/KuzonFyre/World-FactBook-Vis.git HEAD:main
+        git push https://${{secrets.GIT_TOKEN}}@github.com/KuzonFyre/World-FactBook-Vis.git HEAD:main
