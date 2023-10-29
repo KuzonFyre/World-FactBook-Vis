@@ -1,0 +1,33 @@
+name: Update Data from External Repo
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # This runs daily at midnight.
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout My Repo
+      uses: actions/checkout@v2
+      with:
+        path: myrepo
+
+    - name: Checkout External Repo
+      uses: actions/checkout@v2
+      with:
+        repository: factbook/factbook.json
+        path: externalrepo
+
+    - name: Copy Data from External Repo to My Repo
+      run: |
+        cp -r externalrepo/data/ myrepo/data/
+
+    - name: Commit and Push if there are changes
+      run: |
+        cd myrepo
+        git config user.name "GitHub Actions Bot"
+        git config user.email "actions@github.com"
+        git add data/
+        git commit -m "Updated data from external repo" || echo "No changes to commit"
+        git push
