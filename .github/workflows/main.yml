@@ -1,6 +1,7 @@
 name: Update Data from External Repo
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: '0 0 * * *' # This runs daily at midnight.
 jobs:
