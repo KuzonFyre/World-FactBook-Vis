@@ -30,4 +30,4 @@ jobs:
         git config user.email "actions@github.com"
         git add data/
         git commit -m "Updated data from external repo" || echo "No changes to commit"
-        git push
+        git push https://${{ secrets.GIT_TOKEN }}@github.com/KuzonFyre/World-FactBook-Vis.git HEAD:main
