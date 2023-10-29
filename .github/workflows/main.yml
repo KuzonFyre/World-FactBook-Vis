@@ -23,7 +23,7 @@ jobs:
     - name: Copy Data from External Repo to My Repo
       run: |
         ls
-        cp -r north-america/data/ myrepo/data/
+        cp -r externalrepo/north-america/ myrepo/data/
 
     - name: Commit and Push if there are changes
       run: |
