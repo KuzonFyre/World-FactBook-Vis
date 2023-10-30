@@ -3,6 +3,7 @@ name: Update Factbook Data
 on:
   schedule:
     - cron: '0 0 * * MON'  # This schedules the action to run at 00:00 every Monday
+  workflow_dispatch: # This allows manual triggering
 
 jobs:
   sync:
