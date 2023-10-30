@@ -1,36 +1,37 @@
-name: Update Data from External Repo
+name: Update Factbook Data
 
 on:
-  workflow_dispatch:
   schedule:
-    - cron: '0 0 * * *' # This runs daily at midnight.
+    - cron: '0 0 * * MON'  # This schedules the action to run at 00:00 every Monday
+  workflow_dispatch: # This allows manual triggering
 
 jobs:
-  update-data:
+  sync:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout My Repo
-      uses: actions/checkout@v2
-      with:
-        path: myrepo
-        token: ${{ secrets.GITHUB_TOKEN }}
-
-    - name: Checkout External Repo
+    - name: Checkout source repo
       uses: actions/checkout@v2
       with:
         repository: factbook/factbook.json
-        path: externalrepo
+        path: factbook
 
-    - name: Copy Data from External Repo to My Repo
-      run: |
-        cp -r externalrepo/north-america/ myrepo/data/north-america
+    - name: Checkout target repo
+      uses: actions/checkout@v2
+      with:
+        repository: KuzonFyre/World-FactBook-Vis
+        token: ${{ secrets.PAT_TOKEN }} # This uses your PAT for authentication
+        path: World-FactBook-Vis
 
-    - name: Commit and Push if there are changes
+    - name: Copy factbook data
       run: |
-        cd myrepo
+        cp -r factbook/north-america World-FactBook-Vis/data/north-america
+
+    - name: Push changes
+      working-directory: World-FactBook-Vis
+      run: |
         git config user.name "GitHub Actions Bot"
         git config user.email "actions@github.com"
-        git add data/
-        git commit -m "Updated data from external repo" || echo "No changes to commit"
-        git push origin HEAD:main
+        git add -A
+        git commit -m "Weekly factbook data update" || echo "No changes to commit"
+        git push
