@@ -26,6 +26,16 @@ jobs:
     - name: Copy factbook data
       run: |
         cp -r factbook/north-america/. World-FactBook-Vis/data/north-america
+        cp -r factbook/africa/. World-FactBook-Vis/data/africa
+        cp -r factbook/australia-oceania/. World-FactBook-Vis/data/australia-oceania
+        cp -r factbook/central-america-n-caribbean/. World-FactBook-Vis/data/central-america-n-caribbean
+        cp -r factbook/central-asia/. World-FactBook-Vis/data/central-asia
+        cp -r factbook/east-n-southeast-asia/. World-FactBook-Vis/data/east-n-southeast-asia
+        cp -r factbook/europe/. World-FactBook-Vis/data/europe
+        cp -r factbook/middle-east/. World-FactBook-Vis/data/middle-east
+        cp -r factbook/south-america/. World-FactBook-Vis/data/south-america
+        cp -r factbook/south-asia/. World-FactBook-Vis/data/south-asia
+        
 
     - name: Push changes
       working-directory: World-FactBook-Vis
