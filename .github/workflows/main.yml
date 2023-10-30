@@ -25,7 +25,7 @@ jobs:
 
     - name: Copy factbook data
       run: |
-        cp -r factbook/north-america World-FactBook-Vis/data/north-america
+        cp -r factbook/north-america/. World-FactBook-Vis/data/north-america
 
     - name: Push changes
       working-directory: World-FactBook-Vis
