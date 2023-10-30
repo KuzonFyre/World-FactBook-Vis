@@ -1,0 +1,1308 @@
+{
+  "Introduction": {
+    "Background": {
+      "text": "<p>Trade centers such as Mombasa have existed along the Kenyan and Tanzanian coastlines, known as the Land of Zanj, since at least the 2nd century. These centers traded with the outside world, including China, India, Indonesia, the Middle East, North Africa, and Persia. By around the 9th century, the mix of Africans, Arabs, and Persians who lived and traded there became known as Swahili (\"people of the coast\") with a distinct language (KiSwahili) and culture. The Portuguese arrived in the 1490s and, using Mombasa as a base, sought to monopolize trade in the Indian Ocean. The Portuguese were pushed out in the late 1600s by the combined forces of Oman and Pate, an island off the coast. In 1890, Germany and the UK divided up the region, with the UK taking the north and the Germans the south, including present-day Tanzania, Burundi, and Rwanda. The British established the East Africa Protectorate in 1895, which in 1920 was converted into a colony and named Kenya after its highest mountain. Numerous political disputes between the colony and the UK subsequently led to the violent Mau Mau Uprising, which began in 1952, and the eventual declaration of independence in 1963.</p> Jomo KENYATTA, the founding president and an icon of the liberation struggle, led Kenya from independence in 1963 until his death in 1978, when Vice President Daniel Arap MOI took power in a constitutional succession. The country was a de facto one-party state from 1969 until 1982, after which time the ruling Kenya African National Union (KANU) changed the constitution to make itself the sole legal political party in Kenya. MOI acceded to internal and external pressure for political liberalization in late 1991. The ethnically fractured opposition failed to dislodge KANU from power in elections in 1992 and 1997, which were marred by violence and fraud. President MOI stepped down in December 2002 following fair and peaceful elections. Mwai KIBAKI, running as the candidate of the multiethnic, united opposition group, the National Rainbow Coalition (NARC), defeated KANU candidate Uhuru KENYATTA, the son of founding president Jomo KENYATTA, and assumed the presidency following a campaign centered on an anticorruption platform. <br><br>KIBAKI's reelection in 2007 resulted in two months of post-election ethnic violence that caused the death of more than 1,100 people and the dislocation of hundreds of thousands. Opposition candidate, Raila ODINGA, accused the government of widespread vote rigging. African Union-sponsored mediation led by former UN Secretary General Kofi ANNAN resulted in a power-sharing accord that brought ODINGA into the government in the restored position of prime minister. The power sharing accord included a broad reform agenda, the centerpiece of which was constitutional reform. In 2010, Kenyans overwhelmingly adopted a new constitution in a national referendum. The new constitution introduced additional checks and balances to executive power and devolved power and resources to 47 newly created counties. It also eliminated the position of prime minister. Uhuru KENYATTA won the first presidential election under the new constitution in March 2013. KENYATTA won a second and final term in office in November 2017 following a contentious, repeat election. In August 2022, William RUTO won a close presidential election; he assumed the office the following month after the Kenyan Supreme Court upheld the victory."
+    }
+  },
+  "Geography": {
+    "Location": {
+      "text": "Eastern Africa, bordering the Indian Ocean, between Somalia and Tanzania"
+    },
+    "Geographic coordinates": {
+      "text": "1 00 N, 38 00 E"
+    },
+    "Map references": {
+      "text": "Africa"
+    },
+    "Area": {
+      "total": {
+        "text": "580,367 sq km"
+      },
+      "land": {
+        "text": "569,140 sq km"
+      },
+      "water": {
+        "text": "11,227 sq km"
+      }
+    },
+    "Area - comparative": {
+      "text": "five times the size of Ohio; slightly more than twice the size of Nevada"
+    },
+    "Land boundaries": {
+      "total": {
+        "text": "3,457 km"
+      },
+      "border countries": {
+        "text": "Ethiopia 867 km; Somalia 684 km; South Sudan 317 km; Tanzania 775 km; Uganda 814 km"
+      }
+    },
+    "Coastline": {
+      "text": "536 km"
+    },
+    "Maritime claims": {
+      "territorial sea": {
+        "text": "12 nm"
+      },
+      "exclusive economic zone": {
+        "text": "200 nm"
+      },
+      "continental shelf": {
+        "text": "200-m depth or to the depth of exploitation"
+      }
+    },
+    "Climate": {
+      "text": "varies from tropical along coast to arid in interior"
+    },
+    "Terrain": {
+      "text": "low plains rise to central highlands bisected by Great Rift Valley; fertile plateau in west"
+    },
+    "Elevation": {
+      "highest point": {
+        "text": "Mount Kenya 5,199 m"
+      },
+      "lowest point": {
+        "text": "Indian Ocean 0 m"
+      },
+      "mean elevation": {
+        "text": "762 m"
+      }
+    },
+    "Natural resources": {
+      "text": "limestone, soda ash, salt, gemstones, fluorspar, zinc, diatomite, gypsum, wildlife, hydropower"
+    },
+    "Land use": {
+      "agricultural land": {
+        "text": "48.1% (2018 est.)"
+      },
+      "agricultural land: arable land": {
+        "text": "arable land: 9.8% (2018 est.)"
+      },
+      "agricultural land: permanent crops": {
+        "text": "permanent crops: 0.9% (2018 est.)"
+      },
+      "agricultural land: permanent pasture": {
+        "text": "permanent pasture: 37.4% (2018 est.)"
+      },
+      "forest": {
+        "text": "6.1% (2018 est.)"
+      },
+      "other": {
+        "text": "45.8% (2018 est.)"
+      }
+    },
+    "Irrigated land": {
+      "text": "1,030 sq km (2012)"
+    },
+    "Major lakes (area sq km)": {
+      "fresh water lake(s)": {
+        "text": "Lake Victoria (shared with Tanzania and Uganda) - 62,940 sq km"
+      },
+      "salt water lake(s)": {
+        "text": "Lake Turkana (shared with Ethiopia) - 6,400 sq km"
+      }
+    },
+    "Major watersheds (area sq km)": {
+      "text": "Atlantic Ocean drainage: <em>(Mediterranean Sea)</em> Nile (3,254,853 sq km)"
+    },
+    "Major aquifers": {
+      "text": "Ogaden-Juba Basin"
+    },
+    "Population distribution": {
+      "text": "population heavily concentrated in the west along the shore of Lake Victoria; other areas of high density include the capital of Nairobi, and in the southeast along the Indian Ocean coast as shown in this population distribution map"
+    },
+    "Natural hazards": {
+      "text": "<p>recurring drought; flooding during rainy seasons</p><p><strong>volcanism:</strong> limited volcanic activity; the Barrier (1,032 m) last erupted in 1921; South Island is the only other historically active volcano</p>"
+    },
+    "Geography - note": {
+      "text": "the Kenyan Highlands comprise one of the most successful agricultural production regions in Africa; glaciers are found on Mount Kenya, Africa's second highest peak; unique physiography supports abundant and varied wildlife of scientific and economic value; Lake Victoria, the world's largest tropical lake and the second largest fresh water lake, is shared among three countries: Kenya, Tanzania, and Uganda"
+    }
+  },
+  "People and Society": {
+    "Population": {
+      "text": "57,052,004 (2023 est.)"
+    },
+    "Nationality": {
+      "noun": {
+        "text": "Kenyan(s)"
+      },
+      "adjective": {
+        "text": "Kenyan"
+      }
+    },
+    "Ethnic groups": {
+      "text": "Kikuyu 17.1%, Luhya 14.3%, Kalenjin 13.4%, Luo 10.7%, Kamba 9.8%, Somali 5.8%, Kisii 5.7%, Mijikenda 5.2%, Meru 4.2%, Maasai 2.5%, Turkana 2.1%,&nbsp;non-Kenyan 1%, other 8.2% (2019 est.)"
+    },
+    "Languages": {
+      "Languages": {
+        "text": "English (official), Kiswahili (official), numerous indigenous languages"
+      },
+      "major-language sample(s)": {
+        "text": "<br>The World Factbook, the indispensable source for basic information. (English)<br><br>The World Factbook, Chanzo cha Lazima Kuhusu Habari ya Msingi. (Kiswahili)"
+      }
+    },
+    "Religions": {
+      "text": "Christian 85.5% (Protestant 33.4%, Catholic 20.6%, Evangelical 20.4%, African Instituted Churches 7%, other Christian 4.1%), Muslim 10.9%, other 1.8%, none 1.6%,&nbsp;don't&nbsp;know/no answer&nbsp;0.2% (2019 est.)"
+    },
+    "Demographic profile": {
+      "text": "<p>Kenya has experienced dramatic population growth since the mid-20th century as a result of its high birth rate and its declining mortality rate. Almost 40% of Kenyans are under the age of 15 as of 2020 because of sustained high fertility, early marriage and childbearing, and an unmet need for family planning. Kenya’s persistent rapid population growth strains the labor market, social services, arable land, and natural resources. Although Kenya in 1967 was the first Sub-Saharan country to launch a nationwide family planning program, progress in reducing the birth rate has largely stalled since the late 1990s, when the government decreased its support for family planning to focus on the HIV epidemic. Government commitment and international technical support spurred Kenyan contraceptive use, decreasing the fertility rate (children per woman) from about 8 in the late 1970s to less than 5 children twenty years later, but it has plateaued at about 3 children as of 2022.</p> <p>Kenya is a source of emigrants and a host country for refugees. In the 1960s and 1970s, Kenyans pursued higher education in the UK because of colonial ties, but as British immigration rules tightened, the US, the then Soviet Union, and Canada became attractive study destinations. Kenya’s stagnant economy and political problems during the 1980s and 1990s led to an outpouring of Kenyan students and professionals seeking permanent opportunities in the West and southern Africa. Nevertheless, Kenya’s relative stability since its independence in 1963 has attracted hundreds of thousands of refugees escaping violent conflicts in neighboring countries; Kenya was sheltering nearly 280,000 Somali refugees as of 2022.</p>"
+    },
+    "Age structure": {
+      "0-14 years": {
+        "text": "36.45% (male 10,447,425/female 10,349,611)"
+      },
+      "15-64 years": {
+        "text": "60.26% (male 17,196,347/female 17,185,035)"
+      },
+      "65 years and over": {
+        "text": "3.28% (2023 est.) (male 855,757/female 1,017,829)"
+      }
+    },
+    "Dependency ratios": {
+      "total dependency ratio": {
+        "text": "70.2"
+      },
+      "youth dependency ratio": {
+        "text": "65.3"
+      },
+      "elderly dependency ratio": {
+        "text": "4.8"
+      },
+      "potential support ratio": {
+        "text": "20.7 (2021 est.)"
+      }
+    },
+    "Median age": {
+      "total": {
+        "text": "20 years"
+      },
+      "male": {
+        "text": "19.9 years"
+      },
+      "female": {
+        "text": "20.1 years (2020 est.)"
+      }
+    },
+    "Population growth rate": {
+      "text": "2.09% (2023 est.)"
+    },
+    "Birth rate": {
+      "text": "26.01 births/1,000 population (2023 est.)"
+    },
+    "Death rate": {
+      "text": "4.95 deaths/1,000 population (2023 est.)"
+    },
+    "Net migration rate": {
+      "text": "-0.19 migrant(s)/1,000 population (2023 est.)"
+    },
+    "Population distribution": {
+      "text": "population heavily concentrated in the west along the shore of Lake Victoria; other areas of high density include the capital of Nairobi, and in the southeast along the Indian Ocean coast as shown in this population distribution map"
+    },
+    "Urbanization": {
+      "urban population": {
+        "text": "29.5% of total population (2023)"
+      },
+      "rate of urbanization": {
+        "text": "4.09% annual rate of change (2020-25 est.)"
+      }
+    },
+    "Major urban areas - population": {
+      "text": "5.325 million NAIROBI (capital), 1.440 million Mombassa (2023)"
+    },
+    "Sex ratio": {
+      "at birth": {
+        "text": "1.02 male(s)/female"
+      },
+      "0-14 years": {
+        "text": "1.01 male(s)/female"
+      },
+      "15-64 years": {
+        "text": "1 male(s)/female"
+      },
+      "65 years and over": {
+        "text": "0.84 male(s)/female"
+      },
+      "total population": {
+        "text": "1 male(s)/female (2023 est.)"
+      }
+    },
+    "Mother's mean age at first birth": {
+      "text": "20.3 years (2014 est.)",
+      "note": "<strong>note:</strong> data represents median age at first birth among women 25-49"
+    },
+    "Maternal mortality ratio": {
+      "text": "530 deaths/100,000 live births (2020 est.)"
+    },
+    "Infant mortality rate": {
+      "total": {
+        "text": "26.94 deaths/1,000 live births"
+      },
+      "male": {
+        "text": "29.94 deaths/1,000 live births"
+      },
+      "female": {
+        "text": "23.88 deaths/1,000 live births (2023 est.)"
+      }
+    },
+    "Life expectancy at birth": {
+      "total population": {
+        "text": "70.04 years"
+      },
+      "male": {
+        "text": "68.31 years"
+      },
+      "female": {
+        "text": "71.82 years (2023 est.)"
+      }
+    },
+    "Total fertility rate": {
+      "text": "3.23 children born/woman (2023 est.)"
+    },
+    "Gross reproduction rate": {
+      "text": "1.6 (2023 est.)"
+    },
+    "Contraceptive prevalence rate": {
+      "text": "64.6% (2020)"
+    },
+    "Drinking water source": {
+      "improved: urban": {
+        "text": "urban: 91.3% of population"
+      },
+      "improved: rural": {
+        "text": "rural: 63.3% of population"
+      },
+      "improved: total": {
+        "text": "total: 71.2% of population"
+      },
+      "unimproved: urban": {
+        "text": "urban: 8.7% of population"
+      },
+      "unimproved: rural": {
+        "text": "rural: 36.7% of population"
+      },
+      "unimproved: total": {
+        "text": "total: 28.8% of population (2020 est.)"
+      }
+    },
+    "Current health expenditure": {
+      "text": "4.3% of GDP (2020)"
+    },
+    "Physicians density": {
+      "text": "0.16 physicians/1,000 population (2018)"
+    },
+    "Sanitation facility access": {
+      "improved: urban": {
+        "text": "urban: 84% of population"
+      },
+      "improved: rural": {
+        "text": "rural: 48.1% of population"
+      },
+      "improved: total": {
+        "text": "total: 58.2% of population"
+      },
+      "unimproved: urban": {
+        "text": "urban: 16% of population"
+      },
+      "unimproved: rural": {
+        "text": "rural: 51.9% of population"
+      },
+      "unimproved: total": {
+        "text": "total: 41.8% of population (2020 est.)"
+      }
+    },
+    "Major infectious diseases": {
+      "degree of risk": {
+        "text": "very high (2023)"
+      },
+      "food or waterborne diseases": {
+        "text": "bacterial and protozoal diarrhea, hepatitis A, and typhoid fever"
+      },
+      "vectorborne diseases": {
+        "text": "malaria, dengue fever, and Rift Valley fever"
+      },
+      "water contact diseases": {
+        "text": "schistosomiasis"
+      },
+      "animal contact diseases": {
+        "text": "rabies"
+      },
+      "note": "<strong>note: </strong>on 31 August 2023, the US Centers for Disease Control and Prevention (CDC) issued a Travel Alert for polio in Asia; Israel is currently considered a high risk to travelers for circulating vaccine-derived polioviruses (cVDPV); vaccine-derived poliovirus (VDPV) is a strain of the weakened poliovirus that was initially included in oral polio vaccine (OPV) and that has changed over time and behaves more like the wild or naturally occurring virus; this means it can be spread more easily to people who are unvaccinated against polio and who come in contact with the stool or respiratory secretions, such as from a sneeze, of an “infected” person who received oral polio vaccine; the CDC recommends that before any international travel, anyone unvaccinated, incompletely vaccinated, or with an unknown polio vaccination status should complete the routine polio vaccine series; before travel to any high-risk destination, the CDC recommends that adults who previously completed the full, routine polio vaccine series receive a single, lifetime booster dose of polio vaccine"
+    },
+    "Obesity - adult prevalence rate": {
+      "text": "7.1% (2016)"
+    },
+    "Alcohol consumption per capita": {
+      "total": {
+        "text": "1.68 liters of pure alcohol (2019 est.)"
+      },
+      "beer": {
+        "text": "0.81 liters of pure alcohol (2019 est.)"
+      },
+      "wine": {
+        "text": "0.04 liters of pure alcohol (2019 est.)"
+      },
+      "spirits": {
+        "text": "0.81 liters of pure alcohol (2019 est.)"
+      },
+      "other alcohols": {
+        "text": "0.03 liters of pure alcohol (2019 est.)"
+      }
+    },
+    "Tobacco use": {
+      "total": {
+        "text": "11.1% (2020 est.)"
+      },
+      "male": {
+        "text": "19.5% (2020 est.)"
+      },
+      "female": {
+        "text": "2.7% (2020 est.)"
+      }
+    },
+    "Children under the age of 5 years underweight": {
+      "text": "11.2% (2014)"
+    },
+    "Currently married women (ages 15-49)": {
+      "text": "56.8% (2023 est.)"
+    },
+    "Education expenditures": {
+      "text": "4.8% of GDP (2021 est.)"
+    },
+    "Literacy": {
+      "definition": {
+        "text": "age 15 and over can read and write"
+      },
+      "total population": {
+        "text": "82.6%"
+      },
+      "male": {
+        "text": "85.5%"
+      },
+      "female": {
+        "text": "79.8% (2021)"
+      }
+    },
+    "Youth unemployment rate (ages 15-24)": {
+      "total": {
+        "text": "13.8%"
+      },
+      "male": {
+        "text": "12.8%"
+      },
+      "female": {
+        "text": "14.9% (2021 est.)"
+      }
+    }
+  },
+  "Environment": {
+    "Environment - current issues": {
+      "text": "water pollution from urban and industrial wastes; water shortage and degraded water quality from increased use of pesticides and fertilizers; flooding; water hyacinth infestation in Lake Victoria; deforestation; soil erosion; desertification; poaching"
+    },
+    "Environment - international agreements": {
+      "party to": {
+        "text": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Climate Change-Paris Agreement, Comprehensive Nuclear Test Ban, Desertification, Endangered Species, Hazardous Wastes, Law of the Sea, Marine Dumping-London Convention, Marine Dumping-London Protocol, Marine Life Conservation, Nuclear Test Ban, Ozone Layer Protection, Ship Pollution, Wetlands, Whaling"
+      },
+      "signed, but not ratified": {
+        "text": "none of the selected agreements"
+      }
+    },
+    "Climate": {
+      "text": "varies from tropical along coast to arid in interior"
+    },
+    "Land use": {
+      "agricultural land": {
+        "text": "48.1% (2018 est.)"
+      },
+      "agricultural land: arable land": {
+        "text": "arable land: 9.8% (2018 est.)"
+      },
+      "agricultural land: permanent crops": {
+        "text": "permanent crops: 0.9% (2018 est.)"
+      },
+      "agricultural land: permanent pasture": {
+        "text": "permanent pasture: 37.4% (2018 est.)"
+      },
+      "forest": {
+        "text": "6.1% (2018 est.)"
+      },
+      "other": {
+        "text": "45.8% (2018 est.)"
+      }
+    },
+    "Urbanization": {
+      "urban population": {
+        "text": "29.5% of total population (2023)"
+      },
+      "rate of urbanization": {
+        "text": "4.09% annual rate of change (2020-25 est.)"
+      }
+    },
+    "Food insecurity": {
+      "exceptional shortfall in aggregate food production/supplies": {
+        "text": "<em>due to weather extremes - </em>according to the latest estimates, about 5.4 million people were acutely food insecure between March and June 2023, reflecting the lingering impact of a prolonged and severe drought between late 2020 and early 2023 that affected crop and livestock production, mainly in northern and eastern pastoral and marginal agricultural areas (2023)"
+      }
+    },
+    "Revenue from forest resources": {
+      "text": "1.3% of GDP (2018 est.)"
+    },
+    "Revenue from coal": {
+      "text": "0% of GDP (2018 est.)"
+    },
+    "Air pollutants": {
+      "particulate matter emissions": {
+        "text": "25.85 micrograms per cubic meter (2016 est.)"
+      },
+      "carbon dioxide emissions": {
+        "text": "17.91 megatons (2016 est.)"
+      },
+      "methane emissions": {
+        "text": "37.65 megatons (2020 est.)"
+      }
+    },
+    "Waste and recycling": {
+      "municipal solid waste generated annually": {
+        "text": "5,595,099 tons (2010 est.)"
+      },
+      "municipal solid waste recycled annually": {
+        "text": "447,608 tons (2009 est.)"
+      },
+      "percent of municipal solid waste recycled": {
+        "text": "8% (2009 est.)"
+      }
+    },
+    "Major lakes (area sq km)": {
+      "fresh water lake(s)": {
+        "text": "Lake Victoria (shared with Tanzania and Uganda) - 62,940 sq km"
+      },
+      "salt water lake(s)": {
+        "text": "Lake Turkana (shared with Ethiopia) - 6,400 sq km"
+      }
+    },
+    "Major watersheds (area sq km)": {
+      "text": "Atlantic Ocean drainage: <em>(Mediterranean Sea)</em> Nile (3,254,853 sq km)"
+    },
+    "Major aquifers": {
+      "text": "Ogaden-Juba Basin"
+    },
+    "Total water withdrawal": {
+      "municipal": {
+        "text": "500 million cubic meters (2020 est.)"
+      },
+      "industrial": {
+        "text": "300 million cubic meters (2020 est.)"
+      },
+      "agricultural": {
+        "text": "3.23 billion cubic meters (2020 est.)"
+      }
+    },
+    "Total renewable water resources": {
+      "text": "30.7 billion cubic meters (2020 est.)"
+    }
+  },
+  "Government": {
+    "Country name": {
+      "conventional long form": {
+        "text": "Republic of Kenya"
+      },
+      "conventional short form": {
+        "text": "Kenya"
+      },
+      "local long form": {
+        "text": "Republic of Kenya (English)/ Jamhuri ya Kenya (Swahili)"
+      },
+      "local short form": {
+        "text": "Kenya"
+      },
+      "former": {
+        "text": "British East Africa"
+      },
+      "etymology": {
+        "text": "named for Mount Kenya; the meaning of the name is unclear but may derive from the Kikuyu, Embu, and Kamba words \"kirinyaga,\" \"kirenyaa,\" and \"kiinyaa\" - all of which mean \"God's resting place\""
+      }
+    },
+    "Government type": {
+      "text": "presidential republic"
+    },
+    "Capital": {
+      "name": {
+        "text": "Nairobi"
+      },
+      "geographic coordinates": {
+        "text": "1 17 S, 36 49 E"
+      },
+      "time difference": {
+        "text": "UTC+3 (8 hours ahead of Washington, DC, during Standard Time)"
+      },
+      "etymology": {
+        "text": "the name derives from the Maasai expression meaning \"cool waters\" and refers to a cold water stream that flowed through the area in the late 19th century"
+      }
+    },
+    "Administrative divisions": {
+      "text": "47 counties; Baringo, Bomet, Bungoma, Busia, Elgeyo/Marakwet, Embu, Garissa, Homa Bay, Isiolo, Kajiado, Kakamega, Kericho, Kiambu, Kilifi, Kirinyaga, Kisii, Kisumu, Kitui, Kwale, Laikipia, Lamu, Machakos, Makueni, Mandera, Marsabit, Meru, Migori, Mombasa, Murang'a, Nairobi City, Nakuru, Nandi, Narok, Nyamira, Nyandarua, Nyeri, Samburu, Siaya, Taita/Taveta, Tana River, Tharaka-Nithi, Trans Nzoia, Turkana, Uasin Gishu, Vihiga, Wajir, West Pokot"
+    },
+    "Independence": {
+      "text": "12 December 1963 (from the UK)"
+    },
+    "National holiday": {
+      "text": "Jamhuri Day (Independence Day), 12 December (1963); note - Madaraka Day, 1 June (1963) marks the day Kenya attained internal self-rule"
+    },
+    "Constitution": {
+      "history": {
+        "text": "current constitution passed by referendum on 4 August 2010"
+      },
+      "amendments": {
+        "text": "amendments can be proposed by either house of Parliament or by petition of at least one million eligible voters; passage of amendments by Parliament requires approval by at least two-thirds majority vote of both houses in each of two readings, approval in a referendum by majority of votes cast by at least 20% of eligible voters in at least one half of Kenya&rsquo;s counties, and approval by the president; passage of amendments introduced by petition requires approval by a majority of county assemblies, approval by majority vote of both houses, and approval by the president"
+      }
+    },
+    "Legal system": {
+      "text": "mixed legal system of English common law, Islamic law, and customary law; judicial review in the new Supreme Court established by the new constitution"
+    },
+    "International law organization participation": {
+      "text": "accepts compulsory ICJ jurisdiction with reservations; accepts ICCt jurisdiction"
+    },
+    "Citizenship": {
+      "citizenship by birth": {
+        "text": "no"
+      },
+      "citizenship by descent only": {
+        "text": "at least one parent must be a citizen of Kenya"
+      },
+      "dual citizenship recognized": {
+        "text": "yes"
+      },
+      "residency requirement for naturalization": {
+        "text": "4 out of the previous 7 years"
+      }
+    },
+    "Suffrage": {
+      "text": "18 years of age; universal"
+    },
+    "Executive branch": {
+      "chief of state": {
+        "text": "President William RUTO (since 13 September 2022); note - the president is both chief of state and head of government"
+      },
+      "head of government": {
+        "text": "President William RUTO (since 13 September 2022)"
+      },
+      "cabinet": {
+        "text": "Cabinet appointed by the president, subject to confirmation by the National Assembly"
+      },
+      "elections/appointments": {
+        "text": "president and deputy president directly elected on the same ballot by majority vote nationwide and at least 25% of the votes cast in at least 24 of the 47 counties; failure to meet these thresholds requires a runoff between the top two candidates; election last held on 9 August 2022 (next to be held in 2027)"
+      },
+      "election results": {
+        "text": "<em><br>2017</em>: Uhuru KENYATTA reelected president; percent of vote - Uhuru KENYATTA (JP) 98.3%, Raila ODINGA (ODM) 1%, other 0.7%; note - Kenya held a previous presidential election on 8 August 2017, but Kenya's Supreme Court on 1 September 2017 nullified the results, citing irregularities; the political opposition boycotted the October vote<br><br><em>2013</em>:  Uhuru KENYATTA elected president in first round; percent of vote - Uhuru KENYATTA (TNA) 50.1%, Raila ODINGA (ODM) 43.7%, Musalia MUDAVADI (UDF) 4.0%, other 2.2%"
+      }
+    },
+    "Legislative branch": {
+      "description": {
+        "text": "bicameral Parliament consists of:<br>Senate (68 seats; 47 members directly elected in single-seat constituencies by simple majority vote and 20 directly elected by proportional representation vote - 16 women, 2 representing youth, 2 representing the disabled, and one Senate speaker; members serve 5-year terms)<br>National Assembly (350 seats; 290 members directly elected in single-seat constituencies by simple majority vote, 47 women in single-seat constituencies elected by simple majority vote, and 12 members nominated by the National Assembly - 6 representing youth and 6 representing the disabled, and one Assembly speaker; members serve 5-year terms)"
+      },
+      "elections": {
+        "text": "Senate - last held on 9 August 2022 (next to be held in August 2027)<br>National Assembly - last held on 9 August 2022 (next to be held in August 2027)"
+      },
+      "election results": {
+        "text": "Senate - percent of vote by party/coalition - NA; seats by party/coalition - Kenya Kwanza 34; Azimio La Umoja 33; composition - men 47, women 21, percent of women is 31%<br><br>National Assembly - percent of vote by party/coalition - NA; seats by party/coalition - Azimio La Umoja 173, Kenya Kwanza 161, independent 12, other 3; composition - men 275, women 75, percent of women 21.4%; note - total Parliament percent of women 23%"
+      }
+    },
+    "Judicial branch": {
+      "highest court(s)": {
+        "text": "Supreme Court (consists of chief and deputy chief justices and 5 judges)"
+      },
+      "judge selection and term of office": {
+        "text": "chief and deputy chief justices nominated by Judicial Service Commission (JSC) and appointed by the president with approval of the National Assembly; other judges nominated by the JSC and appointed by president; chief justice serves a nonrenewable 10-year term or until age 70, whichever comes first; other judges serve until age 70"
+      },
+      "subordinate courts": {
+        "text": "High Court; Court of Appeal; military courts; magistrates' courts; religious courts"
+      }
+    },
+    "Political parties and leaders": {
+      "text": "<p>Azimio La Umoja–One Kenya Coalition Party [Raila ODINGA] (includes DAP-K, JP, KANU, KUP, MCC, MDG, ODM, PAA, UDM, UDP, UPA, UPIA, and WDM-K)<br>Amani National Congress or ANC [Musalia MUDAVADI]<br>Chama Cha Kazi or CCK [Moses KURIA]<br>Democratic Action Party or DAP-K [Wafula WAMUNYINYI]<br>Democratic Party or DP [Joseph MUNYAO, Chairman]<br>Forum for the Restoration of Democracy–Kenya or FORD-Kenya [Moses WETANGULA]<br>Grand Dream Development Party or GDDP [Fabian KYULE]           <br>Jubilee Party or JP [Uhuru KENYATTA] (previously the National Alliance Party)<br>Kenya African National Union or KANU [Gideon MOI]<br>Kenya Kwanza coalition [William RUTO] (includes ANC, CCK, DP, FORD-Kenya, TSP, and UDA)<br>Kenya Union Party or KUP [John LONYANGAPUO]<br>Maendeleo Chap Chap Party or MCC [Alfred MUTUA]<br>Movement for Democracy and Growth or MDG [David OCHIENG]<br>National Agenda Party or NAP-K [Alfayo AGUFANA]                        <br>National Ordinary People Empowerment Union or NOPEU [Rodgers MPURU, Secretary General}<br>Orange Democratic Movement or ODM [Raila ODINGA]<br>Pamoja African Alliance or PAA [Amason KINGI]<br>The Service Party or TSP [Mwangi KIUNJURI]<br>United Democratic Alliance or UDA [William RUTO]<br>United Democratic Movement or UDM [Philip MURGOR]<br>United Democratic Party or UDP [Cyrus Jirongo]<br>United Party of Independent Alliance or UPIA [Ukur YATANI]                                      <br>United Progressive Alliance or UPA [Kenneth NYAMWAMU]                                        <br>Wiper Democratic Movement-Kenya or WDM-K [Kalonzo MUSYOKA]   <br><br><strong>note:</strong> includes only parties with seats in the Senate and National Assembly</p>"
+    },
+    "International organization participation": {
+      "text": "ACP, AfDB, ATMIS, AU, C, CD, COMESA, EAC, EADB, FAO, G-15, G-77, IAEA, IBRD, ICAO, ICCT, ICRM, IDA, IFAD, IFC, IFRCS, IGAD, ILO, IMF, IMO, IMSO, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, ITUC (NGOs), MIGA, MINUSMA, MONUSCO, NAM, OPCW, PCA, UN, UNAMID, UNCTAD, UNESCO, UNHCR, UNIDO, UNIFIL, UNISFA, UNMIL, UNMISS, UNOOSA, UNSOM, UNWTO, UPU, WCO, WHO, WMO, WTO"
+    },
+    "Diplomatic representation in the US": {
+      "chief of mission": {
+        "text": "Ambassador Lazarus Ombai AMAYO (since 17 July 2020)"
+      },
+      "chancery": {
+        "text": "2249 R St NW, Washington, DC 20008"
+      },
+      "telephone": {
+        "text": "[1] (202) 387-6101"
+      },
+      "FAX": {
+        "text": "[1] (202) 462-3829"
+      },
+      "email address and website": {
+        "text": "<br>information@kenyaembassydc.org<br><br>https://kenyaembassydc.org/#"
+      },
+      "consulate(s) general": {
+        "text": "Los Angeles"
+      },
+      "consulate(s)": {
+        "text": "New York"
+      }
+    },
+    "Diplomatic representation from the US": {
+      "chief of mission": {
+        "text": "Ambassador Margaret \"Meg\" WHITMAN (since 5 August 2022)"
+      },
+      "embassy": {
+        "text": "P.O. Box 606 Village Market, 00621 Nairobi"
+      },
+      "mailing address": {
+        "text": "8900 Nairobi Place, Washington, DC&nbsp; 20521-8900"
+      },
+      "telephone": {
+        "text": "[254] (20) 363-6000"
+      },
+      "FAX": {
+        "text": "[254] (20) 363-6157"
+      },
+      "email address and website": {
+        "text": "<br>kenya_acs@state.gov<br><br>https://ke.usembassy.gov/"
+      }
+    },
+    "Flag description": {
+      "text": "three equal horizontal bands of black (top), red, and green; the red band is edged in white; a large Maasai warrior's shield covering crossed spears is superimposed at the center; black symbolizes the majority population, red the blood shed in the struggle for freedom, green stands for natural wealth, and white for peace; the shield and crossed spears symbolize the defense of freedom"
+    },
+    "National symbol(s)": {
+      "text": "lion; national colors: black, red, green, white"
+    },
+    "National anthem": {
+      "name": {
+        "text": "\"Ee Mungu Nguvu Yetu\" (Oh God of All Creation)"
+      },
+      "lyrics/music": {
+        "text": "Graham HYSLOP, Thomas KALUME, Peter KIBUKOSYA, Washington OMONDI, and George W. SENOGA-ZAKE/traditional, adapted by Graham HYSLOP, Thomas KALUME, Peter KIBUKOSYA, Washington OMONDI, and George W. SENOGA-ZAKE"
+      },
+      "note": "<strong>note:</strong> adopted 1963; based on a traditional Kenyan folk song"
+    },
+    "National heritage": {
+      "total World Heritage Sites": {
+        "text": "7 (4 cultural, 3 natural)"
+      },
+      "selected World Heritage Site locales": {
+        "text": "Lake Turkana National Parks (n); Mount Kenya National Park (n); Lamu Old Town (c); Sacred Mijikenda Kaya Forests (c); Fort Jesus, Mombasa (c); Kenya Lake System in the Great Rift Valley (n); Thimlich Ohinga Archaeological Site (c)"
+      }
+    }
+  },
+  "Economy": {
+    "Economic overview": {
+      "text": "fast growing, third largest Sub-Saharan economy; strong agriculture and emerging services and tourism industries; current account deficit and high debt; broadband and mobile-money platform investments; surging inflation due to oil and food hikes; new investor-friendly incentives; environmentally fragile economy"
+    },
+    "Real GDP (purchasing power parity)": {
+      "Real GDP (purchasing power parity) 2021": {
+        "text": "$251.431 billion (2021 est.)"
+      },
+      "Real GDP (purchasing power parity) 2020": {
+        "text": "$233.852 billion (2020 est.)"
+      },
+      "Real GDP (purchasing power parity) 2019": {
+        "text": "$234.438 billion (2019 est.)"
+      },
+      "note": "<strong>note:</strong> data are in 2017 dollars"
+    },
+    "Real GDP growth rate": {
+      "Real GDP growth rate 2021": {
+        "text": "7.52% (2021 est.)"
+      },
+      "Real GDP growth rate 2020": {
+        "text": "-0.25% (2020 est.)"
+      },
+      "Real GDP growth rate 2019": {
+        "text": "5.11% (2019 est.)"
+      }
+    },
+    "Real GDP per capita": {
+      "Real GDP per capita 2021": {
+        "text": "$4,700 (2021 est.)"
+      },
+      "Real GDP per capita 2020": {
+        "text": "$4,500 (2020 est.)"
+      },
+      "Real GDP per capita 2019": {
+        "text": "$4,600 (2019 est.)"
+      },
+      "note": "<strong>note:</strong> data are in 2017 dollars"
+    },
+    "GDP (official exchange rate)": {
+      "text": "$95.52 billion (2019 est.)"
+    },
+    "Inflation rate (consumer prices)": {
+      "Inflation rate (consumer prices) 2021": {
+        "text": "6.11% (2021 est.)"
+      },
+      "Inflation rate (consumer prices) 2020": {
+        "text": "5.4% (2020 est.)"
+      },
+      "Inflation rate (consumer prices) 2019": {
+        "text": "5.24% (2019 est.)"
+      }
+    },
+    "Credit ratings": {
+      "Fitch rating": {
+        "text": "B+ (2007)"
+      },
+      "Moody's rating": {
+        "text": "B2 (2018)"
+      },
+      "Standard & Poors rating": {
+        "text": "B+ (2010)"
+      },
+      "note": "<strong>note: </strong>The year refers to the year in which the current credit rating was first obtained."
+    },
+    "GDP - composition, by sector of origin": {
+      "agriculture": {
+        "text": "34.5% (2017 est.)"
+      },
+      "industry": {
+        "text": "17.8% (2017 est.)"
+      },
+      "services": {
+        "text": "47.5% (2017 est.)"
+      }
+    },
+    "GDP - composition, by end use": {
+      "household consumption": {
+        "text": "79.5% (2017 est.)"
+      },
+      "government consumption": {
+        "text": "14.3% (2017 est.)"
+      },
+      "investment in fixed capital": {
+        "text": "18.9% (2017 est.)"
+      },
+      "investment in inventories": {
+        "text": "-1% (2017 est.)"
+      },
+      "exports of goods and services": {
+        "text": "13.9% (2017 est.)"
+      },
+      "imports of goods and services": {
+        "text": "-25.5% (2017 est.)"
+      }
+    },
+    "Agricultural products": {
+      "text": "milk, tea, beef, maize, sugar cane, tomatoes, mangoes/guavas, potatoes, beans, bananas"
+    },
+    "Industries": {
+      "text": "agriculture, transportation, services, manufacturing, construction, telecommunications, tourism, retail"
+    },
+    "Industrial production growth rate": {
+      "text": "7.17% (2021 est.)"
+    },
+    "Labor force": {
+      "text": "23.915 million (2021 est.)"
+    },
+    "Labor force - by occupation": {
+      "agriculture": {
+        "text": "61.1%"
+      },
+      "industry": {
+        "text": "6.7%"
+      },
+      "services": {
+        "text": "32.2% (2005 est.)"
+      }
+    },
+    "Unemployment rate": {
+      "Unemployment rate 2021": {
+        "text": "5.74% (2021 est.)"
+      },
+      "Unemployment rate 2020": {
+        "text": "5.73% (2020 est.)"
+      },
+      "Unemployment rate 2019": {
+        "text": "5.01% (2019 est.)"
+      }
+    },
+    "Youth unemployment rate (ages 15-24)": {
+      "total": {
+        "text": "13.8%"
+      },
+      "male": {
+        "text": "12.8%"
+      },
+      "female": {
+        "text": "14.9% (2021 est.)"
+      }
+    },
+    "Population below poverty line": {
+      "text": "36.1% (2015 est.)"
+    },
+    "Gini Index coefficient - distribution of family income": {
+      "Gini Index coefficient - distribution of family income 2015": {
+        "text": "40.8 (2015 est.)"
+      }
+    },
+    "Average household expenditures": {
+      "on food": {
+        "text": "52.9% of household expenditures (2018 est.)"
+      },
+      "on alcohol and tobacco": {
+        "text": "4.1% of household expenditures (2018 est.)"
+      }
+    },
+    "Household income or consumption by percentage share": {
+      "lowest 10%": {
+        "text": "1.8%"
+      },
+      "highest 10%": {
+        "text": "37.8% (2005)"
+      }
+    },
+    "Budget": {
+      "revenues": {
+        "text": "$16.885 billion (2019 est.)"
+      },
+      "expenditures": {
+        "text": "$24.271 billion (2019 est.)"
+      }
+    },
+    "Budget surplus (+) or deficit (-)": {
+      "text": "-6.7% (of GDP) (2017 est.)"
+    },
+    "Public debt": {
+      "Public debt 2017": {
+        "text": "54.2% of GDP (2017 est.)"
+      },
+      "Public debt 2016": {
+        "text": "53.2% of GDP (2016 est.)"
+      }
+    },
+    "Taxes and other revenues": {
+      "text": "14.3% (of GDP) (2020 est.)"
+    },
+    "Fiscal year": {
+      "text": "1 July - 30 June"
+    },
+    "Current account balance": {
+      "Current account balance 2021": {
+        "text": "-$5.744 billion (2021 est.)"
+      },
+      "Current account balance 2020": {
+        "text": "-$4.792 billion (2020 est.)"
+      },
+      "Current account balance 2019": {
+        "text": "-$5.258 billion (2019 est.)"
+      }
+    },
+    "Exports": {
+      "Exports 2021": {
+        "text": "$11.825 billion (2021 est.) note: data are in current year dollars"
+      },
+      "Exports 2020": {
+        "text": "$9.709 billion (2020 est.) note: data are in current year dollars"
+      },
+      "Exports 2019": {
+        "text": "$11.471 billion (2019 est.)"
+      }
+    },
+    "Exports - partners": {
+      "text": "Uganda 14%, Pakistan 8%, Netherlands 8%, United States 8%, United Kingdom 7% (2020)"
+    },
+    "Exports - commodities": {
+      "text": "tea, cut flowers, coffee, refined petroleum, titanium (2021)"
+    },
+    "Imports": {
+      "Imports 2021": {
+        "text": "$21.853 billion (2021 est.) note: data are in current year dollars"
+      },
+      "Imports 2020": {
+        "text": "$17.717 billion (2020 est.) note: data are in current year dollars"
+      },
+      "Imports 2019": {
+        "text": "$20.408 billion (2019 est.)"
+      }
+    },
+    "Imports - partners": {
+      "text": "China 27%, India 11%, United Arab Emirates 7%, Japan 4%, Saudi Arabia 3% (2020)"
+    },
+    "Imports - commodities": {
+      "text": "refined petroleum, palm oil, broadcasting equipment, packaged medicines, cars (2020)"
+    },
+    "Reserves of foreign exchange and gold": {
+      "Reserves of foreign exchange and gold 31 December 2021": {
+        "text": "$9.491 billion (31 December 2021 est.)"
+      },
+      "Reserves of foreign exchange and gold 31 December 2020": {
+        "text": "$8.297 billion (31 December 2020 est.)"
+      },
+      "Reserves of foreign exchange and gold 31 December 2019": {
+        "text": "$9.116 billion (31 December 2019 est.)"
+      }
+    },
+    "Debt - external": {
+      "Debt - external 2019": {
+        "text": "$29.289 billion (2019 est.)"
+      },
+      "Debt - external 2018": {
+        "text": "$25.706 billion (2018 est.)"
+      }
+    },
+    "Exchange rates": {
+      "Currency": {
+        "text": "Kenyan shillings (KES) per US dollar -"
+      },
+      "Exchange rates 2021": {
+        "text": "109.638 (2021 est.)"
+      },
+      "Exchange rates 2020": {
+        "text": "106.451 (2020 est.)"
+      },
+      "Exchange rates 2019": {
+        "text": "101.991 (2019 est.)"
+      },
+      "Exchange rates 2018": {
+        "text": "101.302 (2018 est.)"
+      },
+      "Exchange rates 2017": {
+        "text": "103.41 (2017 est.)"
+      }
+    }
+  },
+  "Energy": {
+    "Electricity access": {
+      "population without electricity": {
+        "text": "12 million (2020)"
+      },
+      "electrification - total population": {
+        "text": "76.5% (2021)"
+      },
+      "electrification - urban areas": {
+        "text": "97.5% (2021)"
+      },
+      "electrification - rural areas": {
+        "text": "68.1% (2021)"
+      }
+    },
+    "Electricity": {
+      "installed generating capacity": {
+        "text": "3.304 million kW (2020 est.)"
+      },
+      "consumption": {
+        "text": "8.243 billion kWh (2019 est.)"
+      },
+      "exports": {
+        "text": "16 million kWh (2019 est.)"
+      },
+      "imports": {
+        "text": "277 million kWh (2019 est.)"
+      },
+      "transmission/distribution losses": {
+        "text": "2.724 billion kWh (2019 est.)"
+      }
+    },
+    "Electricity generation sources": {
+      "fossil fuels": {
+        "text": "8.3% of total installed capacity (2020 est.)"
+      },
+      "nuclear": {
+        "text": "0% of total installed capacity (2020 est.)"
+      },
+      "solar": {
+        "text": "1% of total installed capacity (2020 est.)"
+      },
+      "wind": {
+        "text": "10.7% of total installed capacity (2020 est.)"
+      },
+      "hydroelectricity": {
+        "text": "32.6% of total installed capacity (2020 est.)"
+      },
+      "tide and wave": {
+        "text": "0% of total installed capacity (2020 est.)"
+      },
+      "geothermal": {
+        "text": "46.2% of total installed capacity (2020 est.)"
+      },
+      "biomass and waste": {
+        "text": "1.2% of total installed capacity (2020 est.)"
+      }
+    },
+    "Coal": {
+      "production": {
+        "text": "0 metric tons (2020 est.)"
+      },
+      "consumption": {
+        "text": "821,000 metric tons (2020 est.)"
+      },
+      "exports": {
+        "text": "0 metric tons (2020 est.)"
+      },
+      "imports": {
+        "text": "822,000 metric tons (2020 est.)"
+      },
+      "proven reserves": {
+        "text": "0 metric tons (2019 est.)"
+      }
+    },
+    "Petroleum": {
+      "total petroleum production": {
+        "text": "0 bbl/day (2021 est.)"
+      },
+      "refined petroleum consumption": {
+        "text": "116,400 bbl/day (2019 est.)"
+      },
+      "crude oil and lease condensate exports": {
+        "text": "0 bbl/day (2018 est.)"
+      },
+      "crude oil and lease condensate imports": {
+        "text": "0 bbl/day (2018 est.)"
+      },
+      "crude oil estimated reserves": {
+        "text": "0 barrels (2021 est.)"
+      }
+    },
+    "Refined petroleum products - production": {
+      "text": "13,960 bbl/day (2015 est.)"
+    },
+    "Refined petroleum products - exports": {
+      "text": "173 bbl/day (2015 est.)"
+    },
+    "Refined petroleum products - imports": {
+      "text": "90,620 bbl/day (2015 est.)"
+    },
+    "Natural gas": {
+      "production": {
+        "text": "0 cubic meters (2021 est.)"
+      },
+      "consumption": {
+        "text": "0 cubic meters (2021 est.)"
+      },
+      "exports": {
+        "text": "0 cubic meters (2021 est.)"
+      },
+      "imports": {
+        "text": "0 cubic meters (2021 est.)"
+      },
+      "proven reserves": {
+        "text": "0 cubic meters (2021 est.)"
+      }
+    },
+    "Carbon dioxide emissions": {
+      "total emissions": {
+        "text": "17.709 million metric tonnes of CO2 (2019 est.)"
+      },
+      "from coal and metallurgical coke": {
+        "text": "1.25 million metric tonnes of CO2 (2019 est.)"
+      },
+      "from petroleum and other liquids": {
+        "text": "16.459 million metric tonnes of CO2 (2019 est.)"
+      },
+      "from consumed natural gas": {
+        "text": "0 metric tonnes of CO2 (2019 est.)"
+      }
+    },
+    "Energy consumption per capita": {
+      "Total energy consumption per capita 2019": {
+        "text": "6.31 million Btu/person (2019 est.)"
+      }
+    }
+  },
+  "Communications": {
+    "Telephones - fixed lines": {
+      "total subscriptions": {
+        "text": "61,096 (2021 est.)"
+      },
+      "subscriptions per 100 inhabitants": {
+        "text": "(2021 est.) less than 1"
+      }
+    },
+    "Telephones - mobile cellular": {
+      "total subscriptions": {
+        "text": "65,085,720 (2021 est.)"
+      },
+      "subscriptions per 100 inhabitants": {
+        "text": "123 (2021 est.)"
+      }
+    },
+    "Telecommunication systems": {
+      "general assessment": {
+        "text": "Kenya&rsquo;s telecom market continues to undergo considerable changes in the wake of increased competition, improved international connectivity, and rapid developments in the mobile market; the country is directly connected to a number of submarine cables, and with Mombasa through a terrestrial network, the country serves as a key junction for onward connectivity to the Arabian states and the Far East; numerous competitors are rolling out national and metropolitan backbone networks and wireless access networks to deliver services to population centers across the country; several fiber infrastructure sharing agreements have been forged, and as a result the number of fiber broadband connections has increased sharply in recent years; much of the progress in the broadband segment is due to the government&rsquo;s revised national broadband strategy, which has been updated with goals through to 2030, and which are largely dependent on mobile broadband platforms based on LTE and 5G (2022)"
+      },
+      "domestic": {
+        "text": "fixed-line subscriptions stand at less than 1 per 100 persons; mobile-cellular subscriptions at 123 per 100 persons (2021)"
+      },
+      "international": {
+        "text": "country code - 254; landing point for the EASSy, TEAMS, LION2, DARE1, PEACE Cable, and SEACOM fiber-optic submarine cable systems covering East, North&nbsp;and South Africa, Europe, the Middle East, and Asia; satellite earth stations - 4 Intelsat; launched first micro satellites in 2018 (2019)"
+      }
+    },
+    "Broadcast media": {
+      "text": "about a half-dozen large-scale privately owned media companies with TV and radio stations, as well as a state-owned TV broadcaster, provide service nationwide; satellite and cable TV subscription services available; state-owned radio broadcaster operates 2 national radio channels and provides regional and local radio services in multiple languages; many private radio stations broadcast on a national level along with over 100 private and non-profit regional stations broadcasting in local languages; TV transmissions of all major international broadcasters available, mostly via paid subscriptions; direct radio frequency modulation transmissions available for several foreign government-owned broadcasters (2019)"
+    },
+    "Internet country code": {
+      "text": ".ke"
+    },
+    "Internet users": {
+      "total": {
+        "text": "15.37 million (2021 est.)"
+      },
+      "percent of population": {
+        "text": "29% (2021 est.)"
+      }
+    },
+    "Broadband - fixed subscriptions": {
+      "total": {
+        "text": "674,191 (2020 est.)"
+      },
+      "subscriptions per 100 inhabitants": {
+        "text": "1 (2020 est.)"
+      }
+    }
+  },
+  "Transportation": {
+    "National air transport system": {
+      "number of registered air carriers": {
+        "text": "25 (2020)"
+      },
+      "inventory of registered aircraft operated by air carriers": {
+        "text": "188"
+      },
+      "annual passenger traffic on registered air carriers": {
+        "text": "5,935,831 (2018)"
+      },
+      "annual freight traffic on registered air carriers": {
+        "text": "294.97 million (2018) mt-km"
+      }
+    },
+    "Civil aircraft registration country code prefix": {
+      "text": "5Y"
+    },
+    "Airports": {
+      "text": "197 (2021)"
+    },
+    "Airports - with paved runways": {
+      "text": "16",
+      "note": "<strong>note:</strong> paved runways have a concrete or asphalt surface but not all have facilities for refueling, maintenance, or air traffic control; the length of a runway required for aircraft to safely operate depends on a number of factors including the type of aircraft, the takeoff weight (including passengers, cargo, and fuel), engine types, flap settings, landing speed, elevation of the airport, and average maximum daily air temperature; paved runways can reach a length of 5,000 m (16,000 ft.), but the “typical” length of a commercial airline runway is between 2,500-4,000 m (8,000-13,000 ft.)"
+    },
+    "Airports - with unpaved runways": {
+      "text": "181",
+      "note": "<strong>note:</strong> unpaved runways have a surface composition such as grass or packed earth and are most suited to the operation of light aircraft; unpaved runways are usually short, often less than 1,000 m (3,280 ft.) in length; airports with unpaved runways often lack facilities for refueling, maintenance, or air traffic control"
+    },
+    "Pipelines": {
+      "text": "4 km oil, 1,432 km refined products (2018)"
+    },
+    "Railways": {
+      "total": {
+        "text": "3,819 km (2018)"
+      },
+      "standard gauge": {
+        "text": "485 km (2018) 1.435-m gauge"
+      },
+      "narrow gauge": {
+        "text": "3,334 km (2018) 1.000-m gauge"
+      }
+    },
+    "Roadways": {
+      "total": {
+        "text": "161,452 km (2018)"
+      },
+      "paved": {
+        "text": "14,420 km (2017) (8,500 km highways, 1,872 urban roads, and 4,048 rural roads)"
+      },
+      "unpaved": {
+        "text": "147,032 km (2017)"
+      }
+    },
+    "Waterways": {
+      "text": "(2011) none specifically; the only significant inland waterway is the part of Lake Victoria within the boundaries of Kenya; Kisumu is the main port and has ferry connections to Uganda and Tanzania"
+    },
+    "Merchant marine": {
+      "total": {
+        "text": "25"
+      },
+      "by type": {
+        "text": "oil tanker 3, other 22 (2022)"
+      }
+    },
+    "Ports and terminals": {
+      "major seaport(s)": {
+        "text": "Kisumu, Mombasa"
+      },
+      "LNG terminal(s) (import)": {
+        "text": "Mombasa"
+      }
+    }
+  },
+  "Military and Security": {
+    "Military and security forces": {
+      "text": "Kenya Defense Forces (KDF): Kenya Army, Kenya Navy, Kenya Air Force (2023)",
+      "note": "<strong>note 1:</strong> the National Police Service maintains internal security and reports to the Ministry of Interior and Coordination of National Government; it includes a paramilitary General Service Unit and Rapid Deployment Unit<br><br><strong>note 2:</strong> the Kenya Coast Guard Service (established 2018) is under the Ministry of Interior but led by a military officer and comprised of personnel from the military, as well as the National Police Service, intelligence services, and other government agencies"
+    },
+    "Military expenditures": {
+      "Military Expenditures 2022": {
+        "text": "1.1% of GDP (2022 est.)"
+      },
+      "Military Expenditures 2021": {
+        "text": "1.2% of GDP (2021 est.)"
+      },
+      "Military Expenditures 2020": {
+        "text": "1.2% of GDP (2020 est.)"
+      },
+      "Military Expenditures 2019": {
+        "text": "1.2% of GDP (2019 est.)"
+      },
+      "Military Expenditures 2018": {
+        "text": "1.3% of GDP (2018 est.)"
+      }
+    },
+    "Military and security service personnel strengths": {
+      "text": "approximately 24,000 personnel (20,000 Army; 1,500 Navy; 2,500 Air Force) (2023)"
+    },
+    "Military equipment inventories and acquisitions": {
+      "text": "the KDF's inventory traditionally carried mostly older or second-hand Western weapons systems, particularly from France, the UK, and the US; however, since the 2000s it has sought to modernize and diversify its imports, and suppliers have included several countries including China, Italy, and the US (2023)"
+    },
+    "Military service age and obligation": {
+      "text": "no conscription; 18-26 years of age for voluntary service for men and women (under 18 with parental consent; upper limit 30 years of age for specialists, tradesmen, or women with a diploma; 39 years of age for chaplains/imams); 9-year service obligation (7 years for Kenyan Navy) and subsequent 3-year re-enlistments; applicants must be Kenyan citizens (2023)"
+    },
+    "Military deployments": {
+      "text": "260 Democratic Republic of the Congo (MONUSCO); up to 3,600 troops deployed in Somalia under ATMIS (note - ATMIS troop contingents are drawing down towards a final exit in December 2024) (2023)",
+      "note": "<strong>note:</strong> in November 2022, Kenya sent approximately 1,000 troops to the eastern part of the Democratic Republic of the Congo (DRC) as part of a newly formed East Africa Community Regional Force (EACRF) to assist the DRC military against the rebel group M23; the force is led by Kenya"
+    },
+    "Military - note": {
+      "text": "the KDF is considered to be an experienced, effective, and professional force; it has conducted operations in neighboring Somalia since 2011 and taken part in numerous regional peacekeeping and security missions; it is a leading member of the Africa Standby Force; the KDF trains regularly, participates in multinational exercises, and has ties to a variety of foreign militaries, including those of France, the UK, and the US; its chief security concerns and missions include protecting the country’s sovereignty and territory, regional disputes, the threat posed by the al-Shabaab terrorist group based in neighboring Somalia, maritime crime and piracy, and assisting civil authorities in responding to emergency, disaster, or political unrest as requested <br><br>the Army has 5 combat brigades, including 3 infantry, an armored, and an artillery brigade; it also has a helicopter-equipped air cavalry battalion and a special operations regiment comprised of airborne, special forces, and ranger battalions; the Navy has several offshore patrol vessels, large coastal patrol boats, and missile-armed craft; the Air Force has a small inventory of older US-origin fighter aircraft, as well as some transport aircraft and combat helicopters <br><br>Kenyan military forces intervened in Somalia in October 2011 to combat the al Qaida-affiliated al-Shabaab terrorist group, which had conducted numerous cross-border attacks into Kenya; in November 2011, the UN and the African Union invited Kenya to incorporate its forces into the African Union Mission in Somalia (AMISOM); Kenyan forces were formally integrated into AMISOM in February 2012; they consist of approximately 3,600 troops and are responsible for AMISOM’s Sector 2 comprising Lower and Middle Jubba (see Appendix T for additional details on al-Shabaab; note - as of May 2022, AMISOM was renamed the AU Transition Mission in Somalia or ATMIS)<br><br>the Kenya Military Forces were created following independence in 1963; the current KDF was established and its composition laid out in the 2010 constitution; it is governed by the Kenya Defense Forces Act of 2012; the Army traces its origins back to the Kings African Rifles (KAR), a British colonial regiment raised from Britain's East Africa possessions from 1902 until independence in the 1960s; the KAR conducted both military and internal security functions within the colonial territories, and served outside the territories during the World Wars (2023)"
+    },
+    "Maritime threats": {
+      "text": "the International Maritime Bureau reported no piracy attacks in the territorial and offshore waters of Kenya in 2022; although the opportunity for incidents has reduced, the Somali pirates continue to possess the capability and capacity to carry out incidents; in the past, vessels have also been targeted off Kenya, Tanzania, Seychelles, Madagascar, Mozambique, as well as in the Indian ocean, and off the west and south coasts of India and west Maldives; generally, Somali pirates tend to be well armed with automatic weapons, RPGs and sometimes use skiffs launched from mother vessels, which may be hijacked fishing vessels or dhows; the Maritime Administration of the US Department of Transportation has issued a Maritime Advisory (2023-003 - Persian Gulf, Strait of Hormuz, Gulf of Oman, Arabian Sea, Gulf of Aden, Bab al Mandeb Strait, Red Sea, and Somali Basin-Threats to Commercial Vessels) effective 23 February 2023, which states in part that \"Regional conflict, military activity, and political tensions pose threats to commercial vessels operating in the above listed geographic areas\" that shipping in territorial and offshore waters in the Indian Ocean remain at risk for piracy and armed robbery against ships"
+    }
+  },
+  "Space": {
+    "Space agency/agencies": {
+      "text": "Kenya Space Agency (KSA; established, 2017); predecessor organization, the National Space Secretariat was established in 2009 (2023)"
+    },
+    "Space launch site(s)": {
+      "text": "Luigi Broglio Space Center (aka Malindi Space Center, Malindi Station, San Marco Satellite Launching and Tracking Station; Kilifi County; over 20 sounding rockets and nine satellites launched from the site, 1967-1989); note &ndash; Kenya&rsquo;s equatorial latitude makes it an attractive location for near-equatorial-orbit rocket and satellite launches (2023)"
+    },
+    "Space program overview": {
+      "text": "has a national space strategy focused on acquiring and applying space technologies and applications for agriculture, communications, disaster and resource management, security, urban planning, and weather monitoring; jointly develops and builds nanosatellites with foreign partners; operates satellites; researching and developing satellite payloads and imagery data analysis capabilities; has cooperated on space issues with China, Japan, Italy, and the US, as well as African partners; developing a satellite imagery/geospatial analysis and data sharing portal that contains 17 years of satellite imagery for other African countries, including Ghana, Senegal, Sierra Leone, and Tanzania; cooperating with Egypt, Ethiopia, Ghana, Nigeria, Sudan, and Uganda to establish a joint remote sensing (RS) satellite to monitor climate changes on the African continent (African Development Satellite program) (2023)",
+      "note": "<strong>note:</strong> further details about the key activities, programs, and milestones of the country’s space program, as well as government spending estimates on the space sector, appear in Appendix S"
+    }
+  },
+  "Terrorism": {
+    "Terrorist group(s)": {
+      "text": "al-Shabaab; Islamic Revolutionary Guard Corps (IRGC)/Qods Force",
+      "note": "<strong>note:</strong> details about the history, aims, leadership, organization, areas of operation, tactics, targets, weapons, size, and sources of support of the group(s) appear(s) in Appendix-T"
+    }
+  },
+  "Transnational Issues": {
+    "Disputes - international": {
+      "text": "<p><em>Kenya-Ethiopia</em>: their border was demarcated in the 1950s and approved in 1970; in 2012, Kenya and Ethiopia agreed to redemarcate their boundary following disputes over beacons and cross-border crime</p> <p><em>Kenya-Somalia</em>: Kenya works hard to prevent the clan and militia fighting in Somalia from spreading across the border, which has long been open to nomadic pastoralists; in 2021, the International Court of Justice (ICJ) gave Somalia control over a disputed ocean area where the seabeds are believed to hold vasts oil and gas deposits; the ICJ ruling gave Somalia the rights to several offshore oil exploration blocks previously claimed by Kenya; Kenya did not recognize the court’s decision</p> <p><em>Kenya-South Sudan</em>: two thirds of the boundary that separates Kenya and South Sudan's sovereignty known as the Ilemi Triangle has been unclear since British colonial times; Kenya has administered the area since colonial times; officials from Kenya and South Sudan signed a memorandum of understanding on boundary delimitation and demarcation and agreed to set up a joint committee; as of July 2019, the demarcation process was to begin in 90 days, but was delayed due to a lack of funding</p> <p><em>Kenya-Sudan</em>: Kenya served as an important mediator in brokering Sudan's north-south separation in February 2005</p> <p><em>Kenya-Tanzania</em>: Kenya and Tanzania were conducting a joint reaffirmation process in November 2021 to ensure the border was visibly marked with pillars</p> <p><em>Kenya-Uganda:</em> Kenya and Uganda began a joint demarcation of the boundary in 2021 </p> <p> </p>"
+    },
+    "Refugees and internally displaced persons": {
+      "refugees (country of origin)": {
+        "text": "281,319 (Somalia), 157,402 (South Sudan), 58,322 (Democratic Republic of the Congo), 21,847 (Ethiopia), 8,392 (Burundi), 5,756 (Sudan) (2023)"
+      },
+      "IDPs": {
+        "text": "30,000 (election-related violence, intercommunal violence, resource conflicts, al-Shabaab attacks in 2017 and 2018) (2022)"
+      },
+      "stateless persons": {
+        "text": "16,779 (2022); note - the stateless population consists of Nubians, Kenyan Somalis, and coastal Arabs; the Nubians are descendants of Sudanese soldiers recruited by the British to fight for them in East Africa more than a century ago; Nubians did not receive Kenyan citizenship when the country became independent in 1963; only recently have Nubians become a formally recognized tribe and had less trouble obtaining national IDs; Galjeel and other Somalis who have lived in Kenya for decades are included with more recent Somali refugees and denied ID cards"
+      }
+    },
+    "Illicit drugs": {
+      "text": "<p>a transit country for illicit drugs and precursor chemicals; domestic drug consumption of cannabis and miraa (khat) is growing; heroin enters Kenya via Tanzania and in shipments across the Indian Ocean from Southwest Asia mostly destined for international markets, principally Europe; cocaine enters Kenya primarily via transshipment through Ethiopia</p>"
+    }
+  }
+}

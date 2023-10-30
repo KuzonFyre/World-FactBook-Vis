@@ -1,0 +1,830 @@
+{
+  "Introduction": {
+    "Background": {
+      "text": "<p>Strategically important, Gibraltar was reluctantly ceded to Great Britain by Spain in the 1713 Treaty of Utrecht; the British garrison was formally declared a colony in 1830. In a referendum held in 1967, Gibraltarians voted overwhelmingly to remain a British dependency. The subsequent granting of autonomy in 1969 by the UK led Spain to close the border and sever all communication links. Between 1997 and 2002, the UK and Spain held a series of talks on establishing temporary joint sovereignty over Gibraltar. In response to these talks, the Gibraltar Government called a referendum in late 2002 in which the majority of citizens voted overwhelmingly against any sharing of sovereignty with Spain. Since late 2004, Spain, the UK, and Gibraltar have held tripartite talks with the aim of cooperatively resolving problems that affect the local population, and work continues on cooperation agreements in areas such as taxation and financial services; communications and maritime security; policy; legal and customs services; environmental protection; and education and visa services. A new noncolonial constitution came into force in 2007, and the European Court of First Instance recognized Gibraltar's right to regulate its own tax regime in December 2008. The UK retains responsibility for defense, foreign relations, internal security, and financial stability.</p> <p>Spain and the UK continue to spar over the territory. Throughout 2009, a dispute over Gibraltar's claim to territorial waters extending out three miles gave rise to periodic non-violent maritime confrontations between Spanish and UK naval patrols, and in 2013, the British reported a record number of entries by Spanish vessels into waters claimed by Gibraltar following a dispute over Gibraltar's creation of an artificial reef in those waters. Spain renewed its demands for an eventual return of Gibraltar to Spanish control after the UK’s June 2016 vote to leave the EU, but London has dismissed any connection between the vote and its continued sovereignty over Gibraltar. </p>"
+    }
+  },
+  "Geography": {
+    "Location": {
+      "text": "Southwestern Europe, bordering the Strait of Gibraltar, which links the Mediterranean Sea and the North Atlantic Ocean, on the southern coast of Spain"
+    },
+    "Geographic coordinates": {
+      "text": "36 08 N, 5 21 W"
+    },
+    "Map references": {
+      "text": "Europe"
+    },
+    "Area": {
+      "total": {
+        "text": "7 sq km"
+      },
+      "land": {
+        "text": "6.5 sq km"
+      },
+      "water": {
+        "text": "0 sq km"
+      }
+    },
+    "Area - comparative": {
+      "text": "more than 10 times the size of The National Mall in Washington, D.C."
+    },
+    "Land boundaries": {
+      "total": {
+        "text": "1.2 km"
+      },
+      "border countries": {
+        "text": "Spain 1.2 km"
+      }
+    },
+    "Coastline": {
+      "text": "12 km"
+    },
+    "Maritime claims": {
+      "territorial sea": {
+        "text": "3 nm"
+      }
+    },
+    "Climate": {
+      "text": "Mediterranean with mild winters and warm summers"
+    },
+    "Terrain": {
+      "text": "a narrow coastal lowland borders the Rock of Gibraltar"
+    },
+    "Elevation": {
+      "highest point": {
+        "text": "Rock of Gibraltar 426 m"
+      },
+      "lowest point": {
+        "text": "Mediterranean Sea 0 m"
+      }
+    },
+    "Natural resources": {
+      "text": "none"
+    },
+    "Land use": {
+      "agricultural land": {
+        "text": "0% (2011 est.)"
+      },
+      "other": {
+        "text": "100% (2018 est.)"
+      }
+    },
+    "Irrigated land": {
+      "text": "NA"
+    },
+    "Natural hazards": {
+      "text": "occasional droughts; no streams or large bodies of water on the peninsula (all potable water comes from desalination)"
+    },
+    "Geography - note": {
+      "text": "<p><strong>note 1:</strong> strategic location on Strait of Gibraltar that links the North Atlantic Ocean and Mediterranean Sea</p> <p><strong>note 2:</strong> one of only two British territories where traffic drives on the right, the other being the island of Diego Garcia in the British Indian Ocean Territory</p>"
+    }
+  },
+  "People and Society": {
+    "Population": {
+      "text": "29,629 (2023 est.)"
+    },
+    "Nationality": {
+      "noun": {
+        "text": "Gibraltarian(s)"
+      },
+      "adjective": {
+        "text": "Gibraltar"
+      }
+    },
+    "Ethnic groups": {
+      "text": "Gibraltarian 79%, other British 13.2%, Spanish 2.1%, Moroccan 1.6%, other EU 2.4%, other 1.6% (2012 est.)",
+      "note": "<strong>note:</strong> data represent population by nationality"
+    },
+    "Languages": {
+      "text": "English (used in schools and for official purposes), Spanish, Italian, Portuguese"
+    },
+    "Religions": {
+      "text": "Roman Catholic 72.1%, Church of England 7.7%, other Christian 3.8%, Muslim 3.6%, Jewish 2.4%, Hindu 2%, other 1.1%, none 7.1%, unspecified 0.1% (2012 est.)"
+    },
+    "Age structure": {
+      "0-14 years": {
+        "text": "19.99% (male 3,034/female 2,888)"
+      },
+      "15-64 years": {
+        "text": "62.62% (male 9,357/female 9,197)"
+      },
+      "65 years and over": {
+        "text": "17.39% (2023 est.) (male 2,523/female 2,630)"
+      }
+    },
+    "Dependency ratios": {
+      "total dependency ratio": {
+        "text": "60.1"
+      },
+      "youth dependency ratio": {
+        "text": "27.4"
+      },
+      "elderly dependency ratio": {
+        "text": "32.7"
+      },
+      "potential support ratio": {
+        "text": "3.1 (2021)"
+      }
+    },
+    "Median age": {
+      "total": {
+        "text": "35.5 years"
+      },
+      "male": {
+        "text": "34.4 years"
+      },
+      "female": {
+        "text": "36.6 years (2020 est.)"
+      }
+    },
+    "Population growth rate": {
+      "text": "0.19% (2023 est.)"
+    },
+    "Birth rate": {
+      "text": "13.84 births/1,000 population (2023 est.)"
+    },
+    "Death rate": {
+      "text": "8.74 deaths/1,000 population (2023 est.)"
+    },
+    "Net migration rate": {
+      "text": "-3.24 migrant(s)/1,000 population (2023 est.)"
+    },
+    "Urbanization": {
+      "urban population": {
+        "text": "100% of total population (2023)"
+      },
+      "rate of urbanization": {
+        "text": "0.45% annual rate of change (2015-20 est.)"
+      }
+    },
+    "Major urban areas - population": {
+      "text": "35,000 GIBRALTAR (capital) (2018)"
+    },
+    "Sex ratio": {
+      "at birth": {
+        "text": "1.05 male(s)/female"
+      },
+      "0-14 years": {
+        "text": "1.05 male(s)/female"
+      },
+      "15-64 years": {
+        "text": "1.02 male(s)/female"
+      },
+      "65 years and over": {
+        "text": "0.96 male(s)/female"
+      },
+      "total population": {
+        "text": "1.01 male(s)/female (2023 est.)"
+      }
+    },
+    "Infant mortality rate": {
+      "total": {
+        "text": "6.13 deaths/1,000 live births"
+      },
+      "male": {
+        "text": "6.92 deaths/1,000 live births"
+      },
+      "female": {
+        "text": "5.3 deaths/1,000 live births (2023 est.)"
+      }
+    },
+    "Life expectancy at birth": {
+      "total population": {
+        "text": "80.65 years"
+      },
+      "male": {
+        "text": "77.82 years"
+      },
+      "female": {
+        "text": "83.62 years (2023 est.)"
+      }
+    },
+    "Total fertility rate": {
+      "text": "1.9 children born/woman (2023 est.)"
+    },
+    "Gross reproduction rate": {
+      "text": "0.93 (2023 est.)"
+    },
+    "Contraceptive prevalence rate": {
+      "text": "NA"
+    },
+    "Drinking water source": {
+      "improved: urban": {
+        "text": "urban: 100% of population"
+      },
+      "improved: rural": {
+        "text": "rural: NA"
+      },
+      "improved: total": {
+        "text": "total: 100% of population"
+      },
+      "unimproved: urban": {
+        "text": "urban: 0% of population"
+      },
+      "unimproved: rural": {
+        "text": "rural: NA"
+      },
+      "unimproved: total": {
+        "text": "total: 0% of population (2020)"
+      }
+    },
+    "Current health expenditure": {
+      "text": "NA"
+    },
+    "Physicians density": {
+      "text": "NA"
+    },
+    "Sanitation facility access": {
+      "improved: urban": {
+        "text": "urban: 100% of population"
+      },
+      "improved: rural": {
+        "text": "rural: NA"
+      },
+      "improved: total": {
+        "text": "total: 100% of population"
+      },
+      "unimproved: urban": {
+        "text": "urban: 0% of population"
+      },
+      "unimproved: rural": {
+        "text": "rural: NA"
+      },
+      "unimproved: total": {
+        "text": "total: 0% of population (2020)"
+      }
+    },
+    "Children under the age of 5 years underweight": {
+      "text": "NA"
+    },
+    "Currently married women (ages 15-49)": {
+      "text": "40.7% (2023 est.)"
+    },
+    "Education expenditures": {
+      "text": "NA"
+    },
+    "Literacy": {
+      "total population": {
+        "text": "NA"
+      },
+      "male": {
+        "text": "NA"
+      },
+      "female": {
+        "text": "NA"
+      }
+    }
+  },
+  "Environment": {
+    "Environment - current issues": {
+      "text": "limited natural freshwater resources: more than 90% of drinking water supplied by desalination, the remainder from stored rainwater; a separate supply of saltwater used for sanitary services"
+    },
+    "Climate": {
+      "text": "Mediterranean with mild winters and warm summers"
+    },
+    "Land use": {
+      "agricultural land": {
+        "text": "0% (2011 est.)"
+      },
+      "other": {
+        "text": "100% (2018 est.)"
+      }
+    },
+    "Urbanization": {
+      "urban population": {
+        "text": "100% of total population (2023)"
+      },
+      "rate of urbanization": {
+        "text": "0.45% annual rate of change (2015-20 est.)"
+      }
+    },
+    "Air pollutants": {
+      "carbon dioxide emissions": {
+        "text": "0.63 megatons (2016 est.)"
+      }
+    },
+    "Waste and recycling": {
+      "municipal solid waste generated annually": {
+        "text": "16,954 tons (2012 est.)"
+      }
+    }
+  },
+  "Government": {
+    "Country name": {
+      "conventional long form": {
+        "text": "none"
+      },
+      "conventional short form": {
+        "text": "Gibraltar"
+      },
+      "etymology": {
+        "text": "from the Spanish derivation of the Arabic \"Jabal Tariq,\" which means \"Mountain of Tariq\" and which refers to the Rock of Gibraltar"
+      }
+    },
+    "Government type": {
+      "text": "parliamentary democracy (Parliament); self-governing overseas territory of the UK"
+    },
+    "Dependency status": {
+      "text": "overseas territory of the UK"
+    },
+    "Capital": {
+      "name": {
+        "text": "Gibraltar"
+      },
+      "geographic coordinates": {
+        "text": "36 08 N, 5 21 W"
+      },
+      "time difference": {
+        "text": "UTC+1 (6 hours ahead of Washington, DC, during Standard Time)"
+      },
+      "daylight saving time": {
+        "text": "+1hr, begins last Sunday in March; ends last Sunday in October"
+      },
+      "etymology": {
+        "text": "from the Spanish derivation of the Arabic \"Jabal Tariq,\" which means \"Mountain of Tariq\" and which refers to the Rock of Gibraltar"
+      }
+    },
+    "Administrative divisions": {
+      "text": "none (overseas territory of the UK)"
+    },
+    "Independence": {
+      "text": "none (overseas territory of the UK)"
+    },
+    "National holiday": {
+      "text": "National Day, 10 September (1967); note - day of the national referendum to decide whether to remain with the UK or join Spain"
+    },
+    "Constitution": {
+      "history": {
+        "text": "previous 1969; latest passed by referendum 30 November 2006, entered into effect 14 December 2006, entered into force 2 January 2007"
+      },
+      "amendments": {
+        "text": "proposed by Parliament and requires prior consent of the British monarch (through the Secretary of State); passage requires at least three-fourths majority vote in Parliament followed by simple majority vote in a referendum; note &ndash; only sections 1 through 15 in Chapter 1 (Protection of Fundamental Rights and Freedoms) can be amended by Parliament"
+      }
+    },
+    "Legal system": {
+      "text": "the laws of the UK, where applicable, apply"
+    },
+    "Citizenship": {
+      "text": "see United Kingdom"
+    },
+    "Suffrage": {
+      "text": "18 years of age; universal; and British citizens with six months residence or more"
+    },
+    "Executive branch": {
+      "chief of state": {
+        "text": "King CHARLES III (since 8 September 2022); represented by Governor Sir David STEEL (since 11 June 2020)"
+      },
+      "head of government": {
+        "text": "Chief Minister Fabian PICARDO (since 9 December 2011)"
+      },
+      "cabinet": {
+        "text": "Council of Ministers appointed from among the 17 elected members of Parliament by the governor in consultation with the chief minister"
+      },
+      "elections/appointments": {
+        "text": "the monarchy is hereditary; governor appointed by the monarch; following legislative elections, the leader of the majority party or majority coalition usually appointed chief minister by the governor"
+      }
+    },
+    "Legislative branch": {
+      "description": {
+        "text": "unicameral Parliament (18 seats; 17 members directly elected in a single nationwide constituency by majority vote and 1 appointed by Parliament as speaker; members serve 4-year terms)"
+      },
+      "elections": {
+        "text": "last held on 17 October 2019 (next to be held by February 2024)"
+      },
+      "election results": {
+        "text": "percent of vote by party - GSLP-Liberal Alliance 58.8% (GSLP 41.2%, LPG 17.6%), GSD 35.3%, TG 5.8%, independent 1.4%; seats by party - GSLP-Liberal Alliance 10 (GSLP 7, LPG 3), GSD 6, TG 1; composition including Parliament speaker - men 16, women 2, percent of women 11.1%"
+      }
+    },
+    "Judicial branch": {
+      "highest court(s)": {
+        "text": "Court of Appeal (consists of at least 3 judges, including the court president); Supreme Court of Gibraltar (consists of the chief justice and 3 judges); note - appeals beyond the Court of Appeal are heard by the Judicial Committee of the Privy Council (in London)"
+      },
+      "judge selection and term of office": {
+        "text": "Court of Appeal and Supreme Court judges appointed by the governor upon the advice of the Judicial Service Commission, a 7-member body of judges and appointees of the governor; tenure of the Court of Appeal president based on terms of appointment; Supreme Court chief justice and judges normally appointed until retirement at age 67 but tenure can be extended 3 years"
+      },
+      "subordinate courts": {
+        "text": "Court of First Instance; Magistrates' Court; specialized tribunals for issues relating to social security, taxes, and employment"
+      }
+    },
+    "Political parties and leaders": {
+      "text": "Gibraltar Liberal Party or Liberal Party of Gibraltar or LPG [Joseph GARCIA]<br>Gibraltar Social Democrats or GSD [Keith AZOPARDI]<br>Gibraltar Socialist Labor Party or GSLP [Fabian PICARDO]<br>Together Gibraltar or TG [Marlene HASSAN-NAHON]"
+    },
+    "International organization participation": {
+      "text": "ICC (NGOs), Interpol (subbureau), UPU"
+    },
+    "Diplomatic representation in the US": {
+      "text": "none (overseas territory of the UK)"
+    },
+    "Diplomatic representation from the US": {
+      "embassy": {
+        "text": "none (overseas territory of the UK)"
+      }
+    },
+    "Flag description": {
+      "text": "two horizontal bands of white (top, double width) and red with a three-towered red castle in the center of the white band; hanging from the castle gate is a gold key centered in the red band; the design is that of Gibraltar's coat of arms granted on 10 July 1502 by King Ferdinand and Queen Isabella of Spain; the castle symbolizes Gibraltar as a fortress, while the key represents Gibraltar's strategic importance - the key to the Mediterranean"
+    },
+    "National symbol(s)": {
+      "text": "Barbary macaque; national colors: red, white, yellow"
+    },
+    "National anthem": {
+      "name": {
+        "text": "\"Gibraltar Anthem\""
+      },
+      "lyrics/music": {
+        "text": "Peter EMBERLEY"
+      },
+      "note": "<strong>note:</strong> adopted 1994; serves as a local anthem; as an overseas territory of the United Kingdom, \"God Save the King\" is official (see United Kingdom)"
+    }
+  },
+  "Economy": {
+    "Economic overview": {
+      "text": "British territorial high-income economy; Brexit caused significant economic disruption to longstanding financial services, shipping, and tourism industries; ongoing negotiations to rejoin EU Schengen Area; independent taxation authority"
+    },
+    "Real GDP (purchasing power parity)": {
+      "Real GDP (purchasing power parity) 2014": {
+        "text": "$2.044 billion (2014 est.)"
+      },
+      "Real GDP (purchasing power parity) 2013": {
+        "text": "$1.85 billion (2013 est.)"
+      },
+      "Real GDP (purchasing power parity) 2012": {
+        "text": "$2 billion (2012 est.)"
+      },
+      "note": "<strong>note:</strong> data are in 2014 dollars"
+    },
+    "Real GDP per capita": {
+      "Real GDP per capita 2014": {
+        "text": "$61,700 (2014 est.)"
+      },
+      "Real GDP per capita 2008": {
+        "text": "$43,000 (2008 est.)"
+      },
+      "Real GDP per capita 2007": {
+        "text": "$41,200 (2007 est.)"
+      }
+    },
+    "GDP (official exchange rate)": {
+      "text": "$2.044 billion (2014 est.)"
+    },
+    "Inflation rate (consumer prices)": {
+      "Inflation rate (consumer prices) 2013": {
+        "text": "2.5% (2013 est.)"
+      },
+      "Inflation rate (consumer prices) 2012": {
+        "text": "2.2% (2012 est.)"
+      }
+    },
+    "GDP - composition, by sector of origin": {
+      "agriculture": {
+        "text": "0% (2016 est.)"
+      },
+      "industry": {
+        "text": "0% (2008 est.)"
+      },
+      "services": {
+        "text": "100% (2016 est.)"
+      }
+    },
+    "Agricultural products": {
+      "text": "none"
+    },
+    "Industries": {
+      "text": "tourism, banking and finance, ship repairing, tobacco"
+    },
+    "Industrial production growth rate": {
+      "text": "NA"
+    },
+    "Labor force": {
+      "text": "24,420 (2014 est.)"
+    },
+    "Labor force - by occupation": {
+      "agriculture": {
+        "text": "NEGL"
+      },
+      "industry": {
+        "text": "1.8%"
+      },
+      "services": {
+        "text": "98.2% (2014 est.)"
+      }
+    },
+    "Unemployment rate": {
+      "Unemployment rate 2016": {
+        "text": "1% (2016 est.)"
+      }
+    },
+    "Population below poverty line": {
+      "text": "NA"
+    },
+    "Household income or consumption by percentage share": {
+      "lowest 10%": {
+        "text": "NA"
+      },
+      "highest 10%": {
+        "text": "NA"
+      }
+    },
+    "Budget": {
+      "revenues": {
+        "text": "$475.8 million (2008 est.)"
+      },
+      "expenditures": {
+        "text": "$452.3 million (2008 est.)"
+      }
+    },
+    "Budget surplus (+) or deficit (-)": {
+      "text": "1.1% (of GDP) (2008 est.)"
+    },
+    "Public debt": {
+      "Public debt 2008": {
+        "text": "7.5% of GDP (2008 est.)"
+      },
+      "Public debt 2006": {
+        "text": "8.4% of GDP (2006 est.)"
+      }
+    },
+    "Taxes and other revenues": {
+      "text": "23.3% (of GDP) (2008 est.)"
+    },
+    "Fiscal year": {
+      "text": "1 July - 30 June"
+    },
+    "Exports": {
+      "Exports 2014": {
+        "text": "$202.3 million (2014 est.)"
+      },
+      "Exports 2004": {
+        "text": "$271 million (2004 est.)"
+      }
+    },
+    "Exports - partners": {
+      "text": "Poland 31%, Netherlands 27%, France 11%, Germany 8%, United States 6% (2019)"
+    },
+    "Exports - commodities": {
+      "text": "cars and vehicle parts, ships, refined petroleum, recreational boats, designer watches (2021)"
+    },
+    "Imports": {
+      "Imports 2004": {
+        "text": "$2.967 billion (2004 est.)"
+      }
+    },
+    "Imports - partners": {
+      "text": "Spain 19%, US 12%, India 12%, Italy 12%, Netherlands 11%, United Kingdom 7%, Greece 6% (2019)"
+    },
+    "Imports - commodities": {
+      "text": "refined petroleum, recreational boats, cars, coal tar oil, crude petroleum (2019)"
+    },
+    "Debt - external": {
+      "text": "<p>NA</p>"
+    },
+    "Exchange rates": {
+      "Currency": {
+        "text": "Gibraltar pounds (GIP) per US dollar -"
+      },
+      "Exchange rates 2021": {
+        "text": "0.727 (2021 est.)"
+      },
+      "Exchange rates 2020": {
+        "text": "0.78 (2020 est.)"
+      },
+      "Exchange rates 2019": {
+        "text": "0.783 (2019 est.)"
+      },
+      "Exchange rates 2018": {
+        "text": "0.75 (2018 est.)"
+      },
+      "Exchange rates 2017": {
+        "text": "0.777 (2017 est.)"
+      }
+    }
+  },
+  "Energy": {
+    "Electricity access": {
+      "electrification - total population": {
+        "text": "100% (2021)"
+      }
+    },
+    "Electricity": {
+      "installed generating capacity": {
+        "text": "43,000 kW (2020 est.)"
+      },
+      "consumption": {
+        "text": "198.86 million kWh (2019 est.)"
+      },
+      "exports": {
+        "text": "0 kWh (2019 est.)"
+      },
+      "imports": {
+        "text": "0 kWh (2019 est.)"
+      },
+      "transmission/distribution losses": {
+        "text": "7 million kWh (2019 est.)"
+      }
+    },
+    "Electricity generation sources": {
+      "fossil fuels": {
+        "text": "100% of total installed capacity (2020 est.)"
+      },
+      "nuclear": {
+        "text": "0% of total installed capacity (2020 est.)"
+      },
+      "solar": {
+        "text": "0% of total installed capacity (2020 est.)"
+      },
+      "wind": {
+        "text": "0% of total installed capacity (2020 est.)"
+      },
+      "hydroelectricity": {
+        "text": "0% of total installed capacity (2020 est.)"
+      },
+      "tide and wave": {
+        "text": "0% of total installed capacity (2020 est.)"
+      },
+      "geothermal": {
+        "text": "0% of total installed capacity (2020 est.)"
+      },
+      "biomass and waste": {
+        "text": "0% of total installed capacity (2020 est.)"
+      }
+    },
+    "Coal": {
+      "production": {
+        "text": "0 metric tons (2020 est.)"
+      },
+      "consumption": {
+        "text": "0 metric tons (2020 est.)"
+      },
+      "exports": {
+        "text": "0 metric tons (2020 est.)"
+      },
+      "imports": {
+        "text": "0 metric tons (2020 est.)"
+      },
+      "proven reserves": {
+        "text": "0 metric tons (2019 est.)"
+      }
+    },
+    "Petroleum": {
+      "total petroleum production": {
+        "text": "0 bbl/day (2021 est.)"
+      },
+      "refined petroleum consumption": {
+        "text": "83,700 bbl/day (2019 est.)"
+      },
+      "crude oil and lease condensate exports": {
+        "text": "0 bbl/day (2018 est.)"
+      },
+      "crude oil and lease condensate imports": {
+        "text": "0 bbl/day (2018 est.)"
+      },
+      "crude oil estimated reserves": {
+        "text": "0 barrels (2021 est.)"
+      }
+    },
+    "Refined petroleum products - production": {
+      "text": "0 bbl/day (2017 est.)"
+    },
+    "Refined petroleum products - exports": {
+      "text": "0 bbl/day (2015 est.)"
+    },
+    "Refined petroleum products - imports": {
+      "text": "74,200 bbl/day (2015 est.)"
+    },
+    "Natural gas": {
+      "production": {
+        "text": "0 cubic meters (2021 est.)"
+      },
+      "consumption": {
+        "text": "74.756 million cubic meters (2020 est.)"
+      },
+      "exports": {
+        "text": "0 cubic meters (2021 est.)"
+      },
+      "imports": {
+        "text": "56.719 million cubic meters (2019 est.)"
+      },
+      "proven reserves": {
+        "text": "0 cubic meters (2021 est.)"
+      }
+    },
+    "Carbon dioxide emissions": {
+      "total emissions": {
+        "text": "14.256 million metric tonnes of CO2 (2019 est.)"
+      },
+      "from coal and metallurgical coke": {
+        "text": "0 metric tonnes of CO2 (2019 est.)"
+      },
+      "from petroleum and other liquids": {
+        "text": "14.146 million metric tonnes of CO2 (2019 est.)"
+      },
+      "from consumed natural gas": {
+        "text": "111,000 metric tonnes of CO2 (2019 est.)"
+      }
+    },
+    "Energy consumption per capita": {
+      "Total energy consumption per capita 2019": {
+        "text": "0 Btu/person (2019 est.)"
+      }
+    }
+  },
+  "Communications": {
+    "Telephones - fixed lines": {
+      "total subscriptions": {
+        "text": "17,000 (2021 est.)"
+      },
+      "subscriptions per 100 inhabitants": {
+        "text": "53 (2021 est.)"
+      }
+    },
+    "Telephones - mobile cellular": {
+      "total subscriptions": {
+        "text": "34,000 (2021 est.)"
+      },
+      "subscriptions per 100 inhabitants": {
+        "text": "100 (2021 est.)"
+      }
+    },
+    "Telecommunication systems": {
+      "general assessment": {
+        "text": "Gibraltar&rsquo;s population is urban-based, served by a digital telephone exchange supported by a fiber optic and copper infrastructure; near universal mobile and Internet use (2019)"
+      },
+      "domestic": {
+        "text": "53 per 100 fixed-line and 100 per 100 mobile-cellular (2021)"
+      },
+      "international": {
+        "text": "country code - 350; landing point for the EIG to Europe, Asia, Africa and the Middle East via submarine cables;&nbsp;radiotelephone; microwave radio relay; satellite earth station - 1 Intelsat (Atlantic Ocean) (2019)"
+      }
+    },
+    "Broadcast media": {
+      "text": "Gibraltar Broadcasting Corporation (GBC) provides TV and radio broadcasting services via 1 TV station and 4 radio stations; British Forces Broadcasting Service (BFBS) operates 1 radio station; broadcasts from Spanish radio and TV stations are accessible"
+    },
+    "Internet country code": {
+      "text": ".gi"
+    },
+    "Internet users": {
+      "total": {
+        "text": "31,152 (2021 est.)"
+      },
+      "percent of population": {
+        "text": "94.4% (2021 est.)"
+      }
+    },
+    "Broadband - fixed subscriptions": {
+      "total": {
+        "text": "21,009 (2020 est.)"
+      },
+      "subscriptions per 100 inhabitants": {
+        "text": "62 (2020 est.)"
+      }
+    }
+  },
+  "Transportation": {
+    "Civil aircraft registration country code prefix": {
+      "text": "VP-G"
+    },
+    "Airports": {
+      "text": "1 (2021)"
+    },
+    "Airports - with paved runways": {
+      "text": "1",
+      "note": "<strong>note:</strong> paved runways have a concrete or asphalt surface but not all have facilities for refueling, maintenance, or air traffic control; the length of a runway required for aircraft to safely operate depends on a number of factors including the type of aircraft, the takeoff weight (including passengers, cargo, and fuel), engine types, flap settings, landing speed, elevation of the airport, and average maximum daily air temperature; paved runways can reach a length of 5,000 m (16,000 ft.), but the “typical” length of a commercial airline runway is between 2,500-4,000 m (8,000-13,000 ft.)"
+    },
+    "Roadways": {
+      "total": {
+        "text": "29 km (2007)"
+      },
+      "paved": {
+        "text": "29 km (2007)"
+      }
+    },
+    "Merchant marine": {
+      "total": {
+        "text": "155"
+      },
+      "by type": {
+        "text": "bulk carrier 8, container ship 12, general cargo 36, oil tanker 16, other 83 (2022)"
+      }
+    },
+    "Ports and terminals": {
+      "major seaport(s)": {
+        "text": "Gibraltar"
+      }
+    }
+  },
+  "Military and Security": {
+    "Military and security forces": {
+      "text": "Royal Gibraltar Regiment (2023)"
+    },
+    "Military and security service personnel strengths": {
+      "text": "the Royal Gibraltar Regiment has more than 400 personnel (2023)"
+    },
+    "Military - note": {
+      "text": "defense is the responsibility of the UK"
+    }
+  },
+  "Transnational Issues": {
+    "Disputes - international": {
+      "text": "<p>in 2002, Gibraltar residents voted overwhelmingly by referendum to reject any \"shared sovereignty\" arrangement; the Government of Gibraltar insists on equal participation in talks between the UK and Spain; Spain disapproves of UK plans to grant Gibraltar even greater autonomy</p>"
+    }
+  }
+}

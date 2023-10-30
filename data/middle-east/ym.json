@@ -1,0 +1,1182 @@
+{
+  "Introduction": {
+    "Background": {
+      "text": "<p>The Kingdom of Yemen (colloquially known as North Yemen) became independent from the Ottoman Empire in 1918 and in 1962 became the Yemen Arab Republic. The British, who had set up a protectorate area around the southern port of Aden in the 19th century, withdrew in 1967 from what became the People's Republic of Southern Yemen (colloquially known as South Yemen). Three years later, the southern government adopted a Marxist orientation and changed the country's name to the People's Democratic Republic of Yemen. The massive exodus of hundreds of thousands of Yemenis from the south to the north contributed to two decades of hostility between the states. The two countries were formally unified as the Republic of Yemen in 1990. A southern secessionist movement and brief civil war in 1994 was quickly subdued. In 2000, Saudi Arabia and Yemen agreed to delineate their border. Fighting in the northwest between the government and the Houthis, a Zaydi Shia Muslim minority, continued intermittently from 2004 to 2010, and then again from 2014-present. The southern secessionist movement was revitalized in 2007.</p> <p>Public rallies in Sana'a against then President Ali Abdallah SALIH - inspired by similar Arab Spring demonstrations in Tunisia and Egypt - slowly built momentum starting in late January 2011 fueled by complaints over high unemployment, poor economic conditions, and corruption. By the following month, some protests had resulted in violence, and the demonstrations had spread to other major cities. By March the opposition had hardened its demands and was unifying behind calls for SALIH's immediate ouster. In April 2011, the Gulf Cooperation Council (GCC), in an attempt to mediate the crisis in Yemen, proposed the GCC Initiative, an agreement in which the president would step down in exchange for immunity from prosecution. SALIH's refusal to sign an agreement led to further violence. The UN Security Council passed Resolution 2014 in October 2011 calling for an end to the violence and completing a power transfer deal. In November 2011, SALIH signed the GCC Initiative to step down and to transfer some of his powers to Vice President Abd Rabuh Mansur HADI. Following HADI's uncontested election victory in February 2012, SALIH formally transferred all presidential powers. In accordance with the GCC Initiative, Yemen launched a National Dialogue Conference (NDC) in March 2013 to discuss key constitutional, political, and social issues. HADI concluded the NDC in January 2014 and planned to begin implementing subsequent steps in the transition process, including constitutional drafting, a constitutional referendum, and national elections.</p> <p>The Houthis, perceiving their grievances were not addressed in the NDC, joined forces with SALIH and expanded their influence in northwestern Yemen, which culminated in a major offensive against military units and rival tribes and enabled their forces to overrun the capital, Sanaa, in September 2014. In January 2015, the Houthis surrounded the presidential palace, HADI's residence, and key government facilities, prompting HADI and the cabinet to submit their resignations. HADI fled to Aden in February 2015 and rescinded his resignation. He subsequently escaped to Oman and then moved to Saudi Arabia and asked the GCC to intervene militarily in Yemen to protect the legitimate government from the Houthis. In March 2015, Saudi Arabia assembled a coalition of Arab militaries and began airstrikes against the Houthis and Houthi-affiliated forces. Ground fighting between Houthi-aligned forces and anti-Houthi groups backed by the Saudi-led coalition continued through 2016. In 2016, the UN brokered a months-long cessation of hostilities that reduced airstrikes and fighting, and initiated peace talks in Kuwait. However, the talks ended without agreement. The Houthis and SALIH’s political party announced a Supreme Political Council in August 2016 and a National Salvation Government, including a prime minister and several dozen cabinet members, in November 2016, to govern in Sanaa and further challenge the legitimacy of HADI’s government. However, amid rising tensions between the Houthis and SALIH, sporadic clashes erupted in mid-2017, and escalated into open fighting that ended when Houthi forces killed SALIH in early December 2017. In 2018, anti-Houthi forces made the most battlefield progress in Yemen since early 2016, most notably in Al Hudaydah Governorate. In December 2018, the Houthis and Yemeni Government participated in the first UN-brokered peace talks since 2016, agreeing to a limited cease-fire in Al Hudaydah Governorate and the establishment of a UN Mission to monitor the agreement. In April 2019, Yemen’s parliament convened in Say'un for the first time since the conflict broke out in 2014. In August 2019, violence erupted between HADI's government and the pro-secessionist Southern Transition Council (STC) in southern Yemen. In November 2019, HADI's government and the STC signed a power-sharing agreement to end the fighting between them, and in December 2020, the signatories formed a new cabinet. In 2020 and 2021, fighting continued on the ground in Yemen as the Houthis gained territory, and also conducted regular UAV and missile attacks against targets in Saudi Arabia. In April 2022, the UN brokered a temporary truce between the Houthis and Saudi-led coalition that resulted in an extended pause of large-scale fighting and cessation of cross-border attacks. Also in April 2022, HADI and his vice-president resigned and were replaced by an eight-person Presidential Leadership Council with the executive powers of the president and vice president.</p>"
+    }
+  },
+  "Geography": {
+    "Location": {
+      "text": "Middle East, bordering the Arabian Sea, Gulf of Aden, and Red Sea, between Oman and Saudi Arabia"
+    },
+    "Geographic coordinates": {
+      "text": "15 00 N, 48 00 E"
+    },
+    "Map references": {
+      "text": "Middle East"
+    },
+    "Area": {
+      "total": {
+        "text": "527,968 sq km"
+      },
+      "land": {
+        "text": "527,968 sq km"
+      },
+      "water": {
+        "text": "0 sq km"
+      },
+      "note": "<strong>note:</strong> includes Perim, Socotra, the former Yemen Arab Republic (YAR or North Yemen), and the former People's Democratic Republic of Yemen (PDRY or South Yemen)"
+    },
+    "Area - comparative": {
+      "text": "almost four times the size of Alabama; slightly larger than twice the size of Wyoming"
+    },
+    "Land boundaries": {
+      "total": {
+        "text": "1,601 km"
+      },
+      "border countries": {
+        "text": "Oman 294 km; Saudi Arabia 1,307 km"
+      }
+    },
+    "Coastline": {
+      "text": "1,906 km"
+    },
+    "Maritime claims": {
+      "territorial sea": {
+        "text": "12 nm"
+      },
+      "contiguous zone": {
+        "text": "24 nm"
+      },
+      "exclusive economic zone": {
+        "text": "200 nm"
+      },
+      "continental shelf": {
+        "text": "200 nm or to the edge of the continental margin"
+      }
+    },
+    "Climate": {
+      "text": "mostly desert; hot and humid along west coast; temperate in western mountains affected by seasonal monsoon; extraordinarily hot, dry, harsh desert in east"
+    },
+    "Terrain": {
+      "text": "narrow coastal plain backed by flat-topped hills and rugged mountains; dissected upland desert plains in center slope into the desert interior of the Arabian Peninsula"
+    },
+    "Elevation": {
+      "highest point": {
+        "text": "Jabal an Nabi Shu'ayb 3,666 m"
+      },
+      "lowest point": {
+        "text": "Arabian Sea 0 m"
+      },
+      "mean elevation": {
+        "text": "999 m"
+      }
+    },
+    "Natural resources": {
+      "text": "petroleum, fish, rock salt, marble; small deposits of coal, gold, lead, nickel, and copper; fertile soil in west"
+    },
+    "Land use": {
+      "agricultural land": {
+        "text": "44.5% (2018 est.)"
+      },
+      "agricultural land: arable land": {
+        "text": "arable land: 2.2% (2018 est.)"
+      },
+      "agricultural land: permanent crops": {
+        "text": "permanent crops: 0.6% (2018 est.)"
+      },
+      "agricultural land: permanent pasture": {
+        "text": "permanent pasture: 41.7% (2018 est.)"
+      },
+      "forest": {
+        "text": "1% (2018 est.)"
+      },
+      "other": {
+        "text": "54.5% (2018 est.)"
+      }
+    },
+    "Irrigated land": {
+      "text": "6,800 sq km (2012)"
+    },
+    "Population distribution": {
+      "text": "the vast majority of the population is found in the Asir Mountains (part of the larger Sarawat Mountain system), located in the far western region of the country"
+    },
+    "Natural hazards": {
+      "text": "<p>sandstorms and dust storms in summer</p><p><strong>volcanism:</strong> limited volcanic activity; Jebel at Tair (Jabal al-Tair, Jebel Teir, Jabal al-Tayr, Jazirat at-Tair) (244 m), which forms an island in the Red Sea, erupted in 2007 after awakening from dormancy; other historically active volcanoes include Harra of Arhab, Harras of Dhamar, Harra es-Sawad, and Jebel Zubair, although many of these have not erupted in over a century</p>"
+    },
+    "Geography - note": {
+      "text": "strategic location on Bab el Mandeb, the strait linking the Red Sea and the Gulf of Aden, one of world's most active shipping lanes"
+    }
+  },
+  "People and Society": {
+    "Population": {
+      "text": "31,565,602 (2023 est.)"
+    },
+    "Nationality": {
+      "noun": {
+        "text": "Yemeni(s)"
+      },
+      "adjective": {
+        "text": "Yemeni"
+      }
+    },
+    "Ethnic groups": {
+      "text": "predominantly Arab; but also Afro-Arab, South Asian, European"
+    },
+    "Languages": {
+      "Languages": {
+        "text": "Arabic (official); note - a distinct Socotri language is widely used on Socotra Island and Archipelago; Mahri is still fairly widely spoken in eastern Yemen"
+      },
+      "major-language sample(s)": {
+        "text": "<br>كتاب حقائق العالم، المصدر الذي لا يمكن الاستغناء عنه للمعلومات الأساسية (Arabic)<br><br>The World Factbook, the indispensable source for basic information."
+      }
+    },
+    "Religions": {
+      "text": "Muslim 99.1% (official; virtually all are citizens, an estimated 65% are Sunni and 35% are Shia), other 0.9% (includes Jewish, Baha'i, Hindu, and Christian; many are refugees or temporary foreign residents) (2020 est.)"
+    },
+    "Age structure": {
+      "0-14 years": {
+        "text": "35.14% (male 5,641,548/female 5,449,491)"
+      },
+      "15-64 years": {
+        "text": "61.52% (male 9,829,725/female 9,590,956)"
+      },
+      "65 years and over": {
+        "text": "3.34% (2023 est.) (male 464,548/female 589,334)"
+      }
+    },
+    "Dependency ratios": {
+      "total dependency ratio": {
+        "text": "71.7"
+      },
+      "youth dependency ratio": {
+        "text": "69.4"
+      },
+      "elderly dependency ratio": {
+        "text": "4.7"
+      },
+      "potential support ratio": {
+        "text": "19.9 (2021 est.)"
+      }
+    },
+    "Median age": {
+      "total": {
+        "text": "19.8 years (2018 est.)"
+      },
+      "male": {
+        "text": "19.6 years"
+      },
+      "female": {
+        "text": "19.9 years"
+      }
+    },
+    "Population growth rate": {
+      "text": "1.83% (2023 est.)"
+    },
+    "Birth rate": {
+      "text": "24.05 births/1,000 population (2023 est.)"
+    },
+    "Death rate": {
+      "text": "5.54 deaths/1,000 population (2023 est.)"
+    },
+    "Net migration rate": {
+      "text": "-0.19 migrant(s)/1,000 population (2023 est.)"
+    },
+    "Population distribution": {
+      "text": "the vast majority of the population is found in the Asir Mountains (part of the larger Sarawat Mountain system), located in the far western region of the country"
+    },
+    "Urbanization": {
+      "urban population": {
+        "text": "39.8% of total population (2023)"
+      },
+      "rate of urbanization": {
+        "text": "3.71% annual rate of change (2015-20 est.)"
+      }
+    },
+    "Major urban areas - population": {
+      "text": "3.292 million SANAA (capital), 1.080 million Aden, 941,000 Taiz, 772,000 Ibb (2023)"
+    },
+    "Sex ratio": {
+      "at birth": {
+        "text": "1.05 male(s)/female"
+      },
+      "0-14 years": {
+        "text": "1.04 male(s)/female"
+      },
+      "15-64 years": {
+        "text": "1.02 male(s)/female"
+      },
+      "65 years and over": {
+        "text": "0.79 male(s)/female"
+      },
+      "total population": {
+        "text": "1.02 male(s)/female (2023 est.)"
+      }
+    },
+    "Mother's mean age at first birth": {
+      "text": "20.8 years (2013 est.)",
+      "note": "<strong>note:</strong> data represents median age at first birth among women 25-49"
+    },
+    "Maternal mortality ratio": {
+      "text": "183 deaths/100,000 live births (2020 est.)"
+    },
+    "Infant mortality rate": {
+      "total": {
+        "text": "45.54 deaths/1,000 live births"
+      },
+      "male": {
+        "text": "50.87 deaths/1,000 live births"
+      },
+      "female": {
+        "text": "39.95 deaths/1,000 live births (2023 est.)"
+      }
+    },
+    "Life expectancy at birth": {
+      "total population": {
+        "text": "67.83 years"
+      },
+      "male": {
+        "text": "65.49 years"
+      },
+      "female": {
+        "text": "70.28 years (2023 est.)"
+      }
+    },
+    "Total fertility rate": {
+      "text": "2.91 children born/woman (2023 est.)"
+    },
+    "Gross reproduction rate": {
+      "text": "1.42 (2023 est.)"
+    },
+    "Contraceptive prevalence rate": {
+      "text": "33.5% (2013)"
+    },
+    "Drinking water source": {
+      "improved: urban": {
+        "text": "urban: 98.5% of population"
+      },
+      "improved: rural": {
+        "text": "rural: 84.2% of population"
+      },
+      "improved: total": {
+        "text": "total: 99.6% of population"
+      },
+      "unimproved: urban": {
+        "text": "urban: 1.5% of population"
+      },
+      "unimproved: rural": {
+        "text": "rural: 15.8% of population"
+      },
+      "unimproved: total": {
+        "text": "total: 10.4% of population (2020 est.)"
+      }
+    },
+    "Current health expenditure": {
+      "text": "4.3% of GDP (2015)"
+    },
+    "Physicians density": {
+      "text": "0.53 physicians/1,000 population (2014)"
+    },
+    "Hospital bed density": {
+      "text": "0.7 beds/1,000 population (2017)"
+    },
+    "Sanitation facility access": {
+      "improved: urban": {
+        "text": "urban: 83.5% of population"
+      },
+      "improved: rural": {
+        "text": "rural: 44.2% of population"
+      },
+      "improved: total": {
+        "text": "total: 59.1% of population"
+      },
+      "unimproved: urban": {
+        "text": "urban: 16.5% of population"
+      },
+      "unimproved: rural": {
+        "text": "rural: 55.8% of population"
+      },
+      "unimproved: total": {
+        "text": "total: 40.9% of population (2020 est.)"
+      }
+    },
+    "Major infectious diseases": {
+      "degree of risk": {
+        "text": "high (2023)"
+      },
+      "food or waterborne diseases": {
+        "text": "bacterial diarrhea, hepatitis A, and typhoid fever"
+      },
+      "vectorborne diseases": {
+        "text": "dengue fever and malaria"
+      },
+      "water contact diseases": {
+        "text": "schistosomiasis"
+      },
+      "note": "<strong>note: </strong>on 31 August 2022, the US Centers for Disease Control and Prevention (CDC) issued a Travel Alert for polio in Asia; Yemen is currently considered a high risk to travelers for circulating vaccine-derived polioviruses (cVDPV); vaccine-derived poliovirus (VDPV) is a strain of the weakened poliovirus that was initially included in oral polio vaccine (OPV) and <em>that has changed over time and behaves more like the wild or naturally occurring virus</em>; this means it can be spread more easily to people who are unvaccinated against polio and who come in contact with the stool or respiratory secretions, such as from a sneeze, of an “infected” person who received oral polio vaccine; the CDC recommends that before any international travel, anyone unvaccinated, incompletely vaccinated, or with an unknown polio vaccination status should complete the routine polio vaccine series; before travel to any high-risk destination, the CDC recommends that adults who previously completed the full, routine polio vaccine series receive a single, lifetime booster dose of polio vaccine"
+    },
+    "Obesity - adult prevalence rate": {
+      "text": "17.1% (2016)"
+    },
+    "Alcohol consumption per capita": {
+      "total": {
+        "text": "0.02 liters of pure alcohol (2019 est.)"
+      },
+      "beer": {
+        "text": "0.02 liters of pure alcohol (2019 est.)"
+      },
+      "wine": {
+        "text": "0 liters of pure alcohol (2019 est.)"
+      },
+      "spirits": {
+        "text": "0 liters of pure alcohol (2019 est.)"
+      },
+      "other alcohols": {
+        "text": "0 liters of pure alcohol (2019 est.)"
+      }
+    },
+    "Tobacco use": {
+      "total": {
+        "text": "20.3% (2020 est.)"
+      },
+      "male": {
+        "text": "32.5% (2020 est.)"
+      },
+      "female": {
+        "text": "8.1% (2020 est.)"
+      }
+    },
+    "Children under the age of 5 years underweight": {
+      "text": "39.9% (2013)"
+    },
+    "Currently married women (ages 15-49)": {
+      "text": "60.4% (2023 est.)"
+    },
+    "Education expenditures": {
+      "text": "NA"
+    },
+    "Literacy": {
+      "definition": {
+        "text": "age 15 and over can read and write"
+      },
+      "total population": {
+        "text": "70.1%"
+      },
+      "male": {
+        "text": "85.1%"
+      },
+      "female": {
+        "text": "55% (2015)"
+      }
+    },
+    "Youth unemployment rate (ages 15-24)": {
+      "total": {
+        "text": "25.5%"
+      },
+      "male": {
+        "text": "24.3%"
+      },
+      "female": {
+        "text": "36.3% (2021 est.)"
+      }
+    }
+  },
+  "Environment": {
+    "Environment - current issues": {
+      "text": "limited natural freshwater resources; inadequate supplies of potable water; overgrazing; soil erosion; desertification"
+    },
+    "Environment - international agreements": {
+      "party to": {
+        "text": "Biodiversity, Climate Change, Climate Change-Kyoto Protocol, Desertification, Endangered Species, Environmental Modification, Hazardous Wastes, Law of the Sea, Marine Dumping-London Protocol, Nuclear Test Ban, Ozone Layer Protection, Wetlands"
+      },
+      "signed, but not ratified": {
+        "text": "Climate Change-Paris Agreement, Comprehensive Nuclear Test Ban"
+      }
+    },
+    "Climate": {
+      "text": "mostly desert; hot and humid along west coast; temperate in western mountains affected by seasonal monsoon; extraordinarily hot, dry, harsh desert in east"
+    },
+    "Land use": {
+      "agricultural land": {
+        "text": "44.5% (2018 est.)"
+      },
+      "agricultural land: arable land": {
+        "text": "arable land: 2.2% (2018 est.)"
+      },
+      "agricultural land: permanent crops": {
+        "text": "permanent crops: 0.6% (2018 est.)"
+      },
+      "agricultural land: permanent pasture": {
+        "text": "permanent pasture: 41.7% (2018 est.)"
+      },
+      "forest": {
+        "text": "1% (2018 est.)"
+      },
+      "other": {
+        "text": "54.5% (2018 est.)"
+      }
+    },
+    "Urbanization": {
+      "urban population": {
+        "text": "39.8% of total population (2023)"
+      },
+      "rate of urbanization": {
+        "text": "3.71% annual rate of change (2015-20 est.)"
+      }
+    },
+    "Food insecurity": {
+      "widespread lack of access": {
+        "text": "<em>due to conflict, poverty, floods, high food and fuel prices -</em> in 2023, a partial analysis in government‑controlled areas, where approximately 25 percent of the population in acute food insecurity resides, shows that the situation remains dire; despite some improvements in security, the economic crisis and localized conflicts continue, fueled by persistent political instability, while insufficient external revenues and elevated global commodity prices on imported food limits food security (2023)"
+      }
+    },
+    "Revenue from forest resources": {
+      "text": "0.04% of GDP (2018 est.)"
+    },
+    "Revenue from coal": {
+      "text": "0% of GDP (2018 est.)"
+    },
+    "Air pollutants": {
+      "particulate matter emissions": {
+        "text": "44.96 micrograms per cubic meter (2016 est.)"
+      },
+      "carbon dioxide emissions": {
+        "text": "10.61 megatons (2016 est.)"
+      },
+      "methane emissions": {
+        "text": "8.03 megatons (2020 est.)"
+      }
+    },
+    "Waste and recycling": {
+      "municipal solid waste generated annually": {
+        "text": "4,836,820 tons (2011 est.)"
+      },
+      "municipal solid waste recycled annually": {
+        "text": "386,946 tons (2016 est.)"
+      },
+      "percent of municipal solid waste recycled": {
+        "text": "8% (2016 est.)"
+      }
+    },
+    "Total water withdrawal": {
+      "municipal": {
+        "text": "270 million cubic meters (2020 est.)"
+      },
+      "industrial": {
+        "text": "70 million cubic meters (2020 est.)"
+      },
+      "agricultural": {
+        "text": "3.24 billion cubic meters (2020 est.)"
+      }
+    },
+    "Total renewable water resources": {
+      "text": "2.1 billion cubic meters (2020 est.)"
+    }
+  },
+  "Government": {
+    "Country name": {
+      "conventional long form": {
+        "text": "Republic of Yemen"
+      },
+      "conventional short form": {
+        "text": "Yemen"
+      },
+      "local long form": {
+        "text": "Al Jumhuriyah al Yamaniyah"
+      },
+      "local short form": {
+        "text": "Al Yaman"
+      },
+      "former": {
+        "text": "Yemen Arab Republic [Yemen (Sanaa) or North Yemen] and People's Democratic Republic of Yemen [Yemen (Aden) or South Yemen]"
+      },
+      "etymology": {
+        "text": "name derivation remains unclear but may come from the Arab term \"yumn\" (happiness) and be related to the region's classical name \"Arabia Felix\" (Fertile or Happy Arabia); the Romans referred to the rest of the peninsula as \"Arabia Deserta\" (Deserted Arabia)"
+      }
+    },
+    "Government type": {
+      "text": "in transition"
+    },
+    "Capital": {
+      "name": {
+        "text": "Sanaa"
+      },
+      "geographic coordinates": {
+        "text": "15 21 N, 44 12 E"
+      },
+      "time difference": {
+        "text": "UTC+3 (8 hours ahead of Washington, DC, during Standard Time)"
+      },
+      "etymology": {
+        "text": "the name is reputed to mean \"well-fortified\" in Sabaean, the South Arabian language that went extinct in Yemen in the 6th century A.D."
+      }
+    },
+    "Administrative divisions": {
+      "text": "22 governorates (muhafazat, singular - muhafazah); Abyan, 'Adan (Aden), Ad Dali', Al Bayda', Al Hudaydah, Al Jawf, Al Mahrah, Al Mahwit, Amanat al 'Asimah (Sanaa City), 'Amran, Arkhabil Suqutra (Socotra Archipelago), Dhamar, Hadramawt, Hajjah, Ibb, Lahij, Ma'rib, Raymah, Sa'dah, San'a' (Sanaa), Shabwah, Ta'izz"
+    },
+    "Independence": {
+      "text": "22 May 1990 (Republic of Yemen was established with the merger of the Yemen Arab Republic [Yemen (Sanaa) or North Yemen] and the Marxist-dominated People's Democratic Republic of Yemen [Yemen (Aden) or South Yemen]); notable earlier dates: North Yemen became independent on 1 November 1918 (from the Ottoman Empire) and became a republic with the overthrow of the theocratic Imamate on 27 September 1962; South Yemen became independent on 30 November 1967 (from the UK)"
+    },
+    "National holiday": {
+      "text": "Unification Day, 22 May (1990)"
+    },
+    "Constitution": {
+      "history": {
+        "text": "adopted by referendum 16 May 1991 (following unification); note - after the National&nbsp; Dialogue ended in January 2015, a Constitutional Drafting Committee appointed by the president worked to prepare a new draft constitution that was expected to be put to a national referendum before being adopted; however, the start of the current conflict in early 2015 interrupted the process"
+      },
+      "amendments": {
+        "text": "amended several times, last in 2009"
+      }
+    },
+    "Legal system": {
+      "text": "mixed legal system of Islamic (sharia) law, Napoleonic law, English common law, and customary law"
+    },
+    "International law organization participation": {
+      "text": "has not submitted an ICJ jurisdiction declaration; non-party state to the ICCt"
+    },
+    "Citizenship": {
+      "citizenship by birth": {
+        "text": "no"
+      },
+      "citizenship by descent only": {
+        "text": "the father must be a citizen of Yemen; if the father is unknown, the mother must be a citizen"
+      },
+      "dual citizenship recognized": {
+        "text": "no"
+      },
+      "residency requirement for naturalization": {
+        "text": "10 years"
+      }
+    },
+    "Suffrage": {
+      "text": "18 years of age; universal"
+    },
+    "Executive branch": {
+      "chief of state": {
+        "text": "Chairperson, Presidential Council Rashad Muhammad al-ALIMI, Dr. (since 19 April 2022); Vice Chairperson, Presidential Council Sultan al-ARADA (since 19 April 2022); Vice Chairperson, Presidential Council Faraj Salmin al- BAHSANI, Brig. Gen. (since 19 April 2022); Vice Chairperson, Presidential Council Abdullah Al-Alimi BA WAZIR (since 19 April 2022); Vice Chairperson, Presidential Council Uthman Hussain Faid al-MUJALI (since 19 April 2022); Vice Chairperson, Presidential Council TARIQ Muhammad Abdallah Salih, Brig. Gen. (since 19 April 2022); Vice Chairperson, Presidential Council 'Abd-al-Rahman ABU ZARA'A al-Muharrami al-Yafai, Brig. Gen. (since 19 April 2022); Vice Chairperson, Presidential Council Aydarus Qasim al-ZUBAYDI, Maj. Gen. (since 19 April 2022)"
+      },
+      "head of government": {
+        "text": "Chairperson, Presidential Council Rashad Muhammad al-ALIMI, Dr. (since 19 April 2022); Vice Chairperson, Presidential Council Sultan al-ARADA (since 19 April 2022); Vice Chairperson, Presidential Council Faraj Salmin al- BAHSANI, Brig. Gen. (since 19 April 2022); Vice Chairperson, Presidential Council Abdullah Al-Alimi BA WAZIR (since 19 April 2022); Vice Chairperson, Presidential Council Uthman Hussain Faid al-MUJALI (since 19 April 2022); Vice Chairperson, Presidential Council TARIQ Muhammad Abdallah Salih, Brig. Gen. (since 19 April 2022); Vice Chairperson, Presidential Council 'Abd-al-Rahman ABU ZARA'A al-Muharrami al-Yafai, Brig. Gen. (since 19 April 2022); Vice Chairperson, Presidential Council Aydarus Qasim al-ZUBAYDI, Maj. Gen. (since 19 April 2022)"
+      },
+      "cabinet": {
+        "text": "25 members from northern and southern Yemen, representing all of Yemen's major political parties"
+      },
+      "elections/appointments": {
+        "text": "formerly, the president was directly elected by absolute majority popular vote in 2 rounds if needed for a 7-year term (eligible for a second term); election last held on 21 February 2012 (next election NA); note - a special election was held on 21 February 2012 to remove Ali Abdallah SALIH under the terms of a Gulf Cooperation Council-mediated deal during the political crisis of 2011; vice president appointed by the president; prime minister appointed by the president"
+      },
+      "election results": {
+        "text": "Abd Rabuh Mansur HADI (GPC) elected consensus president"
+      },
+      "note": "<strong>note:</strong> on 7 April 2022, President Abd Rabuh Mansur HADI announced the dismissal of Vice President ALI MUHSIN al-Ahmar and the formation of a Presidential Council, an eight-member body chaired by former minister Rashad AL-ALIMI; on 19 April 2022, the Council was sworn in before Parliament and began assuming the responsibilities of the president and vice president and carrying out the political, security, and military duties of the government"
+    },
+    "Legislative branch": {
+      "description": {
+        "text": "bicameral Parliament or Majlis consists of:<br>Shura Council or Majlis Alshoora (111 seats; members appointed by the president; member tenure NA)<br>House of Representatives or Majlis al Nuwaab (301 seats; members directly elected in single-seat constituencies by simple majority vote to serve 6-year terms)"
+      },
+      "elections": {
+        "text": "Shura Council - last appointments NA (next appointments NA)<br>House of Representatives - last held in April 2019 (next to be held NA)"
+      },
+      "election results": {
+        "text": "<br>percent of vote by party - GPC 58.0%, Islah 22.6%, YSP 3.8%, Unionist Party 1.9%, other 13.7%; seats by party - GPC 238, Islah 46, YSP 8, Nasserist Unionist Party 3, National Arab Socialist Ba'ath Party 2, independent 4"
+      }
+    },
+    "Judicial branch": {
+      "highest court(s)": {
+        "text": "Supreme Court (consists of the court president, 2 deputies, and nearly 50 judges; court organized into constitutional, civil, commercial, family, administrative, criminal, military, and appeals scrutiny divisions)"
+      },
+      "judge selection and term of office": {
+        "text": "judges appointed by the Supreme Judicial Council, which is chaired by the president of the republic and includes 10 high-ranking judicial officers; judges serve for life with mandatory retirement at age 65"
+      },
+      "subordinate courts": {
+        "text": "appeal courts; district or first instance courts; commercial courts"
+      }
+    },
+    "Political parties and leaders": {
+      "text": "General People’s Congress or GPC (3 factions: pro-Hadi [Abdrabbi Mansur HADI], pro-Houthi [Sadeq Ameen Abu RAS], pro-Saleh [Ahmed SALEH]<br>Nasserist Unionist People's Organization [Abdulmalik al-MEKHLAFI]<br>National Arab Socialist Ba'ath Party [Qassem Salam SAID]<br>Southern Transitional Council or STC [Aidarus al-ZOUBAIDA] <br>Yemeni Reform Grouping or Islah [Muhammed Abdallah al-YADUMI]<br>Yemeni Socialist Party or YSP [Dr. Abd al-Rahman Umar al-SAQQAF]"
+    },
+    "International organization participation": {
+      "text": "AFESD, AMF, CAEU, CD, EITI (temporarily suspended), FAO, G-77, IAEA, IBRD, ICAO, ICRM, IDA, IDB, IFAD, IFC, IFRCS, ILO, IMF, IMO, IMSO, Interpol, IOC, IOM, IPU, ISO, ITSO, ITU, ITUC (NGOs), LAS, MIGA, MINURSO, MINUSMA, MONUSCO, NAM, OAS (observer), OIC, OPCW, UN, UNAMID, UNCTAD, UNESCO, UNHCR, UNIDO, UNISFA, UNMHA, UNMIL, UNMIS, UNOCI, UNVIM, UNWTO, UPU, WCO, WFTU (NGOs), WHO, WIPO, WMO, WTO"
+    },
+    "Diplomatic representation in the US": {
+      "chief of mission": {
+        "text": "Ambassador Mohammed Abdullah Mohammed&nbsp;AL-HADHRAMI (since 7 June 2022)"
+      },
+      "chancery": {
+        "text": "2319 Wyoming Avenue NW, Washington, DC 20008"
+      },
+      "telephone": {
+        "text": "[1] (202) 965-4760"
+      },
+      "FAX": {
+        "text": "[1] (202) 337-2017"
+      },
+      "email address and website": {
+        "text": "<br>Information@yemenembassy.org<br><br>https://www.yemenembassy.org/"
+      }
+    },
+    "Diplomatic representation from the US": {
+      "chief of mission": {
+        "text": "Ambassador Steven H. FAGIN (since 1 June 2022); note - the embassy closed in March 2015; Yemen Affairs Unit currently operates out of US Embassy Riyadh"
+      },
+      "embassy": {
+        "text": "previously - Sa'awan Street, Sanaa"
+      },
+      "mailing address": {
+        "text": "6330 Sanaa Place, Washington DC&nbsp; 20521-6330"
+      },
+      "telephone": {
+        "text": "US Embassy Riyadh [966] 11-488-3800<br>previously - [967] 1 755-2000"
+      },
+      "FAX": {
+        "text": "US Embassy Riyadh [966] 11-488-7360"
+      },
+      "email address and website": {
+        "text": "<br>YemenEmergencyUSC@state.gov<br><br>https://ye.usembassy.gov/"
+      }
+    },
+    "Flag description": {
+      "text": "three equal horizontal bands of red (top), white, and black; the band colors derive from the Arab Liberation flag and represent oppression (black), overcome through bloody struggle (red), to be replaced by a bright future (white)",
+      "note": "<strong>note:</strong> similar to the flag of Syria, which has two green stars in the white band, and of Iraq, which has an Arabic inscription centered in the white band; also similar to the flag of Egypt, which has a heraldic eagle centered in the white band"
+    },
+    "National symbol(s)": {
+      "text": "golden eagle; national colors: red, white, black"
+    },
+    "National anthem": {
+      "name": {
+        "text": "\"al-qumhuriyatu l-muttahida\" (United Republic)"
+      },
+      "lyrics/music": {
+        "text": "Abdullah Abdulwahab NOA'MAN/Ayyoab Tarish ABSI"
+      },
+      "note": "<strong>note:</strong> adopted 1990; the music first served as the anthem for South Yemen before unification with North Yemen in 1990"
+    },
+    "National heritage": {
+      "total World Heritage Sites": {
+        "text": "4 (3 cultural, 1 natural)"
+      },
+      "selected World Heritage Site locales": {
+        "text": "Old Walled City of Shibam (c); Old City of Sana'a (c); Historic Town of Zabid (c); Socotra Archipelago (n)"
+      }
+    }
+  },
+  "Economy": {
+    "Economic overview": {
+      "text": "low-income Middle Eastern economy; infrastructure, trade, and economic institutions devastated by civil war; oil/gas-dependent but decreasing reserves; massive poverty, food insecurity, and unemployment; high inflation"
+    },
+    "Real GDP (purchasing power parity)": {
+      "Real GDP (purchasing power parity) 2017": {
+        "text": "$73.63 billion (2017 est.)"
+      },
+      "Real GDP (purchasing power parity) 2016": {
+        "text": "$78.28 billion (2016 est.)"
+      },
+      "Real GDP (purchasing power parity) 2015": {
+        "text": "$90.63 billion (2015 est.)"
+      },
+      "note": "<strong>note:</strong> data are in 2017 dollars"
+    },
+    "Real GDP growth rate": {
+      "Real GDP growth rate 2017": {
+        "text": "-5.9% (2017 est.)"
+      },
+      "Real GDP growth rate 2016": {
+        "text": "-13.6% (2016 est.)"
+      },
+      "Real GDP growth rate 2015": {
+        "text": "-16.7% (2015 est.)"
+      }
+    },
+    "Real GDP per capita": {
+      "Real GDP per capita 2017": {
+        "text": "$2,500 (2017 est.)"
+      },
+      "Real GDP per capita 2016": {
+        "text": "$2,700 (2016 est.)"
+      },
+      "Real GDP per capita 2015": {
+        "text": "$3,200 (2015 est.)"
+      },
+      "note": "<strong>note:</strong> data are in 2017 dollars"
+    },
+    "GDP (official exchange rate)": {
+      "text": "$54.356 billion (2018 est.)"
+    },
+    "Inflation rate (consumer prices)": {
+      "Inflation rate (consumer prices) 2017": {
+        "text": "24.7% (2017 est.)"
+      },
+      "Inflation rate (consumer prices) 2016": {
+        "text": "-12.6% (2016 est.)"
+      }
+    },
+    "GDP - composition, by sector of origin": {
+      "agriculture": {
+        "text": "20.3% (2017 est.)"
+      },
+      "industry": {
+        "text": "11.8% (2017 est.)"
+      },
+      "services": {
+        "text": "67.9% (2017 est.)"
+      }
+    },
+    "GDP - composition, by end use": {
+      "household consumption": {
+        "text": "116.6% (2017 est.)"
+      },
+      "government consumption": {
+        "text": "17.6% (2017 est.)"
+      },
+      "investment in fixed capital": {
+        "text": "2.2% (2017 est.)"
+      },
+      "investment in inventories": {
+        "text": "0% (2017 est.)"
+      },
+      "exports of goods and services": {
+        "text": "7.5% (2017 est.)"
+      },
+      "imports of goods and services": {
+        "text": "-43.9% (2017 est.)"
+      }
+    },
+    "Agricultural products": {
+      "text": "mangoes/guavas, potatoes, sorghum, onions, milk, poultry, watermelons, grapes, oranges, bananas"
+    },
+    "Industries": {
+      "text": "crude oil production and petroleum refining; small-scale production of cotton textiles, leather goods; food processing; handicrafts; aluminum products; cement; commercial ship repair; natural gas production"
+    },
+    "Industrial production growth rate": {
+      "text": "-5.23% (2018 est.)"
+    },
+    "Labor force": {
+      "text": "7.299 million (2021 est.)"
+    },
+    "Labor force - by occupation": {
+      "text": "<p><strong>note:</strong> most people are employed in agriculture and herding; services, construction, industry, and commerce account for less than one-fourth of the labor force</p>"
+    },
+    "Unemployment rate": {
+      "Unemployment rate 2021": {
+        "text": "13.57% (2021 est.)"
+      },
+      "Unemployment rate 2020": {
+        "text": "13.39% (2020 est.)"
+      },
+      "Unemployment rate 2019": {
+        "text": "13.06% (2019 est.)"
+      }
+    },
+    "Youth unemployment rate (ages 15-24)": {
+      "total": {
+        "text": "25.5%"
+      },
+      "male": {
+        "text": "24.3%"
+      },
+      "female": {
+        "text": "36.3% (2021 est.)"
+      }
+    },
+    "Population below poverty line": {
+      "text": "48.6% (2014 est.)"
+    },
+    "Gini Index coefficient - distribution of family income": {
+      "Gini Index coefficient - distribution of family income 2014": {
+        "text": "36.7 (2014 est.)"
+      }
+    },
+    "Household income or consumption by percentage share": {
+      "lowest 10%": {
+        "text": "2.6%"
+      },
+      "highest 10%": {
+        "text": "30.3% (2008 est.)"
+      }
+    },
+    "Budget": {
+      "revenues": {
+        "text": "$2.207 billion (2019 est.)"
+      },
+      "expenditures": {
+        "text": "$3.585 billion (2019 est.)"
+      }
+    },
+    "Budget surplus (+) or deficit (-)": {
+      "text": "-5.2% (of GDP) (2017 est.)"
+    },
+    "Public debt": {
+      "Public debt 2017": {
+        "text": "74.5% of GDP (2017 est.)"
+      },
+      "Public debt 2016": {
+        "text": "68.1% of GDP (2016 est.)"
+      }
+    },
+    "Taxes and other revenues": {
+      "text": "9% (of GDP) (2017 est.)"
+    },
+    "Fiscal year": {
+      "text": "calendar year"
+    },
+    "Current account balance": {
+      "Current account balance 2016": {
+        "text": "-$1.868 billion (2016 est.)"
+      }
+    },
+    "Exports": {
+      "Exports 2017": {
+        "text": "$384.5 million (2017 est.)"
+      },
+      "Exports 2016": {
+        "text": "$940 million (2016 est.)"
+      }
+    },
+    "Exports - partners": {
+      "text": "China 53%, Saudi Arabia 10%, United Arab Emirates 7%, Australia 5% (2019)"
+    },
+    "Exports - commodities": {
+      "text": "crude petroleum, gold, fish, industrial chemical liquids, scrap iron (2019)"
+    },
+    "Imports": {
+      "Imports 2017": {
+        "text": "$4.079 billion (2017 est.)"
+      },
+      "Imports 2016": {
+        "text": "$3.117 billion (2016 est.)"
+      }
+    },
+    "Imports - partners": {
+      "text": "China 25%, Turkey 10%, United Arab Emirates 9%, Saudi Arabia 8%, India 7% (2019)"
+    },
+    "Imports - commodities": {
+      "text": "wheat, refined petroleum, iron, rice, cars (2019)"
+    },
+    "Reserves of foreign exchange and gold": {
+      "Reserves of foreign exchange and gold 31 December 2020": {
+        "text": "$946.047 million (31 December 2020 est.)"
+      },
+      "Reserves of foreign exchange and gold 31 December 2019": {
+        "text": "$1.414 billion (31 December 2019 est.)"
+      },
+      "Reserves of foreign exchange and gold 31 December 2018": {
+        "text": "$2.334 billion (31 December 2018 est.)"
+      }
+    },
+    "Debt - external": {
+      "Debt - external 2018": {
+        "text": "$6.805 billion (2018 est.)"
+      },
+      "Debt - external 31 December 2016": {
+        "text": "$7.181 billion (31 December 2016 est.)"
+      }
+    },
+    "Exchange rates": {
+      "Currency": {
+        "text": "Yemeni rials (YER) per US dollar -"
+      },
+      "Exchange rates 2021": {
+        "text": "1,035.467 (2021 est.)"
+      },
+      "Exchange rates 2020": {
+        "text": "743.006 (2020 est.)"
+      },
+      "Exchange rates 2019": {
+        "text": "486.731 (2019 est.)"
+      },
+      "Exchange rates 2018": {
+        "text": "214.89 (2018 est.)"
+      },
+      "Exchange rates 2017": {
+        "text": "282.195 (2017 est.)"
+      }
+    }
+  },
+  "Energy": {
+    "Electricity access": {
+      "population without electricity": {
+        "text": "17 million (2020)"
+      },
+      "electrification - total population": {
+        "text": "74.8% (2021)"
+      },
+      "electrification - urban areas": {
+        "text": "93.1% (2021)"
+      },
+      "electrification - rural areas": {
+        "text": "63.4% (2021)"
+      }
+    },
+    "Electricity": {
+      "installed generating capacity": {
+        "text": "1.772 million kW (2020 est.)"
+      },
+      "consumption": {
+        "text": "2,677,920,000 kWh (2019 est.)"
+      },
+      "exports": {
+        "text": "0 kWh (2020 est.)"
+      },
+      "imports": {
+        "text": "0 kWh (2020 est.)"
+      },
+      "transmission/distribution losses": {
+        "text": "753 million kWh (2019 est.)"
+      }
+    },
+    "Electricity generation sources": {
+      "fossil fuels": {
+        "text": "84.6% of total installed capacity (2020 est.)"
+      },
+      "nuclear": {
+        "text": "0% of total installed capacity (2020 est.)"
+      },
+      "solar": {
+        "text": "15.4% of total installed capacity (2020 est.)"
+      },
+      "wind": {
+        "text": "0% of total installed capacity (2020 est.)"
+      },
+      "hydroelectricity": {
+        "text": "0% of total installed capacity (2020 est.)"
+      },
+      "tide and wave": {
+        "text": "0% of total installed capacity (2020 est.)"
+      },
+      "geothermal": {
+        "text": "0% of total installed capacity (2020 est.)"
+      },
+      "biomass and waste": {
+        "text": "0% of total installed capacity (2020 est.)"
+      }
+    },
+    "Coal": {
+      "production": {
+        "text": "0 metric tons (2020 est.)"
+      },
+      "consumption": {
+        "text": "22,000 metric tons (2020 est.)"
+      },
+      "exports": {
+        "text": "0 metric tons (2020 est.)"
+      },
+      "imports": {
+        "text": "22,000 metric tons (2020 est.)"
+      },
+      "proven reserves": {
+        "text": "0 metric tons (2019 est.)"
+      }
+    },
+    "Petroleum": {
+      "total petroleum production": {
+        "text": "70,100 bbl/day (2021 est.)"
+      },
+      "refined petroleum consumption": {
+        "text": "75,700 bbl/day (2019 est.)"
+      },
+      "crude oil and lease condensate exports": {
+        "text": "0 bbl/day (2018 est.)"
+      },
+      "crude oil and lease condensate imports": {
+        "text": "0 bbl/day (2018 est.)"
+      },
+      "crude oil estimated reserves": {
+        "text": "3 billion barrels (2021 est.)"
+      }
+    },
+    "Refined petroleum products - production": {
+      "text": "20,180 bbl/day (2015 est.)"
+    },
+    "Refined petroleum products - exports": {
+      "text": "12,670 bbl/day (2015 est.)"
+    },
+    "Refined petroleum products - imports": {
+      "text": "75,940 bbl/day (2015 est.)"
+    },
+    "Natural gas": {
+      "production": {
+        "text": "89.906 million cubic meters (2019 est.)"
+      },
+      "consumption": {
+        "text": "89.906 million cubic meters (2019 est.)"
+      },
+      "exports": {
+        "text": "0 cubic meters (2020 est.)"
+      },
+      "imports": {
+        "text": "0 cubic meters (2021 est.)"
+      },
+      "proven reserves": {
+        "text": "478.554 billion cubic meters (2021 est.)"
+      }
+    },
+    "Carbon dioxide emissions": {
+      "total emissions": {
+        "text": "10.158 million metric tonnes of CO2 (2019 est.)"
+      },
+      "from coal and metallurgical coke": {
+        "text": "79,000 metric tonnes of CO2 (2019 est.)"
+      },
+      "from petroleum and other liquids": {
+        "text": "9.896 million metric tonnes of CO2 (2019 est.)"
+      },
+      "from consumed natural gas": {
+        "text": "183,000 metric tonnes of CO2 (2019 est.)"
+      }
+    },
+    "Energy consumption per capita": {
+      "Total energy consumption per capita 2019": {
+        "text": "5.453 million Btu/person (2019 est.)"
+      }
+    }
+  },
+  "Communications": {
+    "Telephones - fixed lines": {
+      "total subscriptions": {
+        "text": "1.2 million (2021 est.)"
+      },
+      "subscriptions per 100 inhabitants": {
+        "text": "4 (2021 est.)"
+      }
+    },
+    "Telephones - mobile cellular": {
+      "total subscriptions": {
+        "text": "15 million (2021 est.)"
+      },
+      "subscriptions per 100 inhabitants": {
+        "text": "46 (2021 est.)"
+      }
+    },
+    "Telecommunication systems": {
+      "general assessment": {
+        "text": "Yemen continues to provide an exceptionally challenging market for telcos; civil unrest has caused havoc and devastation across most parts of the country, while the threat of sanctions has also made it a challenging environment in which to operate; a large proportion of the population requires humanitarian assistance, and there is little disposable income for services upon which telcos can generate revenue; essential telecom infrastructure, such as mobile towers and fiber cabling, has often been targeted, destroyed, or damaged by the opposing sides in the ongoing conflict; these difficulties have proved to be a disincentive to telcos investing in infrastructure, with the result that the country lacks basic fixed-line infrastructure, and mobile services are based on outdated GSM; this has prevented the development of a mobile broadband sector, or the evolution of mobile data services; the ownership of telecommunication services, and the scrutiny of associated revenues and taxes, have become a political issue in Yemen; until telecom infrastructure can be improved across Yemen, and until civil unrest eases, there will be little progress for the sector (2022)"
+      },
+      "domestic": {
+        "text": "fixed-line teledensity is 4 per 100 but mobile cellular is 46 per 100 (2021)"
+      },
+      "international": {
+        "text": "country code - 967; landing points for the FALCON, SeaMeWe-5, Aden-Djibouti, and the AAE-1 international submarine cable connecting Europe, Africa, the Middle East, Asia and Southeast Asia; satellite earth stations - 3 Intelsat (2 Indian Ocean and 1 Atlantic Ocean), 1 Intersputnik (Atlantic Ocean region), and 2 Arabsat; microwave radio relay to Saudi Arabia and Djibouti (2020)"
+      }
+    },
+    "Broadcast media": {
+      "text": "state-run TV with 2 stations; state-run radio with 2 national radio stations and 5 local stations; stations from Oman and Saudi Arabia can be accessed"
+    },
+    "Internet country code": {
+      "text": ".ye"
+    },
+    "Internet users": {
+      "total": {
+        "text": "8,229,624 (2022 est.)"
+      },
+      "percent of population": {
+        "text": "26.6% (2022 est.)"
+      }
+    },
+    "Broadband - fixed subscriptions": {
+      "total": {
+        "text": "391,000 (2020 est.)"
+      },
+      "subscriptions per 100 inhabitants": {
+        "text": "1 (2020 est.)"
+      }
+    }
+  },
+  "Transportation": {
+    "National air transport system": {
+      "number of registered air carriers": {
+        "text": "2 (2020)"
+      },
+      "inventory of registered aircraft operated by air carriers": {
+        "text": "8"
+      },
+      "annual passenger traffic on registered air carriers": {
+        "text": "336,310 (2018)"
+      },
+      "annual freight traffic on registered air carriers": {
+        "text": "3.27 million (2018) mt-km"
+      }
+    },
+    "Civil aircraft registration country code prefix": {
+      "text": "7O"
+    },
+    "Airports": {
+      "text": "57 (2021)"
+    },
+    "Airports - with paved runways": {
+      "text": "17",
+      "note": "<strong>note:</strong> paved runways have a concrete or asphalt surface but not all have facilities for refueling, maintenance, or air traffic control; the length of a runway required for aircraft to safely operate depends on a number of factors including the type of aircraft, the takeoff weight (including passengers, cargo, and fuel), engine types, flap settings, landing speed, elevation of the airport, and average maximum daily air temperature; paved runways can reach a length of 5,000 m (16,000 ft.), but the “typical” length of a commercial airline runway is between 2,500-4,000 m (8,000-13,000 ft.)"
+    },
+    "Airports - with unpaved runways": {
+      "text": "40",
+      "note": "<strong>note:</strong> unpaved runways have a surface composition such as grass or packed earth and are most suited to the operation of light aircraft; unpaved runways are usually short, often less than 1,000 m (3,280 ft.) in length; airports with unpaved runways often lack facilities for refueling, maintenance, or air traffic control"
+    },
+    "Pipelines": {
+      "text": "641 km gas, 22 km liquid petroleum gas, 1,370 km oil (2013)"
+    },
+    "Roadways": {
+      "total": {
+        "text": "71,300 km (2005)"
+      },
+      "paved": {
+        "text": "6,200 km (2005)"
+      },
+      "unpaved": {
+        "text": "65,100 km (2005)"
+      }
+    },
+    "Merchant marine": {
+      "total": {
+        "text": "30"
+      },
+      "by type": {
+        "text": "general cargo 2, oil tanker 1, other 27 (2022)"
+      }
+    },
+    "Ports and terminals": {
+      "major seaport(s)": {
+        "text": "Aden, Al Hudaydah, Al Mukalla"
+      }
+    }
+  },
+  "Military and Security": {
+    "Military and security forces": {
+      "text": "Republic of Yemen Government (ROYG) forces:<br><br>Ministry of Defense: Yemeni National Army, Air Force and Air Defense, Navy and Coastal Defense Forces, Border Guard, Strategic Reserve Forces (includes Special Forces and Presidential Protection Brigades, which are under the Ministry of Defense but responsible to the president), Popular Committee Forces (aka Popular Resistance Forces; government-backed tribal militia)<br><br>Ministry of Interior: Special Security Forces (paramilitary; formerly known as Central Security Forces), Political Security Organization (state security), National Security Bureau (intelligence), Counterterrorism Unit <br><br>Saudi-backed forces: paramilitary/militia border security brigades based largely on tribal or regional affiliation (deployed along the Saudi-Yemen border)<br><br>United Arab Emirates-backed forces include tribal and regionally-based militia and paramilitary forces (concentrated in the southern governates): Southern Transitional Council (STC) forces, including the Security Belt Forces, the Shabwani and Hadrami “Elite” Forces, the Support and Backup Forces (aka Logistics and Support Forces), Facilities Protection Forces, and Anti-Terrorism Forces; Republican Forces; Joint Forces<br><br>Houthi forces: ground, aerospace (air, missile), naval/coastal defense, presidential protection, special operations, and militia/tribal auxiliary forces (2023)",
+      "note": "<strong>note 1: </strong>under the 2019 Riyadh Agreement, the STC forces were to be incorporated into Yemen’s Ministries of Defense and Interior under the authority of the HADI government <strong><br><br>note 2: </strong>a considerable portion--up to 70 percent by some estimates--of Yemen’s military and security forces defected in whole or in part to former president SALAH and the Houthi opposition in 2011-2015"
+    },
+    "Military expenditures": {
+      "text": "<p>prior to the start of the civil war in 2014, annual military expenditures were approximately 4-5% of Yemen's GDP </p>"
+    },
+    "Military and security service personnel strengths": {
+      "text": "information limited and widely varied; Yemen Government: up to 300,000 estimated military, paramilitary, militia, and other security forces; UAE- and Saudi-backed forces: estimated 150-200,000 trained militia and paramilitary fighters; Houthis: up to 200,000 estimated fighters (2022)"
+    },
+    "Military equipment inventories and acquisitions": {
+      "text": "the inventory of the Yemeni Government forces consists primarily of Russian and Soviet-era equipment, although much of it has been lost in the current conflict; since the start of the civil war in 2014, it has received limited amounts of donated equipment from some Gulf States, including Saudi Arabia and UAE, as well as the US<br><br>Houthi forces are armed largely with weapons seized from Yemeni Government forces; they are also reported to have received military hardware from Iran (2023)"
+    },
+    "Military service age and obligation": {
+      "text": "18 is the legal minimum age for voluntary military service; conscription abolished in 2001; 2-year service obligation (note - limited information since the start of the civil war in 2014) (2022)",
+      "note": "<strong>note:</strong> as late as 2022, all parties to the ongoing conflict were implicated in child soldier recruitment and use; during the beginning of the truce in April 2022, the Houthis signed a plan with the UN to end the recruitment and use of child soldiers; Houthi leaders previously pledged to end the use of child soldiers in 2012, as did the Government of Yemen in 2014 "
+    },
+    "Military - note": {
+      "text": "government forces under the Yemeni Ministry of Defense are responsible for territorial defense, but also have internal security functions; their main focus is on the Houthi rebels and protecting Yemen’s maritime borders, which are susceptible to smuggling of fighters, arms, and other material support for the Houthis and terrorist groups operating in Yemen, al-Qa’ida in the Arabian Peninsula and the Islamic State of Iraq and ash-Sham in Yemen; they are organized into brigades of armored, border guard, infantry, mechanized, presidential protection, and special forces; the brigades vary significantly in size, structure, and capabilities; the Air Force has small numbers of mostly Soviet-era aircraft while the Navy and Coast Guard have a few patrol boats<br><br>in 2015, a Saudi-led coalition of Arab states (UAE, Qatar, Bahrain, Morocco, Sudan, Kuwait, Jordan and Egypt) intervened militarily in Yemen in support of the Republic of Yemen Government against the separatist Houthis; Saudi military forces conducted operations in Yemen and raised and equipped paramilitary/militia security forces in Yemen based largely on tribal or regional affiliation to deploy along the Saudi-Yemen border; UAE's participation in 2015 included several thousand ground troops, as well as supporting air and naval forces; UAE withdrew its main military force from Yemen in 2019, but has retained a smaller military presence while working with proxies in southern Yemen, most notably the Southern Transitional Council (STC); UAE has recruited, trained, and equipped tens of thousands of Yemeni fighters and formed them into dozens of militia and paramilitary units <br><br>Houthi forces are organized into combat, presidential protection, special forces, and tribal/militia/paramilitary brigades and independent battalions; the Houthis also have UAV and missile units, as well as naval forces (mines, missiles, and some boats); Iran has provided military and political support to the Houthis (2023)"
+    },
+    "Maritime threats": {
+      "text": "the International Maritime Bureau reports a significant security risk to vessels transiting off Yemen and the Gulf of Aden due to the civil war in Yemen; vessels have been fired upon and approached, not piracy related; the Maritime Administration of the US Department of Transportation has issued a Maritime Advisory (2023-003 - Persian Gulf, Strait of Hormuz, Gulf of Oman, Arabian Sea, Gulf of Aden, Bab al Mandeb Strait, Red Sea, and Somali Basin-Threats to Commercial Vessels) effective 23 February 2023, which states in part that \"Regional conflict, military activity, and political tensions pose threats to commercial vessels operating in the above listed geographic areas\""
+    }
+  },
+  "Terrorism": {
+    "Terrorist group(s)": {
+      "text": "Islamic Revolutionary Guard Corps (IRGC)/Qods Force; Islamic State of Iraq and ash-Sham - Yemen; al-Qa'ida in the Arabian Peninsula (AQAP), Hizballah",
+      "note": "<strong>note:</strong> details about the history, aims, leadership, organization, areas of operation, tactics, targets, weapons, size, and sources of support of the group(s) appear(s) in Appendix-T"
+    }
+  },
+  "Transnational Issues": {
+    "Disputes - international": {
+      "text": "<p><em>Yemen-Oman</em>: none identified</p> <p><em>Yemen-Saudia Arabia:</em> in 2004, Saudi Arabia reinforced its concrete-filled security barrier along sections of the fully demarcated border with Yemen to stem illegal cross-border activities, including militants and arms; in 2013 and 2015, Saudi Arabia again erected fences<br><br><br></p> <p> </p>"
+    },
+    "Refugees and internally displaced persons": {
+      "refugees (country of origin)": {
+        "text": "46,596 (Somalia), 17,812 (Ethiopia) (2023)"
+      },
+      "IDPs": {
+        "text": "4.523 million (conflict in Sa'ada Governorate; clashes between al-Qa'ida in the Arabian Peninsula and government forces) (2022)"
+      }
+    }
+  }
+}
