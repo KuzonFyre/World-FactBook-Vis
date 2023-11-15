@@ -45,7 +45,7 @@ jobs:
         pip install pandas
     - name: Process JSON Files
       run: |
-        cd World-FactBook-Vis
+        cd World-FactBook-Vis/data
         ls -lah
         echo "Now in $(pwd)"
         python process_json.py
