@@ -35,8 +35,15 @@ jobs:
         cp -r factbook/middle-east/. World-FactBook-Vis/data/middle-east
         cp -r factbook/south-america/. World-FactBook-Vis/data/south-america
         cp -r factbook/south-asia/. World-FactBook-Vis/data/south-asia
-        
-
+    - name: Setup Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: '14'
+    - name: Install dependencies
+      run: npm install
+      working-directory: ./data
+    - name: Run Script
+      run: node ./clean-data.js
     - name: Push changes
       working-directory: World-FactBook-Vis
       run: |
@@ -45,3 +52,4 @@ jobs:
         git add -A
         git commit -m "Weekly factbook data update" || echo "No changes to commit"
         git push
+    
