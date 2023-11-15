@@ -41,9 +41,9 @@ jobs:
         node-version: '18'
     - name: Install dependencies
       run: npm install
-      working-directory: ./data
+      working-directory: data/
     - name: Run Script
-      run: node ./clean-data.js
+      run: node clean-data.js
     - name: Push changes
       working-directory: World-FactBook-Vis
       run: |
