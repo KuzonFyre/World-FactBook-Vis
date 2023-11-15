@@ -34,9 +34,7 @@ for d in dirs:
                 flattened_data = flatten_json(data)
                 all_data.append(flattened_data)
                 all_columns.update(flattened_data.keys())
-combined_df = pd.DataFrame(columns=list(all_columns))
-for data in all_data:
-    combined_df = combined_df.append(data, sort=False)
+combined_df = pd.DataFrame(all_data,columns=list(all_columns))
 
 combined_df.to_csv(output_csv, index=False)
 
