@@ -46,7 +46,7 @@ jobs:
     - name: Process JSON Files
       run: |
         ls -lah
-        cd World-FactBook-Vis
+        cd data
         ls -lah
         echo "Now in $(pwd)"
         python process_json.py
