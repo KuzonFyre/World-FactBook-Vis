@@ -2,3 +2,8 @@ Interesting Data Points Fields:
 
 Exports - commodities - top ten
     
+
+
+VISUALIZATIONS 
+    Create a tree map for trade via different continents. 
+    
