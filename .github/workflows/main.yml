@@ -35,15 +35,16 @@ jobs:
         cp -r factbook/middle-east/. World-FactBook-Vis/data/middle-east
         cp -r factbook/south-america/. World-FactBook-Vis/data/south-america
         cp -r factbook/south-asia/. World-FactBook-Vis/data/south-asia
-    - name: Setup Node.js
-      uses: actions/setup-node@v2
+    - name: Set up Python
+      uses: actions/setup-python@v2
       with:
-        node-version: '18'
-    - name: Install dependencies
-      run: npm install
-      working-directory: data/
-    - name: Run Script
-      run: node clean-data.js
+        python-version: '3.8'  # Specify your Python version
+
+    - name: Install Dependencies
+      run: |
+        pip install pandas
+    - name: Process JSON Files
+      run: python process_json.py
     - name: Push changes
       working-directory: World-FactBook-Vis
       run: |
