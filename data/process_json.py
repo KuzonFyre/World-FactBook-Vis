@@ -22,6 +22,8 @@ def flatten_json(y):
             print(x)
         if type(x) is dict:
             for a in x:
+                if a == 'note':
+                    continue
                 flatten(x[a], name + a + '_')
         elif type(x) is list:
             i = 0
