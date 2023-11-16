@@ -29,7 +29,8 @@ def flatten_json(y):
                 flatten(a, name + str(i) + '_')
                 i += 1
         else:
-            # re.sub(r'\d+(\.\d+)?%?\s*(est\.)?', '', text).strip()
+            if any(dc in name for dc in dataClean):
+                name = re.sub(r'\d+\s*', '', name).rstrip('_')
             out[name[:-1]] = x
 
     flatten(y)
