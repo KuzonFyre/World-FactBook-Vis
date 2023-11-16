@@ -1,12 +1,25 @@
 import pandas as pd
 import json
 import os
-
+import re
 
 def flatten_json(y):
     out = {}
-
+    dataClean = ["Real GDP (purchasing power parity)",
+"Real GDP growth rate",
+"Real GDP per capita",
+"Unemployment rate",
+"Public debt",
+"Current account balance",
+"Exports",
+"Imports",
+"Debt - external",
+"Exchange rates",
+"Energy consumption per capita",
+"Military expenditures"]
     def flatten(x, name=''):
+        if x in dataClean:
+            print(x)
         if type(x) is dict:
             for a in x:
                 flatten(x[a], name + a + '_')
@@ -16,6 +29,7 @@ def flatten_json(y):
                 flatten(a, name + str(i) + '_')
                 i += 1
         else:
+            # re.sub(r'\d+(\.\d+)?%?\s*(est\.)?', '', text).strip()
             out[name[:-1]] = x
 
     flatten(y)
