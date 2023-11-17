@@ -3,8 +3,15 @@ class Main {
         // Initialize properties here if needed
     }
 
+    createMap() {
+        var mapContainer = d3.select('#map');
+        var dataSetPath = "../../kaggleDataset/parsedData/gdpPerCapita.csv";
+        new Map(mapContainer, dataSetPath);
+        console.log("Map Created");
+    }
+
     init() {
-        new Map();
+        this.createMap();
     }
 }
 
