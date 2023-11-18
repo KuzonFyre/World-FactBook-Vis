@@ -6,8 +6,8 @@ class Map {
         this.dataset = dataset;
         this.color_range = color_range;
         this.margin = margin;
-        this.width = 800;
-        this.height = 800;
+        this.width = 0;
+        this.height = 0;
         this.xColName = xColName;
         this.yColName = yColName;
         this.selectedCountryColor = '#ff0000';
@@ -29,22 +29,20 @@ class Map {
             .attr("transform-origin", "center")
             .style("width", "100%")
             .style("height", "100%")
-            .attr("class", this.container.attr("class"));
+            .attr("class", "svg-content");
 
         // Create zoom behavior
         this.zoom = d3.zoom()
             .scaleExtent([1, 8]) // set the scale extent as needed
             .on("zoom", () => {
-                this.svg.selectAll("g.worldMap").attr("transform", d3.event.transform);
+                this.svg.selectAll("g").attr("transform", d3.event.transform);
             });
         this.svg.call(this.zoom);
     }
 
 
-
     // Update the size of the chart based on the container's dimensions
     updateSize() {
-        console.log("getBoundingClientRect: ", this.container.node().getBoundingClientRect().width);
         this.width = this.container.node().getBoundingClientRect().width - this.margin['left'] - this.margin['right'];
         this.height = this.container.node().getBoundingClientRect().height - this.margin['top'] - this.margin['bottom'];
         this.svg.attr("viewBox", `0 0 ${this.width} ${this.height}`);
@@ -52,6 +50,7 @@ class Map {
     }
 
 
+    // Check if a file exists
     async checkFileExists(url) {
         try {
             const response = await fetch(url);
@@ -62,6 +61,7 @@ class Map {
     }
 
 
+    // Load JSON with a promise
     async loadJSON(url) {
         return new Promise((resolve, reject) => {
             d3.json(url, (error, data) => {
@@ -75,6 +75,8 @@ class Map {
     }
 
 
+    // Generates the color scale based on the data
+    // TODO - not working correctly
     async generateColorScale(data, colorRange) {
         // Extract values from the data
         const values = Object.values(data);
@@ -92,6 +94,8 @@ class Map {
     }
 
 
+    // Loads the data into a simple dictionary
+    // Uses async/await and promises to ensure DOM is loaded
     async loadCountyData(csvPath, xColName, yColName) {
         console.log(csvPath);
         try {
@@ -126,37 +130,31 @@ class Map {
 }
 
 
+// MAIN FUNCTION FOR MAP
 async createChoroplethMap() {
     try {
         // Map and projection
         var path = d3.geoPath();
-        // var projection = d3.geoOrthographic()
         var projection = d3.geoAlbers()
-            .scale(Math.min(this.width, this.height) / 8)
-            .translate([this.width / 2, this.height - this.height / 2]);
-
-        // Data and color scale
-        var data = d3.map();
-        var colorScale = d3.scaleThreshold()
-            .domain([100000, 1000000, 10000000, 30000000, 100000000, 500000000])
-            .range(d3.schemeBlues[7]);
+            .scale(Math.min(this.width, this.height) / 4)
+            .translate([this.width / 2, this.height / 2]);
 
         // Load external data and wait for both promises to resolve
         const [geojson, csvData] = await Promise.all([
             this.loadJSON("https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson"),
             this.loadCountyData('gdpPerCapita.csv', 'Country', 'GDP_2021')
         ]);
+        var awaitColorScale = await this.generateColorScale(csvData, d3.schemeBlues[7]);
+
         console.log("CSV Data has arrived: ", csvData);
         console.log("GeoJSON Data has arrived: ", geojson);
         console.log("Container Dimensions:", this.width, this.height);
-
-        var awaitColorScale = await this.generateColorScale(csvData, d3.schemeBlues[7]);
-        console.log("Colr Scale: ", awaitColorScale);
+        console.log("Color Scale: ", awaitColorScale);
         console.log("Color Scale for Afghanistan: ", awaitColorScale(csvData['Afghanistan']));
 
         // Append the projection and the color scale to the SVG
+        // color the countries based off of their Y value and color scale
         this.svg.append("g")
-            .attr("class", "worldMap")
             .selectAll("path")
             .data(geojson.features)
             .enter().append("path")
@@ -164,6 +162,7 @@ async createChoroplethMap() {
             .attr("fill", function (d) {
                 var countryData = csvData[d.properties.name];
                 if (countryData) {
+                    console.log("HERE!");
                     d.total = +countryData;
                     return awaitColorScale(d.total);
                 } else {
@@ -177,12 +176,14 @@ async createChoroplethMap() {
         console.error("Error loading data:", error);
     }
 }
-    handleCountryClick() {
-        this.mapContainer.selectAll('.land')
-            .on('click', (event, d) => {
-                d3.selectAll('.land').style('fill', this.defaultCountryColor);
-                d3.select(event.currentTarget).style('fill', this.selectedCountryColor);
-            });
-    }
+
+
+    // handleCountryClick() {
+    //     this.mapContainer.selectAll('.land')
+    //         .on('click', (event, d) => {
+    //             d3.selectAll('.land').style('fill', this.defaultCountryColor);
+    //             d3.select(event.currentTarget).style('fill', this.selectedCountryColor);
+    //         });
+    // }
 }
 

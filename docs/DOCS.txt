@@ -1,6 +1,9 @@
-Interesting Data Points Fields:
+List of Data We want to capture: 
+Data will be in the following format: Country, dataValue, (year)
 
-Exports - commodities - top ten
+GDP 
+Exports - commodities
+
     
 
 
