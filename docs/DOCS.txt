@@ -1,12 +1,50 @@
-List of Data We want to capture: 
-Data will be in the following format: Country, dataValue, (year)
+DATA:
+    List of Data We want to capture: 
+    Data will be in the following format: Country, dataValue, (year)
+    NOTE: All datasets will be kept in the data folder
+        GDP 
+        Exports - commodities
+        Population
+        Population growth rate
+        Arable Land (farmable land) 
+        Total value of Exports 
+        Total value Imports 
+        Crime Rate 
+        Corruption Rate 
+        Terrorism Rate 
+        Electricity Consumption 
+        Total RoadWays 
+        Total Railways 
+        Dominant Religion 
+        Diplomatic Allies - List of Allies 
+        Median Age 
+        Net Migration Rate
+        Number of Space Launches 
+        Human Trafficking rate 
+        Population Density 
+        Owned percentage of oil reserves 
+        Human Development Index 
 
-GDP 
-Exports - commodities
+    TODO:
+        County names of SVG Map and Country names of Dataset do not match. 
+        Example: USA != United States. 
+        DO: revamp kaggle dataset so country names match svg map names 
 
+    TODO:
+        Add Buttons to change datasets 
+
+    TODO: 
+        Add Button to change VISUALIZATIONS
+
+    TODO: 
+        Add TreeMap as option for VISUALIZATIONS
     
 
 
+
 VISUALIZATIONS 
+    Choropleth Map With options to change projection.
+
+    TODO: 
     Create a tree map for trade via different continents. 
     

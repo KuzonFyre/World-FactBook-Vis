@@ -5,7 +5,7 @@ class Main {
 
     createMap() {
         var mapContainer = d3.select('.mapContainer');
-        var dataSetPath = "../../kaggleDataset/parsedData/gdpPerCapita.csv";
+        var dataSetPath = "../datasets/gdpPerCapita.csv";
         new Map(mapContainer, dataSetPath);
         console.log("Map Created");
     }

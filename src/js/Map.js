@@ -142,7 +142,7 @@ async createChoroplethMap() {
         // Load external data and wait for both promises to resolve
         const [geojson, csvData] = await Promise.all([
             this.loadJSON("https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson"),
-            this.loadCountyData('gdpPerCapita.csv', 'Country', 'GDP_2021')
+            this.loadCountyData(this.dataset, 'Country', 'GDP_2021')
         ]);
         var awaitColorScale = await this.generateColorScale(csvData, d3.schemeBlues[7]);
 
