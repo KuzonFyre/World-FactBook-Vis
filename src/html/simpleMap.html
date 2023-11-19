@@ -12,14 +12,30 @@
     <script src="https://d3-geomap.github.io//d3-geomap/vendor/d3.geomap.dependencies.min.js"></script>
     <script src="https://d3-geomap.github.io//d3-geomap/js/d3.geomap.min.js"></script>
 
-    <!-- Add JavaScript Classes -->
-    <script src="../js/Main.js"></script>
-    <script src="../js/Map.js"></script>
-
 </head>
 
 <body>
+    <!-- Drop down main menu -->
+    <div class="menu">
+        <button class="button" onclick="main.toggleDropdown()">Change Projection</button>
+        <div id="dropdown" class="dropdown-content">
+            <a href="#" onclick="main.changeProjection('albers')">Albers</a>
+            <a href="#" onclick="main.changeProjection('mercator')">Mercator</a>
+            <a href="#" onclick="main.changeProjection('orthographic')">Orthographic</a>
+            <a href="#" onclick="main.changeProjection('stereographic')">Stereographic</a>
+            <a href="#" onclick="main.changeProjection('miller')">Miller Cylindrical</a>
+            <a href="#" onclick="main.changeProjection('azimuth')">Azimuthal Equidistant</a>
+        </div>
+    </div>
+
+    <!-- Main Map Container -->
     <div class="mapContainer"></div>
+
+    <!-- Add JavaScript Classes -->
+    <script src="../js/Main.js"></script>
+    <script src="../js/Map.js"></script>
+    <script src="../js/Menu.js"></script>
+
 </body>
 </html>
 

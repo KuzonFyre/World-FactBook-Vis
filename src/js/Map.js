@@ -12,6 +12,7 @@ class Map {
         this.yColName = yColName;
         this.selectedCountryColor = '#ff0000';
         this.defaultCountryColor = '#c0c0c0';
+        this.projection = d3.geoAlbers();
 
         // Initialize the SVG and viewBoxSize
         this.svg = null;
@@ -37,7 +38,15 @@ class Map {
             .on("zoom", () => {
                 this.svg.selectAll("g").attr("transform", d3.event.transform);
             });
+        // Create drag behavior TODO: NOT WORKING
+        this.drag = d3.drag()
+            .on("drag", () => {
+                console.log("dragging");
+                const [x, y] = this.projection.invert([d3.event.x, d3.event.y]);
+                this.projection.translate([d3.event.x, d3.event.y]);
+            });
         this.svg.call(this.zoom);
+        this.svg.call(this.drag);
     }
 
 
@@ -127,55 +136,109 @@ class Map {
             console.error("Error loading dataset:", error);
             throw error;
         }
-}
-
-
-// MAIN FUNCTION FOR MAP
-async createChoroplethMap() {
-    try {
-        // Map and projection
-        var path = d3.geoPath();
-        var projection = d3.geoAlbers()
-            .scale(Math.min(this.width, this.height) / 4)
-            .translate([this.width / 2, this.height / 2]);
-
-        // Load external data and wait for both promises to resolve
-        const [geojson, csvData] = await Promise.all([
-            this.loadJSON("https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson"),
-            this.loadCountyData(this.dataset, 'Country', 'GDP_2021')
-        ]);
-        var awaitColorScale = await this.generateColorScale(csvData, d3.schemeBlues[7]);
-
-        console.log("CSV Data has arrived: ", csvData);
-        console.log("GeoJSON Data has arrived: ", geojson);
-        console.log("Container Dimensions:", this.width, this.height);
-        console.log("Color Scale: ", awaitColorScale);
-        console.log("Color Scale for Afghanistan: ", awaitColorScale(csvData['Afghanistan']));
-
-        // Append the projection and the color scale to the SVG
-        // color the countries based off of their Y value and color scale
-        this.svg.append("g")
-            .selectAll("path")
-            .data(geojson.features)
-            .enter().append("path")
-            .attr("d", path.projection(projection))
-            .attr("fill", function (d) {
-                var countryData = csvData[d.properties.name];
-                if (countryData) {
-                    console.log("HERE!");
-                    d.total = +countryData;
-                    return awaitColorScale(d.total);
-                } else {
-                    return 'gray';
-                }
-            });
-
-
-    } catch (error) {
-        // Handle errors
-        console.error("Error loading data:", error);
     }
-}
+
+
+    // MAIN FUNCTION FOR MAP
+    async createChoroplethMap() {
+        try {
+            // Map and projection
+            var path = d3.geoPath().projection(this.projection);
+            var projection = this.projection
+                .scale(Math.min(this.width, this.height) / 4)
+                .translate([this.width / 2, this.height / 2]);
+
+            // Load external data and wait for both promises to resolve
+            const [geojson, csvData] = await Promise.all([
+                this.loadJSON("https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson"),
+                this.loadCountyData(this.dataset, 'Country', 'GDP_2021')
+            ]);
+            var awaitColorScale = await this.generateColorScale(csvData, d3.schemeBlues[7]);
+
+            console.log("CSV Data has arrived: ", csvData);
+            console.log("GeoJSON Data has arrived: ", geojson);
+            console.log("Container Dimensions:", this.width, this.height);
+            console.log("Color Scale: ", awaitColorScale);
+            console.log("Color Scale for Afghanistan: ", awaitColorScale(csvData['Afghanistan']));
+
+            // Append the projection and the color scale to the SVG
+            // color the countries based off of their Y value and color scale
+            this.svg.append("g")
+                .selectAll("path")
+                .data(geojson.features)
+                .enter().append("path")
+                .attr("d", path.projection(projection))
+                .attr("fill", function (d) {
+                    var countryData = csvData[d.properties.name];
+                    if (countryData) {
+                        console.log("HERE!");
+                        d.total = +countryData;
+                        return awaitColorScale(d.total);
+                    } else {
+                        return 'gray';
+                    }
+                });
+        } catch (error) {
+            // Handle errors
+            console.error("Error loading data:", error);
+        }
+    }
+
+
+    // Remove the map 
+    async removeMap() {
+        if (this.svg){
+            this.svg.selectAll("*").remove();
+            console.log("Map Removed");
+        }
+    }
+
+
+    // Update the projection based on the selected type
+    changeProjection(projectionType) {
+        switch (projectionType) {
+            case 'albers':
+                this.projection = d3.geoAlbers()
+                    .scale(Math.min(this.width, this.height) / 4)
+                    .translate([this.width / 2, this.height / 2]);
+                break;
+            case 'mercator':
+                this.projection = d3.geoMercator()
+                    .scale((Math.min(this.width, this.height) - 1) / (2 * Math.PI))
+                    .translate([this.width / 2, this.height / 2]);
+                break;
+            case 'orthographic':
+                this.projection = d3.geoOrthographic()
+                    .scale(Math.min(this.width, this.height) / 2 - 1)
+                    .translate([this.width / 2, this.height / 2])
+                    .clipAngle(90)
+                    .precision(.1);
+                break;
+            // TODO: ADD ROTATION TO SEE OTHER SIDE OF GLOBE
+            case 'stereographic':
+                this.projection = d3.geoStereographic()
+                    .scale(Math.min(this.width, this.height) / 2 - 1)
+                    .translate([this.width / 2, this.height / 2])
+                    .clipAngle(90)
+                    .precision(.1);
+                break;
+            case 'miller':
+                this.projection = d3.geoMiller()
+                    .scale(Math.min(this.width, this.height) / 2 / Math.PI)
+                    .translate([this.width / 2, this.height / 2]);
+                break;
+            case 'azimuth':
+                var centerCoordinates = [104, 35]; // [longitude, latitude]
+                this.projection = d3.geoAzimuthalEqualArea()
+                    .rotate([-centerCoordinates[0], -centerCoordinates[1], 0])
+                    .center([0, 0])
+                    .scale(Math.min(this.width, this.height) / 2 / Math.PI)
+                    .translate([this.width / 2, this.height / 2]);
+                break;
+        }
+        // Redraw the map with the updated projection
+        this.createChoroplethMap();
+    }
 
 
     // handleCountryClick() {
