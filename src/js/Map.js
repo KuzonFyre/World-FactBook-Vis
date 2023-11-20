@@ -32,6 +32,9 @@ class Map {
             .style("height", "100%")
             .attr("class", "svg-content");
 
+        // create a group to hold country name 
+        this.labelGroup = this.svg.append("g").attr("class", "country-labels");
+
         // Create zoom behavior
         this.zoom = d3.zoom()
             .scaleExtent([1, 8]) // set the scale extent as needed
@@ -171,17 +174,17 @@ class Map {
                 .attr("fill", function (d) {
                     var countryData = csvData[d.properties.name];
                     if (countryData) {
-                        console.log("HERE!");
                         d.total = +countryData;
                         return awaitColorScale(d.total);
+                    } else if (d.properties.name == "Antarctica"){
+                        return "white";
                     } else {
-                        return 'gray';
+                        return 'white';
                     }
                 })
                 // Add mouseover and mouseleave events 
-                .attr("class", function(d){ return d.properties.name }) 
                 .on("mouseover", this.mouseOver)
-                .on("mouseleave", this.mouseLeave);
+                .on("mouseleave", this.mouseLeave)
 
         } catch (error) {
             // Handle errors
@@ -246,8 +249,10 @@ class Map {
     }
 
 
+    // MOUSE OVER AND MOUSE LEAVE FUNCTIONS
     mouseOver = (d) => {
         console.log("Hovering over: ", d.properties.name);
+        this.showCountryLabel(d);
         d3.selectAll(".Country")
             .transition()
             .duration(200)
@@ -269,5 +274,24 @@ class Map {
             .duration(200)
             .style("stroke", "transparent")
     }
+
+    showCountryLabel(d) {
+        console.log("Showing country label", d.properties.name);
+        const labels = this.labelGroup.selectAll("text")
+            .data([d]);
+
+        // Add new labels for the hovered country
+        labels.selectAll("text")
+            .data([d]) // Bind data to the text elements
+            .enter().append("text")
+            .attr("x", (d) => this.projection(d3.geoCentroid(d))[0])
+            .attr("y", (d) => this.projection(d3.geoCentroid(d))[1])
+            .text((d) => d.properties.name)
+            .attr("fill", "black")
+            .attr("font-size", 10);
+
+        labels.exit().remove(); // Remove any extra labels
+    }
+
 }
 

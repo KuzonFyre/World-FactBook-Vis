@@ -9,7 +9,7 @@ class Main {
 
     createMap() {
         var mapContainer = d3.select('.mapContainer');
-        var dataSetPath = "../datasets/gdpPerCapita.csv";
+        var dataSetPath = "../../kaggleDataset/parsedData/gdpPerCapita.csv";
         if (this.map) {
             console.log("Map Exists");
             this.map.remove();

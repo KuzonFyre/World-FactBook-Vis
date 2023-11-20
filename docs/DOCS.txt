@@ -27,8 +27,11 @@ DATA:
 
     TODO:
         County names of SVG Map and Country names of Dataset do not match. 
-        Example: USA != United States. 
-        DO: revamp kaggle dataset so country names match svg map names 
+            Example: USA != United States. 
+        Create Stethocentric maps to show Antartica and North pole at center
+
+        maps
+            Add active territorial Disputes around the globe
 
     TODO:
         Add Buttons to change datasets 
