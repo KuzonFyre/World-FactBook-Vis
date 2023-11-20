@@ -1,7 +1,7 @@
 class Map {
     constructor(container, dataset, color_range = ["white", "darkblue"],
                 margin = { top: 10, right: 10, bottom: 10, left: 10 },
-                xColName = 'Country', yColName = 'GDP_2021') {
+                xColName = 'ISO Code', yColName = 'Exports') {
         this.container = container;
         this.dataset = dataset;
         this.color_range = color_range;
@@ -105,7 +105,7 @@ class Map {
 
     // Loads the data into a simple dictionary
     // Uses async/await and promises to ensure DOM is loaded
-    async loadCountyData(csvPath, xColName, yColName) {
+    async loadCountryData(csvPath, xColName, yColName) {
         console.log(csvPath);
         try {
             // Check if file exists
@@ -151,7 +151,7 @@ class Map {
             // Load external data and wait for both promises to resolve
             const [geojson, csvData] = await Promise.all([
                 this.loadJSON("https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson"),
-                this.loadCountyData(this.dataset, 'Country', 'GDP_2021')
+                this.loadCountryData(this.dataset, 'ISO Code', 'Population')
             ]);
             var awaitColorScale = await this.generateColorScale(csvData, d3.schemeBlues[7]);
 
@@ -169,12 +169,14 @@ class Map {
                 .enter().append("path")
                 .attr("d", path.projection(projection))
                 .attr("fill", function (d) {
-                    var countryData = csvData[d.properties.name];
+                    var countryData = csvData[d.id];
                     if (countryData) {
-                        console.log("HERE!");
+                        // console.log("HERE!");
                         d.total = +countryData;
                         return awaitColorScale(d.total);
                     } else {
+                        console.log(d.id)
+
                         return 'gray';
                     }
                 });

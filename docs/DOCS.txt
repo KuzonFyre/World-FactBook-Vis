@@ -29,6 +29,8 @@ DATA:
         County names of SVG Map and Country names of Dataset do not match. 
         Example: USA != United States. 
         DO: revamp kaggle dataset so country names match svg map names 
+        Alternative: Python script convert countries to ISO code. Use Iso code for country mapping
+        Do: Handle iso edge cases for countries with commas and weird search issues. 
 
     TODO:
         Add Buttons to change datasets 
