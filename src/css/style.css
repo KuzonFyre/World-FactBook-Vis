@@ -27,8 +27,11 @@ svg * {
 
 
 .menu {
-    position: relative;
-    display: inline-block;
+    position: absolute;
+    display: flex; 
+    top: 0;
+    right: 0;
+    margin: 10px;
 }
 
 .button {

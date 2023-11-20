@@ -139,7 +139,7 @@ class Map {
     }
 
 
-    // MAIN FUNCTION FOR MAP
+    // ********** MAIN FUNCTION FOR MAP ********** // 
     async createChoroplethMap() {
         try {
             // Map and projection
@@ -177,7 +177,12 @@ class Map {
                     } else {
                         return 'gray';
                     }
-                });
+                })
+                // Add mouseover and mouseleave events 
+                .attr("class", function(d){ return d.properties.name }) 
+                .on("mouseover", this.mouseOver)
+                .on("mouseleave", this.mouseLeave);
+
         } catch (error) {
             // Handle errors
             console.error("Error loading data:", error);
@@ -241,12 +246,28 @@ class Map {
     }
 
 
-    // handleCountryClick() {
-    //     this.mapContainer.selectAll('.land')
-    //         .on('click', (event, d) => {
-    //             d3.selectAll('.land').style('fill', this.defaultCountryColor);
-    //             d3.select(event.currentTarget).style('fill', this.selectedCountryColor);
-    //         });
-    // }
+    mouseOver = (d) => {
+        console.log("Hovering over: ", d.properties.name);
+        d3.selectAll(".Country")
+            .transition()
+            .duration(200)
+            .style("opacity", .5)
+        d3.select(d3.event.target)
+            .transition()
+            .duration(200)
+            .style("opacity", 1)
+            .style("stroke", "#EB212E")
+    }
+
+    mouseLeave = (d) => {
+        d3.selectAll(".Country")
+            .transition()
+            .duration(200)
+            .style("opacity", .8)
+        d3.select(d3.event.target)
+            .transition()
+            .duration(200)
+            .style("stroke", "transparent")
+    }
 }
 
