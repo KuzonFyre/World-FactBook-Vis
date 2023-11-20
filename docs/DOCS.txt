@@ -32,6 +32,11 @@ DATA:
         Alternative: Python script convert countries to ISO code. Use Iso code for country mapping
         Do: Handle iso edge cases for countries with commas and weird search issues. 
 
+        Create Stethocentric maps to show Antartica and North pole at center
+
+        maps
+            Add active territorial Disputes around the globe
+
     TODO:
         Add Buttons to change datasets 
 

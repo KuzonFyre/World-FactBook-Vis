@@ -11,7 +11,6 @@ class Main {
 
     createMap(dataSetPath) {
         var mapContainer = d3.select('.mapContainer');
-
         if (this.map) {
             console.log("Map Exists");
             this.map.remove();
