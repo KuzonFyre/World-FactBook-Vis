@@ -20,7 +20,7 @@ jobs:
       uses: actions/checkout@v2
       with:
         repository: KuzonFyre/World-FactBook-Vis
-        token: ${{ secrets.PAT_TOKEN }} # This uses your PAT for authentication
+        token: ${{ secrets.PAT_TOKEN }}
         path: World-FactBook-Vis
 
     - name: Copy factbook data
