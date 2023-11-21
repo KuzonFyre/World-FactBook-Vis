@@ -46,6 +46,7 @@ jobs:
         pip install pycountry
         pip install webdriver_manager
         pip install selenium
+        pip install beautifulsoup4
     - name: Process JSON Files
       run: |
         cd World-FactBook-Vis/.github/
