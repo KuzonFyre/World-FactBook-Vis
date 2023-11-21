@@ -48,7 +48,7 @@ jobs:
         pip install selenium
     - name: Process JSON Files
       run: |
-        cd World-FactBook-Vis/.github/
+        cd World-FactBook-Vis/
         ls -lah
         echo "Now in $(pwd)"
         python cia_factbook_scraper.py
