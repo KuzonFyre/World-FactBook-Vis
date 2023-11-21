@@ -8,10 +8,15 @@ import pickle
 import time
 
 import bs4
+# from selenium import webdriver
+# from selenium.webdriver.firefox.service import Service as FirefoxService
+# from webdriver_manager.firefox import GeckoDriverManager
 from selenium import webdriver
-from selenium.webdriver.firefox.service import Service as FirefoxService
-from webdriver_manager.firefox import GeckoDriverManager
-
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.chrome.service import Service
+from webdriver_manager.chrome import ChromeDriverManager
+import time
+import logging
 
 logging.basicConfig(
     level=logging.INFO,
@@ -40,10 +45,34 @@ def countries_with_urls():
         countries[country_name] = {"url": url}
     return countries
 
-def scrape_pages(countries):
-    """Scrape the page source from the CIA Factbook"""
+# def scrape_pages(countries):
+#     """Scrape the page source from the CIA Factbook"""
 
-    driver = webdriver.Firefox(service=FirefoxService(GeckoDriverManager().install()))
+#     driver = webdriver.Firefox(service=FirefoxService(GeckoDriverManager().install()))
+#     for country in countries.values():
+#         try:
+#             url = country["url"]
+#             driver.get(url)
+#             time.sleep(3)
+#             country["page_source"] = driver.page_source
+#         except Exception as e:
+#             logging.warning("Could not scrape the source from {}.\n{}".format(url, e))
+#     driver.quit()
+#     return countries
+
+
+def scrape_pages(countries):
+    """Scrape the page source from the CIA Factbook using Chrome in headless mode."""
+
+    # Set up Chrome options for headless mode
+    chrome_options = Options()
+    chrome_options.add_argument("--headless")
+    chrome_options.add_argument("--no-sandbox")
+    chrome_options.add_argument("--disable-dev-shm-usage")
+
+    # Initialize the Chrome WebDriver
+    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options)
+
     for country in countries.values():
         try:
             url = country["url"]
@@ -51,7 +80,8 @@ def scrape_pages(countries):
             time.sleep(3)
             country["page_source"] = driver.page_source
         except Exception as e:
-            logging.warning("Could not scrape the source from {}.\n{}".format(url, e))
+            logging.warning(f"Could not scrape the source from {url}.\n{e}")
+
     driver.quit()
     return countries
 
