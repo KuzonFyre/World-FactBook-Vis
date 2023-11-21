@@ -43,7 +43,7 @@ jobs:
     - name: Install Dependencies
       run: |
         pip install pandas
-        pip install pycontry
+        pip install pycountry
         pip install webdriver_manager
         pip install selenium
     - name: Process JSON Files
