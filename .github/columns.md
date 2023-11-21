@@ -1,0 +1,1116 @@
+- Communications: Broadband - fixed subscriptions - note
+- Communications: Broadband - fixed subscriptions - subscriptions per 100 inhabitants
+- Communications: Broadband - fixed subscriptions - total
+- Communications: Broadcast media
+- Communications: Communications - note
+- Communications: Communications - note - note 1
+- Communications: Communications - note - note 2
+- Communications: Communications - note - note 3
+- Communications: Communications - note - note 4
+- Communications: Internet country code
+- Communications: Internet country code - note
+- Communications: Internet users - note
+- Communications: Internet users - percent of population
+- Communications: Internet users - top ten countries by Internet usage (in millions)
+- Communications: Internet users - total
+- Communications: Telecommunication systems - domestic
+- Communications: Telecommunication systems - general assessment
+- Communications: Telecommunication systems - international
+- Communications: Telecommunication systems - n
+- Communications: Telecommunication systems - overseas departments
+- Communications: Telephones - fixed lines - note
+- Communications: Telephones - fixed lines - subscriptions per 100 inhabitants
+- Communications: Telephones - fixed lines - total subscriptions
+- Communications: Telephones - mobile cellular - note
+- Communications: Telephones - mobile cellular - subscriptions per 100 inhabitants
+- Communications: Telephones - mobile cellular - total subscriptions
+- Economy: Agricultural products
+- Economy: Agricultural products - note
+- Economy: Average household expenditures - on alcohol and tobacco
+- Economy: Average household expenditures - on food
+- Economy: Budget - expenditures
+- Economy: Budget - note
+- Economy: Budget - revenues
+- Economy: Budget surplus (+) or deficit (-)
+- Economy: Credit ratings - Fitch rating
+- Economy: Credit ratings - Moody's rating
+- Economy: Credit ratings - Standard & Poors rating
+- Economy: Credit ratings - note
+- Economy: Current account balance
+- Economy: Current account balance - note
+- Economy: Debt - external
+- Economy: Debt - external - note
+- Economy: Economic overview
+- Economy: Economy of the area administered by Turkish Cypriots - Agriculture - products
+- Economy: Economy of the area administered by Turkish Cypriots - Budget
+- Economy: Economy of the area administered by Turkish Cypriots - Currency (code)
+- Economy: Economy of the area administered by Turkish Cypriots - Debt - external
+- Economy: Economy of the area administered by Turkish Cypriots - Economy - overview
+- Economy: Economy of the area administered by Turkish Cypriots - Electricity consumption
+- Economy: Economy of the area administered by Turkish Cypriots - Electricity production
+- Economy: Economy of the area administered by Turkish Cypriots - Exchange rates
+- Economy: Economy of the area administered by Turkish Cypriots - Export - commodities
+- Economy: Economy of the area administered by Turkish Cypriots - Export - partners
+- Economy: Economy of the area administered by Turkish Cypriots - Exports
+- Economy: Economy of the area administered by Turkish Cypriots - GDP (purchasing power parity)
+- Economy: Economy of the area administered by Turkish Cypriots - GDP - composition by sector
+- Economy: Economy of the area administered by Turkish Cypriots - GDP - per capita
+- Economy: Economy of the area administered by Turkish Cypriots - GDP - real growth rate
+- Economy: Economy of the area administered by Turkish Cypriots - Import - commodities
+- Economy: Economy of the area administered by Turkish Cypriots - Import - partners
+- Economy: Economy of the area administered by Turkish Cypriots - Imports
+- Economy: Economy of the area administered by Turkish Cypriots - Industrial production growth rate
+- Economy: Economy of the area administered by Turkish Cypriots - Industries
+- Economy: Economy of the area administered by Turkish Cypriots - Inflation rate
+- Economy: Economy of the area administered by Turkish Cypriots - Labor force
+- Economy: Economy of the area administered by Turkish Cypriots - Labor force - by occupation
+- Economy: Economy of the area administered by Turkish Cypriots - Population below poverty line
+- Economy: Economy of the area administered by Turkish Cypriots - Reserves of foreign exchange and gold
+- Economy: Economy of the area administered by Turkish Cypriots - Unemployment rate
+- Economy: Exchange rates
+- Economy: Exchange rates - British pounds per US dollar
+- Economy: Exchange rates - Canadian dollars per US dollar
+- Economy: Exchange rates - Chinese yuan per US dollar
+- Economy: Exchange rates - Exchange rates
+- Economy: Exchange rates - Japanese yen per US dollar
+- Economy: Exchange rates - euros per US dollar
+- Economy: Exchange rates - note
+- Economy: Exchange rates - note 1
+- Economy: Exchange rates - note 2
+- Economy: Exchange rates - note 3
+- Economy: Exports
+- Economy: Exports - commodities
+- Economy: Exports - commodities - note
+- Economy: Exports - commodities - top ten - share of world trade
+- Economy: Exports - note
+- Economy: Exports - partners
+- Economy: Exports - partners - note
+- Economy: Fiscal year
+- Economy: Fiscal year - note
+- Economy: GDP (official exchange rate)
+- Economy: GDP (official exchange rate) - note
+- Economy: GDP - composition, by end use - exports of goods and services
+- Economy: GDP - composition, by end use - government consumption
+- Economy: GDP - composition, by end use - household consumption
+- Economy: GDP - composition, by end use - imports of goods and services
+- Economy: GDP - composition, by end use - investment in fixed capital
+- Economy: GDP - composition, by end use - investment in inventories
+- Economy: GDP - composition, by end use - note
+- Economy: GDP - composition, by sector of origin - agriculture
+- Economy: GDP - composition, by sector of origin - industry
+- Economy: GDP - composition, by sector of origin - note
+- Economy: GDP - composition, by sector of origin - services
+- Economy: Gini Index coefficient - distribution of family income
+- Economy: Gini Index coefficient - distribution of family income - note
+- Economy: Household income or consumption by percentage share - highest 10%
+- Economy: Household income or consumption by percentage share - lowest 10%
+- Economy: Household income or consumption by percentage share - note
+- Economy: Imports
+- Economy: Imports - commodities
+- Economy: Imports - commodities - top ten - share of world trade
+- Economy: Imports - note
+- Economy: Imports - partners
+- Economy: Industrial production growth rate
+- Economy: Industrial production growth rate - note
+- Economy: Industries
+- Economy: Industries - note
+- Economy: Inflation rate (consumer prices)
+- Economy: Inflation rate (consumer prices) - developed countries
+- Economy: Inflation rate (consumer prices) - developing countries
+- Economy: Inflation rate (consumer prices) - note
+- Economy: Labor force
+- Economy: Labor force - by occupation
+- Economy: Labor force - by occupation - agriculture
+- Economy: Labor force - by occupation - agriculture, forestry, and fishing
+- Economy: Labor force - by occupation - agriculture/fishing/forestry/mining
+- Economy: Labor force - by occupation - banking and finance
+- Economy: Labor force - by occupation - commerce
+- Economy: Labor force - by occupation - construction
+- Economy: Labor force - by occupation - entertainment and catering
+- Economy: Labor force - by occupation - farming, forestry, and fishing
+- Economy: Labor force - by occupation - gas, electricity, and water
+- Economy: Labor force - by occupation - industry
+- Economy: Labor force - by occupation - industry and services
+- Economy: Labor force - by occupation - managerial, professional, and technical
+- Economy: Labor force - by occupation - manufacturing
+- Economy: Labor force - by occupation - manufacturing, extraction, transportation, and crafts
+- Economy: Labor force - by occupation - miscellaneous services
+- Economy: Labor force - by occupation - note
+- Economy: Labor force - by occupation - other services
+- Economy: Labor force - by occupation - professional and scientific services
+- Economy: Labor force - by occupation - public administration
+- Economy: Labor force - by occupation - sales and office
+- Economy: Labor force - by occupation - services
+- Economy: Labor force - by occupation - tourism
+- Economy: Labor force - by occupation - transport and communications
+- Economy: Labor force - by occupation - transportation and utilities
+- Economy: Labor force - by occupation - wholesale and retail distribution
+- Economy: Labor force - note
+- Economy: Population below poverty line
+- Economy: Population below poverty line - note
+- Economy: Public debt
+- Economy: Public debt - note
+- Economy: Real GDP (purchasing power parity)
+- Economy: Real GDP (purchasing power parity) - note
+- Economy: Real GDP growth rate
+- Economy: Real GDP growth rate - note
+- Economy: Real GDP per capita
+- Economy: Real GDP per capita - note
+- Economy: Reserves of foreign exchange and gold
+- Economy: Reserves of foreign exchange and gold - note
+- Economy: Taxes and other revenues
+- Economy: Taxes and other revenues - note
+- Economy: Unemployment rate
+- Economy: Unemployment rate - note
+- Economy: Youth unemployment rate (ages 15-24) - female
+- Economy: Youth unemployment rate (ages 15-24) - male
+- Economy: Youth unemployment rate (ages 15-24) - note
+- Economy: Youth unemployment rate (ages 15-24) - total
+- Energy: Carbon dioxide emissions
+- Energy: Carbon dioxide emissions - from coal and metallurgical coke
+- Energy: Carbon dioxide emissions - from consumed natural gas
+- Energy: Carbon dioxide emissions - from petroleum and other liquids
+- Energy: Coal - consumption
+- Energy: Coal - exports
+- Energy: Coal - imports
+- Energy: Coal - production
+- Energy: Coal - proven reserves
+- Energy: Electricity - consumption
+- Energy: Electricity - exports
+- Energy: Electricity - imports
+- Energy: Electricity - installed generating capacity
+- Energy: Electricity - transmission/distribution losses
+- Energy: Electricity access - electrification - rural areas
+- Energy: Electricity access - electrification - total population
+- Energy: Electricity access - electrification - urban areas
+- Energy: Electricity access - note
+- Energy: Electricity access - population without electricity
+- Energy: Electricity generation sources - biomass and waste
+- Energy: Electricity generation sources - fossil fuels
+- Energy: Electricity generation sources - geothermal
+- Energy: Electricity generation sources - hydroelectricity
+- Energy: Electricity generation sources - note
+- Energy: Electricity generation sources - nuclear
+- Energy: Electricity generation sources - solar
+- Energy: Electricity generation sources - tide and wave
+- Energy: Electricity generation sources - wind
+- Energy: Energy consumption per capita
+- Energy: Natural gas - consumption
+- Energy: Natural gas - exports
+- Energy: Natural gas - imports
+- Energy: Natural gas - note
+- Energy: Natural gas - production
+- Energy: Natural gas - proven reserves
+- Energy: Nuclear energy - Net capacity of operational nuclear reactors
+- Energy: Nuclear energy - Number of nuclear reactors permanently shut down
+- Energy: Nuclear energy - Number of nuclear reactors under construction
+- Energy: Nuclear energy - Number of operational nuclear reactors
+- Energy: Nuclear energy - Percent of total electricity production
+- Energy: Nuclear energy - Percent of total energy produced
+- Energy: Nuclear energy - note
+- Energy: Petroleum - crude oil and lease condensate exports
+- Energy: Petroleum - crude oil and lease condensate imports
+- Energy: Petroleum - crude oil estimated reserves
+- Energy: Petroleum - refined petroleum consumption
+- Energy: Petroleum - total petroleum production
+- Energy: Refined petroleum products - exports
+- Energy: Refined petroleum products - imports
+- Energy: Refined petroleum products - production
+- Environment: Air pollutants - carbon dioxide emissions
+- Environment: Air pollutants - methane emissions
+- Environment: Air pollutants - note
+- Environment: Air pollutants - particulate matter emissions
+- Environment: Climate
+- Environment: Climate - Ascension Island
+- Environment: Climate - Baker, Howland, and Jarvis Islands
+- Environment: Climate - French Guiana
+- Environment: Climate - Guadeloupe and Martinique
+- Environment: Climate - Ile Amsterdam et Ile Saint-Paul
+- Environment: Climate - Iles Crozet
+- Environment: Climate - Iles Eparses
+- Environment: Climate - Iles Kerguelen
+- Environment: Climate - Johnston Atoll and Kingman Reef
+- Environment: Climate - Mayotte
+- Environment: Climate - Midway Islands
+- Environment: Climate - Palmyra Atoll
+- Environment: Climate - Reunion
+- Environment: Climate - Saint Helena
+- Environment: Climate - Tristan da Cunha
+- Environment: Climate - metropolitan France
+- Environment: Climate - note
+- Environment: Climate - ten coldest places on Earth (lowest average monthly temperature)
+- Environment: Climate - ten driest places on Earth (average annual precipitation)
+- Environment: Climate - ten hottest places on Earth (highest average monthly temperature)
+- Environment: Climate - ten wettest places on Earth (average annual precipitation)
+- Environment: Environment - current issues
+- Environment: Environment - current issues - 
+- Environment: Environment - current issues - Baker Island
+- Environment: Environment - current issues - Howland Island
+- Environment: Environment - current issues - Jarvis Island
+- Environment: Environment - current issues - Johnston Atoll
+- Environment: Environment - current issues - Kingman Reef
+- Environment: Environment - current issues - Midway Islands
+- Environment: Environment - current issues - Palmyra Atoll
+- Environment: Environment - current issues - note
+- Environment: Environment - international agreements - party to
+- Environment: Environment - international agreements - signed, but not ratified
+- Environment: Food insecurity - exceptional shortfall in aggregate food production/supplies
+- Environment: Food insecurity - severe localized food insecurity
+- Environment: Food insecurity - widespread lack of access
+- Environment: Land use - agricultural land
+- Environment: Land use - forest
+- Environment: Land use - note
+- Environment: Land use - other
+- Environment: Major aquifers
+- Environment: Major aquifers - summary statement
+- Environment: Major lakes (area sq km) - fresh water lake(s)
+- Environment: Major lakes (area sq km) - note 1
+- Environment: Major lakes (area sq km) - note 2
+- Environment: Major lakes (area sq km) - note 3
+- Environment: Major lakes (area sq km) - salt water lake(s)
+- Environment: Major lakes (area sq km) - top ten largest natural lakes
+- Environment: Major rivers (by length in km)
+- Environment: Major rivers (by length in km) - note
+- Environment: Major rivers (by length in km) - top ten longest rivers
+- Environment: Major watersheds (area sq km)
+- Environment: Major watersheds (area sq km) - summary statement
+- Environment: Revenue from coal
+- Environment: Revenue from forest resources
+- Environment: Total renewable water resources
+- Environment: Total renewable water resources - note
+- Environment: Total water withdrawal - agricultural
+- Environment: Total water withdrawal - industrial
+- Environment: Total water withdrawal - municipal
+- Environment: Total water withdrawal - note
+- Environment: Urbanization - note
+- Environment: Urbanization - rate of urbanization
+- Environment: Urbanization - urban population
+- Environment: Waste and recycling - municipal solid waste generated annually
+- Environment: Waste and recycling - municipal solid waste recycled annually
+- Environment: Waste and recycling - note
+- Environment: Waste and recycling - percent of municipal solid waste recycled
+- Environment: World biomes - Coniferous Forest biome
+- Environment: World biomes - Desert biome
+- Environment: World biomes - Grassland biome
+- Environment: World biomes - Rainforest biome
+- Environment: World biomes - Shrubland biome
+- Environment: World biomes - Temperate Deciduous Forest biome
+- Environment: World biomes - Tundra biome
+- Environment: World biomes - Types of Biomes
+- Geography: Area - Baker Island
+- Geography: Area - Bassas da India (Iles Eparses)
+- Geography: Area - Europa Island (Iles Eparses)
+- Geography: Area - Glorioso Islands (Iles Eparses)
+- Geography: Area - Howland Island
+- Geography: Area - Ile Amsterdam (Ile Amsterdam et Ile Saint-Paul)
+- Geography: Area - Ile Saint-Paul (Ile Amsterdam et Ile Saint-Paul)
+- Geography: Area - Iles Crozet
+- Geography: Area - Iles Kerguelen
+- Geography: Area - Jarvis Island
+- Geography: Area - Johnston Atoll
+- Geography: Area - Juan de Nova Island (Iles Eparses)
+- Geography: Area - Kingman Reef
+- Geography: Area - Midway Islands
+- Geography: Area - Palmyra Atoll
+- Geography: Area - Tromelin Island (Iles Eparses)
+- Geography: Area - comparative
+- Geography: Area - comparative - Baker Island
+- Geography: Area - comparative - Bassas da India (Iles Eparses)
+- Geography: Area - comparative - Europa Island (Iles Eparses)
+- Geography: Area - comparative - Glorioso Islands (Iles Eparses)
+- Geography: Area - comparative - Howland Island
+- Geography: Area - comparative - Ile Amsterdam (Ile Amsterdam et Ile Saint-Paul)
+- Geography: Area - comparative - Ile Saint-Paul (Ile Amsterdam et Ile Saint-Paul)
+- Geography: Area - comparative - Iles Crozet
+- Geography: Area - comparative - Iles Kerguelen
+- Geography: Area - comparative - Jarvis Island
+- Geography: Area - comparative - Johnston Atoll
+- Geography: Area - comparative - Juan de Nova Island (Iles Eparses)
+- Geography: Area - comparative - Kingman Reef
+- Geography: Area - comparative - Midway Islands
+- Geography: Area - comparative - Palmyra Atoll
+- Geography: Area - comparative - Tromelin Island (Iles Eparses)
+- Geography: Area - land
+- Geography: Area - note
+- Geography: Area - note 1
+- Geography: Area - note 2
+- Geography: Area - rankings - note
+- Geography: Area - rankings - ten smallest independent countries
+- Geography: Area - rankings - top fifteen World Factbook entities ranked by size
+- Geography: Area - rankings - top ten largest (non-polar) deserts
+- Geography: Area - rankings - top ten largest forested countries (sq km and percent of land)
+- Geography: Area - rankings - top ten largest islands
+- Geography: Area - rankings - top ten largest landmasses
+- Geography: Area - rankings - top ten largest water bodies
+- Geography: Area - rankings - top ten longest mountain ranges (land-based)
+- Geography: Area - rankings - top ten most densely forested countries (percent of land)
+- Geography: Area - total
+- Geography: Area - water
+- Geography: Climate
+- Geography: Climate - Ascension Island
+- Geography: Climate - Baker, Howland, and Jarvis Islands
+- Geography: Climate - French Guiana
+- Geography: Climate - Guadeloupe and Martinique
+- Geography: Climate - Ile Amsterdam et Ile Saint-Paul
+- Geography: Climate - Iles Crozet
+- Geography: Climate - Iles Eparses
+- Geography: Climate - Iles Kerguelen
+- Geography: Climate - Johnston Atoll and Kingman Reef
+- Geography: Climate - Mayotte
+- Geography: Climate - Midway Islands
+- Geography: Climate - Palmyra Atoll
+- Geography: Climate - Reunion
+- Geography: Climate - Saint Helena
+- Geography: Climate - Tristan da Cunha
+- Geography: Climate - metropolitan France
+- Geography: Climate - note
+- Geography: Climate - ten coldest places on Earth (lowest average monthly temperature)
+- Geography: Climate - ten driest places on Earth (average annual precipitation)
+- Geography: Climate - ten hottest places on Earth (highest average monthly temperature)
+- Geography: Climate - ten wettest places on Earth (average annual precipitation)
+- Geography: Coastline
+- Geography: Coastline - Ascension Island
+- Geography: Coastline - Baker Island
+- Geography: Coastline - Bassas da India (Iles Eparses)
+- Geography: Coastline - Europa Island (Iles Eparses)
+- Geography: Coastline - Glorioso Islands (Iles Eparses)
+- Geography: Coastline - Howland Island
+- Geography: Coastline - Ile Amsterdam (Ile Amsterdam et Ile Saint-Paul)
+- Geography: Coastline - Ile Saint-Paul (Ile Amsterdam et Ile Saint-Paul)
+- Geography: Coastline - Iles Kerguelen
+- Geography: Coastline - Jarvis Island
+- Geography: Coastline - Johnston Atoll
+- Geography: Coastline - Juan de Nova Island (Iles Eparses)
+- Geography: Coastline - Kingman Reef
+- Geography: Coastline - Midway Islands
+- Geography: Coastline - Palmyra Atoll
+- Geography: Coastline - Saint Helena
+- Geography: Coastline - Tristan da Cunha (island only)
+- Geography: Coastline - Tromelin Island (Iles Eparses)
+- Geography: Coastline - metropolitan France
+- Geography: Coastline - note
+- Geography: Elevation - highest capital on each continent
+- Geography: Elevation - highest point
+- Geography: Elevation - highest point on each continent
+- Geography: Elevation - highest points throughout the French Southern and Antarctic Lands
+- Geography: Elevation - lowest capital on each continent
+- Geography: Elevation - lowest point
+- Geography: Elevation - lowest point on each continent
+- Geography: Elevation - mean elevation
+- Geography: Elevation - note
+- Geography: Elevation - top ten highest island peaks
+- Geography: Elevation - top ten highest mountains (measured from sea level)
+- Geography: Geographic coordinates
+- Geography: Geographic coordinates - Ascension Island
+- Geography: Geographic coordinates - Baker Island
+- Geography: Geographic coordinates - Bassas da India (Iles Eparses)
+- Geography: Geographic coordinates - Europa Island (Iles Eparses)
+- Geography: Geographic coordinates - French Guiana
+- Geography: Geographic coordinates - Glorioso Islands (Iles Eparses)
+- Geography: Geographic coordinates - Guadeloupe
+- Geography: Geographic coordinates - Howland Island
+- Geography: Geographic coordinates - Ile Amsterdam (Ile Amsterdam et Ile Saint-Paul)
+- Geography: Geographic coordinates - Ile Saint-Paul (Ile Amsterdam et Ile Saint-Paul)
+- Geography: Geographic coordinates - Iles Crozet
+- Geography: Geographic coordinates - Iles Kerguelen
+- Geography: Geographic coordinates - Jarvis Island
+- Geography: Geographic coordinates - Johnston Atoll
+- Geography: Geographic coordinates - Juan de Nova Island (Iles Eparses)
+- Geography: Geographic coordinates - Kingman Reef
+- Geography: Geographic coordinates - Martinique
+- Geography: Geographic coordinates - Mayotte
+- Geography: Geographic coordinates - Midway Islands
+- Geography: Geographic coordinates - Palmyra Atoll
+- Geography: Geographic coordinates - Reunion
+- Geography: Geographic coordinates - Saint Helena
+- Geography: Geographic coordinates - Tristan da Cunha island group
+- Geography: Geographic coordinates - Tromelin Island (Iles Eparses)
+- Geography: Geographic coordinates - metropolitan France
+- Geography: Geographic coordinates - note
+- Geography: Geographic overview
+- Geography: Geographic overview - countries by continent
+- Geography: Geographic overview - the World from space
+- Geography: Geographic overview - the physical World
+- Geography: Geography - note
+- Geography: Geography - note - Baker, Howland, and Jarvis Islands
+- Geography: Geography - note - Bassas da India (Iles Eparses)
+- Geography: Geography - note - Europa Island and Juan de Nova Island (Iles Eparses)
+- Geography: Geography - note - Glorioso Island (Iles Eparses)
+- Geography: Geography - note - Johnston Atoll
+- Geography: Geography - note - Kingman Reef
+- Geography: Geography - note - Midway Islands
+- Geography: Geography - note - Palmyra Atoll
+- Geography: Geography - note - Tromelin Island (Iles Eparses)
+- Geography: Geography - note - note
+- Geography: Geography - note - note 1
+- Geography: Geography - note - note 2
+- Geography: Geography - note - note 3
+- Geography: Geography - note - note 4
+- Geography: Geography - note - note 5
+- Geography: Geography - note - note 6
+- Geography: Geography - note - note 7
+- Geography: Geography - note - note 8
+- Geography: Irrigated land
+- Geography: Irrigated land - note
+- Geography: Land boundaries
+- Geography: Land boundaries - French Guiana - total
+- Geography: Land boundaries - border countries
+- Geography: Land boundaries - border countries (1)
+- Geography: Land boundaries - border countries (10)
+- Geography: Land boundaries - border countries (14)
+- Geography: Land boundaries - border countries (2)
+- Geography: Land boundaries - border countries (3)
+- Geography: Land boundaries - border countries (4)
+- Geography: Land boundaries - border countries (5)
+- Geography: Land boundaries - border countries (6)
+- Geography: Land boundaries - border countries (7)
+- Geography: Land boundaries - border countries (8)
+- Geography: Land boundaries - border countries (9)
+- Geography: Land boundaries - border sovereign base areas
+- Geography: Land boundaries - metropolitan France - total
+- Geography: Land boundaries - note
+- Geography: Land boundaries - note 1
+- Geography: Land boundaries - note 2
+- Geography: Land boundaries - note 3
+- Geography: Land boundaries - regional borders (1)
+- Geography: Land boundaries - total
+- Geography: Land use - agricultural land
+- Geography: Land use - forest
+- Geography: Land use - note
+- Geography: Land use - other
+- Geography: Location
+- Geography: Location - Baker Island
+- Geography: Location - French Guiana
+- Geography: Location - Guadeloupe
+- Geography: Location - Howland Island
+- Geography: Location - Jarvis Island
+- Geography: Location - Johnston Atoll
+- Geography: Location - Kingman Reef
+- Geography: Location - Martinique
+- Geography: Location - Mayotte
+- Geography: Location - Midway Islands
+- Geography: Location - Palmyra Atoll
+- Geography: Location - Reunion
+- Geography: Location - metropolitan France
+- Geography: Major aquifers
+- Geography: Major aquifers - summary statement
+- Geography: Major lakes (area sq km) - fresh water lake(s)
+- Geography: Major lakes (area sq km) - note 1
+- Geography: Major lakes (area sq km) - note 2
+- Geography: Major lakes (area sq km) - note 3
+- Geography: Major lakes (area sq km) - salt water lake(s)
+- Geography: Major lakes (area sq km) - top ten largest natural lakes
+- Geography: Major rivers (by length in km)
+- Geography: Major rivers (by length in km) - note
+- Geography: Major rivers (by length in km) - top ten longest rivers
+- Geography: Major watersheds (area sq km)
+- Geography: Major watersheds (area sq km) - summary statement
+- Geography: Map references
+- Geography: Map references - French Guiana
+- Geography: Map references - Guadeloupe
+- Geography: Map references - Martinique
+- Geography: Map references - Mayotte
+- Geography: Map references - Reunion
+- Geography: Map references - metropolitan France
+- Geography: Maritime claims
+- Geography: Maritime claims - Environment (Protection and Preservation) Zone
+- Geography: Maritime claims - contiguous zone
+- Geography: Maritime claims - continental shelf
+- Geography: Maritime claims - exclusive economic zone
+- Geography: Maritime claims - exclusive fishing zone
+- Geography: Maritime claims - note
+- Geography: Maritime claims - territorial sea
+- Geography: Natural hazards
+- Geography: Natural hazards - 
+- Geography: Natural hazards - Baker, Howland, and Jarvis Islands
+- Geography: Natural hazards - Kingman Reef
+- Geography: Natural hazards - Midway Islands, Johnston, and Palmyra Atolls
+- Geography: Natural hazards - Volcano statistics and superlatives
+- Geography: Natural hazards - countries with the most volcanoes
+- Geography: Natural hazards - highest volcano
+- Geography: Natural hazards - longest erupting volcano
+- Geography: Natural hazards - metropolitan France
+- Geography: Natural hazards - overseas departments
+- Geography: Natural hazards - volcanism
+- Geography: Natural resources
+- Geography: Natural resources - note
+- Geography: Natural resources - note 1
+- Geography: Natural resources - note 2
+- Geography: Natural resources - note 3
+- Geography: Natural resources - note 4
+- Geography: Population distribution
+- Geography: Population distribution - note
+- Geography: Terrain
+- Geography: Terrain - Ascension
+- Geography: Terrain - Bassas da India (Iles Eparses)
+- Geography: Terrain - Europa Island, Glorioso Islands, Juan de Nova Island
+- Geography: Terrain - French Guiana
+- Geography: Terrain - Guadeloupe
+- Geography: Terrain - Ile Amsterdam (Ile Amsterdam et Ile Saint-Paul)
+- Geography: Terrain - Ile Saint-Paul (Ile Amsterdam et Ile Saint-Paul)
+- Geography: Terrain - Iles Crozet
+- Geography: Terrain - Iles Kerguelen
+- Geography: Terrain - Martinique
+- Geography: Terrain - Mayotte
+- Geography: Terrain - Reunion
+- Geography: Terrain - Saint Helena
+- Geography: Terrain - Ten Cave Superlatives
+- Geography: Terrain - Tristan da Cunha
+- Geography: Terrain - Tromelin Island (Iles Eparses)
+- Geography: Terrain - bonus "cave" - the world's largest sinkhole
+- Geography: Terrain - deepest cave
+- Geography: Terrain - deepest underwater cave
+- Geography: Terrain - largest bat cave
+- Geography: Terrain - largest cave
+- Geography: Terrain - largest cave chamber
+- Geography: Terrain - largest ice cave
+- Geography: Terrain - longest cave
+- Geography: Terrain - longest lava tube cave
+- Geography: Terrain - longest salt cave
+- Geography: Terrain - longest underwater cave
+- Geography: Terrain - metropolitan France
+- Geography: Wonders of the World - Alternates
+- Geography: Wonders of the World - Amazonia
+- Geography: Wonders of the World - Angel Falls
+- Geography: Wonders of the World - Animal Migrations
+- Geography: Wonders of the World - Antarctica
+- Geography: Wonders of the World - Central Indo-Pacific Region
+- Geography: Wonders of the World - Chichen Itza, Yucatan, Mexico
+- Geography: Wonders of the World - Christ the Redeemer Statue, Rio de Janeiro, Brazil
+- Geography: Wonders of the World - Coral Triangle
+- Geography: Wonders of the World - Great Barrier Ree
+- Geography: Wonders of the World - Great Wall, China
+- Geography: Wonders of the World - Iguazu Falls
+- Geography: Wonders of the World - Island of Hawaii
+- Geography: Wonders of the World - Machu Picchu, Cuzco Region, Peru
+- Geography: Wonders of the World - Mount Everest and the Himalayas
+- Geography: Wonders of the World - Petra, Ma’an, Jordan
+- Geography: Wonders of the World - Sahara
+- Geography: Wonders of the World - Taj Mahal, Agra, Uttar Pradesh, India
+- Geography: Wonders of the World - The Aurora
+- Geography: Wonders of the World - The Colosseum, Rome, Italy
+- Geography: Wonders of the World - The Colossus of Rhodes
+- Geography: Wonders of the World - The Great Pyramid of Egypt
+- Geography: Wonders of the World - The Hanging Gardens of Babylon
+- Geography: Wonders of the World - The Lighthouse (Pharos) of Alexandria
+- Geography: Wonders of the World - The Mausoleum of Halicarnassus
+- Geography: Wonders of the World - The New Seven Wonders of the World
+- Geography: Wonders of the World - The Seven Wonders of the Ancient World
+- Geography: Wonders of the World - The Statue of Zeus at Olympia in Greece
+- Geography: Wonders of the World - The Temple of Artemis (Artemision) at Ephesus
+- Geography: Wonders of the World - The World Factbook's Seven Natural Ultra-Wonders of the World
+- Geography: Wonders of the World - Victoria Falls
+- Government: Administrative divisions
+- Government: Administrative divisions - England
+- Government: Administrative divisions - London boroughs and City of London or Greater London
+- Government: Administrative divisions - Northern Ireland
+- Government: Administrative divisions - Scotland
+- Government: Administrative divisions - Wales
+- Government: Administrative divisions - autonomous oblast
+- Government: Administrative divisions - autonomous okrugs
+- Government: Administrative divisions - autonomous regions
+- Government: Administrative divisions - autonomous republics
+- Government: Administrative divisions - autonomous territorial unit
+- Government: Administrative divisions - borough
+- Government: Administrative divisions - borough councils
+- Government: Administrative divisions - capital city
+- Government: Administrative divisions - chartered cities
+- Government: Administrative divisions - cities
+- Government: Administrative divisions - cities with county rights
+- Government: Administrative divisions - city
+- Government: Administrative divisions - city councils
+- Government: Administrative divisions - council areas
+- Government: Administrative divisions - counties
+- Government: Administrative divisions - district councils
+- Government: Administrative divisions - federal cities
+- Government: Administrative divisions - krays
+- Government: Administrative divisions - metropolitan cities
+- Government: Administrative divisions - metropolitan districts
+- Government: Administrative divisions - municipalities
+- Government: Administrative divisions - note
+- Government: Administrative divisions - note 1
+- Government: Administrative divisions - note 2
+- Government: Administrative divisions - oblasts
+- Government: Administrative divisions - provinces
+- Government: Administrative divisions - raions
+- Government: Administrative divisions - rayons
+- Government: Administrative divisions - regions
+- Government: Administrative divisions - republics
+- Government: Administrative divisions - rural municipalities
+- Government: Administrative divisions - special administration cities
+- Government: Administrative divisions - special administrative regions
+- Government: Administrative divisions - special city
+- Government: Administrative divisions - special municipalities
+- Government: Administrative divisions - special self-governing city
+- Government: Administrative divisions - states
+- Government: Administrative divisions - territorial unit
+- Government: Administrative divisions - two-tier counties
+- Government: Administrative divisions - union territory
+- Government: Administrative divisions - unitary authorities
+- Government: Administrative divisions - urban municipalities
+- Government: Administrative divisions - ward
+- Government: Capital - daylight saving time
+- Government: Capital - etymology
+- Government: Capital - geographic coordinates
+- Government: Capital - name
+- Government: Capital - note
+- Government: Capital - note 1
+- Government: Capital - note 2
+- Government: Capital - note 3
+- Government: Capital - time difference
+- Government: Capital - time zone note
+- Government: Citizenship
+- Government: Citizenship - citizenship by birth
+- Government: Citizenship - citizenship by descent only
+- Government: Citizenship - dual citizenship recognized
+- Government: Citizenship - note
+- Government: Citizenship - residency requirement for naturalization
+- Government: Constitution - amendments
+- Government: Constitution - history
+- Government: Constitution - note
+- Government: Country name - abbreviation
+- Government: Country name - conventional long form
+- Government: Country name - conventional short form
+- Government: Country name - etymology
+- Government: Country name - former
+- Government: Country name - local long form
+- Government: Country name - local short form
+- Government: Country name - note
+- Government: Country name - official long form
+- Government: Country name - official short form
+- Government: Dependency status
+- Government: Dependency status - note
+- Government: Dependent areas
+- Government: Dependent areas - note
+- Government: Diplomatic representation from the US
+- Government: Diplomatic representation from the US - FAX
+- Government: Diplomatic representation from the US - branch office(s)
+- Government: Diplomatic representation from the US - chief of mission
+- Government: Diplomatic representation from the US - consulate(s)
+- Government: Diplomatic representation from the US - consulate(s) general
+- Government: Diplomatic representation from the US - email address and website
+- Government: Diplomatic representation from the US - embassy
+- Government: Diplomatic representation from the US - mailing address
+- Government: Diplomatic representation from the US - note
+- Government: Diplomatic representation from the US - other offices
+- Government: Diplomatic representation from the US - telephone
+- Government: Diplomatic representation in the US
+- Government: Diplomatic representation in the US - FAX
+- Government: Diplomatic representation in the US - HKETO offices
+- Government: Diplomatic representation in the US - KAKONGE
+- Government: Diplomatic representation in the US - Taipei Economic and Cultural Offices (branch offices)
+- Government: Diplomatic representation in the US - chancery
+- Government: Diplomatic representation in the US - chief of mission
+- Government: Diplomatic representation in the US - consulate(s)
+- Government: Diplomatic representation in the US - consulate(s) general
+- Government: Diplomatic representation in the US - email address and website
+- Government: Diplomatic representation in the US - embassy
+- Government: Diplomatic representation in the US - honorary consulate(s)
+- Government: Diplomatic representation in the US - note
+- Government: Diplomatic representation in the US - representative office
+- Government: Diplomatic representation in the US - telephone
+- Government: Diplomatic representation in the US - trade office(s)
+- Government: Executive branch - Note
+- Government: Executive branch - cabinet
+- Government: Executive branch - chief of state
+- Government: Executive branch - election results
+- Government: Executive branch - elections/appointments
+- Government: Executive branch - head of government
+- Government: Executive branch - note
+- Government: Executive branch - note 1
+- Government: Executive branch - note 2
+- Government: Executive branch - note;
+- Government: Executive branch - state counsellor
+- Government: Flag description
+- Government: Flag description - note
+- Government: Flag description - note 1
+- Government: Flag description - note 2
+- Government: Flag description - note 3
+- Government: Government - note
+- Government: Government type
+- Government: Government type - note
+- Government: Independence
+- Government: International law organization participation
+- Government: International organization participation
+- Government: International organization participation - note
+- Government: Judicial branch - highest court(s)
+- Government: Judicial branch - judge selection and term of office
+- Government: Judicial branch - note
+- Government: Judicial branch - subordinate courts
+- Government: Legal system
+- Government: Legislative branch
+- Government: Legislative branch - 
+- Government: Legislative branch - ,
+- Government: Legislative branch - Note
+- Government: Legislative branch - description
+- Government: Legislative branch - election results
+- Government: Legislative branch - elections
+- Government: Legislative branch - note
+- Government: Legislative branch - note 1
+- Government: Legislative branch - note 2
+- Government: Legislative branch - notes
+- Government: National anthem - lyrics/music
+- Government: National anthem - name
+- Government: National anthem - note
+- Government: National anthem - note 1
+- Government: National anthem - note 2
+- Government: National heritage - note
+- Government: National heritage - selected World Heritage Site locales
+- Government: National heritage - total World Heritage Sites
+- Government: National holiday
+- Government: National holiday - note
+- Government: National symbol(s)
+- Government: Political parties and leaders
+- Government: Political parties and leaders - Alliance of Hope (Pakatan Harapan) or PH [ANWAR Ibrahim]
+- Government: Political parties and leaders - Flemish parties
+- Government: Political parties and leaders - Francophone parties
+- Government: Political parties and leaders - National Alliance (Perikatan Nasional) or PN [MUHYIDDIN Yassin]
+- Government: Political parties and leaders - National Front (Barisan Nasional) or BN [Ahmad ZAHID Hamidi]
+- Government: Political parties and leaders - Note
+- Government: Political parties and leaders - Others receiving votes in 2022 general election
+- Government: Political parties and leaders - Sabah People's Alliance (Gabungan Rakya Sabah) or GRS [HAJIJI Noor]
+- Government: Political parties and leaders - Sarawak Parties Alliance (Gabungan Parti Sarawak) or GPS [Abang Abdul Rahman Zohari Abang Openg or ABANG JOHARI or "Abang Jo"]
+- Government: Political parties and leaders - area administered by Turkish Cypriots
+- Government: Political parties and leaders - area under government control
+- Government: Political parties and leaders - legal parties/alliances
+- Government: Political parties and leaders - major Kurdish political organizations
+- Government: Political parties and leaders - major parties
+- Government: Political parties and leaders - minor parties
+- Government: Political parties and leaders - note
+- Government: Political parties and leaders - note 1
+- Government: Political parties and leaders - note 2
+- Government: Political parties and leaders - opposition parties
+- Government: Political parties and leaders - other
+- Government: Political parties and leaders - pro-government parties
+- Government: Suffrage
+- Introduction: Background
+- Introduction: Background - Adelie Land
+- Introduction: Background - Ascension Island
+- Introduction: Background - Baker Island
+- Introduction: Background - Bassas da India
+- Introduction: Background - Europa Island
+- Introduction: Background - Glorioso Islands
+- Introduction: Background - Howland Island
+- Introduction: Background - Ile Amsterdam
+- Introduction: Background - Ile Saint Paul
+- Introduction: Background - Iles Crozet
+- Introduction: Background - Iles Kerguelen
+- Introduction: Background - Jarvis Island
+- Introduction: Background - Johnston Atoll
+- Introduction: Background - Juan de Nova Island
+- Introduction: Background - Kingman Reef
+- Introduction: Background - Midway Islands
+- Introduction: Background - Palmyra Atoll
+- Introduction: Background - Saint Helena
+- Introduction: Background - Tristan da Cunha
+- Introduction: Background - Tromelin Island
+- Military and Security: Military - note
+- Military and Security: Military - note - China
+- Military and Security: Military - note - Hay'at Tahrir al-Sham
+- Military and Security: Military - note - ISIS
+- Military and Security: Military - note - Israel
+- Military and Security: Military - note - Malaysia
+- Military and Security: Military - note - Philippines
+- Military and Security: Military - note - Syrian Democratic Forces (SDF)
+- Military and Security: Military - note - Taiwan
+- Military and Security: Military - note - Turkey
+- Military and Security: Military - note - US and some regional and European states
+- Military and Security: Military - note - Vietnam
+- Military and Security: Military - note - pro-ASAD elements
+- Military and Security: Military - note - the Syrian Arab Army, Lebanese Hizbollah, Iranian, Iranian-backed Shia militia, and Russian forces
+- Military and Security: Military and security forces
+- Military and Security: Military and security forces - note
+- Military and Security: Military and security forces - note 1
+- Military and Security: Military and security forces - note 2
+- Military and Security: Military and security forces - note 3
+- Military and Security: Military and security forces - note 4
+- Military and Security: Military and security forces - note 5
+- Military and Security: Military and security service personnel strengths
+- Military and Security: Military and security service personnel strengths - note
+- Military and Security: Military and security service personnel strengths - note 1
+- Military and Security: Military and security service personnel strengths - note 2
+- Military and Security: Military deployments
+- Military and Security: Military deployments - note
+- Military and Security: Military deployments - note 1
+- Military and Security: Military deployments - note 2
+- Military and Security: Military deployments - note 3
+- Military and Security: Military equipment inventories and acquisitions
+- Military and Security: Military equipment inventories and acquisitions - note
+- Military and Security: Military expenditures
+- Military and Security: Military expenditures - note
+- Military and Security: Military service age and obligation
+- Military and Security: Military service age and obligation - note
+- Military and Security: Military service age and obligation - note 1
+- Military and Security: Military service age and obligation - note 2
+- Military and Security: Military service age and obligation - note 3
+- Military and Security: Military service age and obligation - note 4
+- People and Society: Age structure - 0-14 years
+- People and Society: Age structure - 15-64 years
+- People and Society: Age structure - 65 years and over
+- People and Society: Age structure - note
+- People and Society: Alcohol consumption per capita - beer
+- People and Society: Alcohol consumption per capita - other alcohols
+- People and Society: Alcohol consumption per capita - spirits
+- People and Society: Alcohol consumption per capita - total
+- People and Society: Alcohol consumption per capita - wine
+- People and Society: Birth rate
+- People and Society: Birth rate - note
+- People and Society: Child marriage - men married by age 18
+- People and Society: Child marriage - note
+- People and Society: Child marriage - women married by age 15
+- People and Society: Child marriage - women married by age 18
+- People and Society: Children under the age of 5 years underweight
+- People and Society: Children under the age of 5 years underweight - note
+- People and Society: Contraceptive prevalence rate
+- People and Society: Contraceptive prevalence rate - note
+- People and Society: Current health expenditure
+- People and Society: Current health expenditure - note
+- People and Society: Currently married women (ages 15-49)
+- People and Society: Currently married women (ages 15-49) - note
+- People and Society: Death rate
+- People and Society: Death rate - note
+- People and Society: Demographic profile
+- People and Society: Dependency ratios - elderly dependency ratio
+- People and Society: Dependency ratios - note
+- People and Society: Dependency ratios - potential support ratio
+- People and Society: Dependency ratios - total dependency ratio
+- People and Society: Dependency ratios - youth dependency ratio
+- People and Society: Drinking water source - improved
+- People and Society: Drinking water source - note
+- People and Society: Drinking water source - unimproved
+- People and Society: Education expenditures
+- People and Society: Education expenditures - note
+- People and Society: Ethnic groups
+- People and Society: Ethnic groups - note
+- People and Society: Ethnic groups - note 1
+- People and Society: Ethnic groups - note 2
+- People and Society: Gross reproduction rate
+- People and Society: Hospital bed density
+- People and Society: Hospital bed density - note
+- People and Society: Infant mortality rate - female
+- People and Society: Infant mortality rate - male
+- People and Society: Infant mortality rate - note
+- People and Society: Infant mortality rate - total
+- People and Society: Languages
+- People and Society: Languages - major-language sample(s)
+- People and Society: Languages - most-spoken first language
+- People and Society: Languages - most-spoken language
+- People and Society: Languages - note
+- People and Society: Languages - note 1
+- People and Society: Languages - note 2
+- People and Society: Languages - note 3
+- People and Society: Life expectancy at birth - female
+- People and Society: Life expectancy at birth - male
+- People and Society: Life expectancy at birth - note
+- People and Society: Life expectancy at birth - total population
+- People and Society: Literacy - definition
+- People and Society: Literacy - female
+- People and Society: Literacy - male
+- People and Society: Literacy - note
+- People and Society: Literacy - total population
+- People and Society: Major infectious diseases - African Trypanosomiasis
+- People and Society: Major infectious diseases - Dengue fever
+- People and Society: Major infectious diseases - Malaria
+- People and Society: Major infectious diseases - Meningococcal meningitis
+- People and Society: Major infectious diseases - Schistosomaisis
+- People and Society: Major infectious diseases - Typhoid fever
+- People and Society: Major infectious diseases - aerosolized dust or soil contact diseases
+- People and Society: Major infectious diseases - animal contact diseases
+- People and Society: Major infectious diseases - degree of risk
+- People and Society: Major infectious diseases - food or waterborne diseases
+- People and Society: Major infectious diseases - note
+- People and Society: Major infectious diseases - note 1
+- People and Society: Major infectious diseases - note 2
+- People and Society: Major infectious diseases - note 3
+- People and Society: Major infectious diseases - respiratory diseases
+- People and Society: Major infectious diseases - soil contact diseases
+- People and Society: Major infectious diseases - vectorborne diseases
+- People and Society: Major infectious diseases - water contact diseases
+- People and Society: Major urban areas - population
+- People and Society: Major urban areas - population - Asia
+- People and Society: Major urban areas - population - Europe
+- People and Society: Major urban areas - population - North America
+- People and Society: Major urban areas - population - Oceania
+- People and Society: Major urban areas - population - South America
+- People and Society: Major urban areas - population - note
+- People and Society: Major urban areas - population - ten largest urban agglomerations
+- People and Society: Major urban areas - population - ten largest urban agglomerations, by continent:Africa
+- People and Society: Maternal mortality ratio
+- People and Society: Maternal mortality ratio - note
+- People and Society: Median age - female
+- People and Society: Median age - male
+- People and Society: Median age - note
+- People and Society: Median age - total
+- People and Society: Mother's mean age at first birth
+- People and Society: Mother's mean age at first birth - note
+- People and Society: Nationality - adjective
+- People and Society: Nationality - note
+- People and Society: Nationality - noun
+- People and Society: Net migration rate
+- People and Society: Net migration rate - note
+- People and Society: Obesity - adult prevalence rate
+- People and Society: Obesity - adult prevalence rate - note
+- People and Society: People - note
+- People and Society: Physicians density
+- People and Society: Physicians density - note
+- People and Society: Population
+- People and Society: Population - Bassas da India (Iles Eparses)
+- People and Society: Population - Europa Island, Glorioso Islands, Juan de Nova Island (Iles Eparses)
+- People and Society: Population - Ile Amsterdam (Ile Amsterdam et Ile Saint-Paul)
+- People and Society: Population - Ile Saint-Paul (Ile Amsterdam et Ile Saint-Paul)
+- People and Society: Population - Iles Crozet
+- People and Society: Population - Iles Kerguelen
+- People and Society: Population - Jarvis Island
+- People and Society: Population - Johnston Atoll
+- People and Society: Population - Midway Islands
+- People and Society: Population - Palmyra Atoll
+- People and Society: Population - Tromelin Island (Iles Eparses)
+- People and Society: Population - constituent countries by percentage of total population
+- People and Society: Population - note
+- People and Society: Population - ten least densely populated countries (population per sq km)
+- People and Society: Population - ten least populous countries
+- People and Society: Population - ten most densely populated countries (population per sq km)
+- People and Society: Population - ten most populous countries (in millions)
+- People and Society: Population distribution
+- People and Society: Population distribution - note
+- People and Society: Population growth rate
+- People and Society: Population growth rate - note
+- People and Society: Religions
+- People and Society: Religions - note
+- People and Society: Sanitation facility access - improved
+- People and Society: Sanitation facility access - note
+- People and Society: Sanitation facility access - unimproved
+- People and Society: School life expectancy (primary to tertiary education) - female
+- People and Society: School life expectancy (primary to tertiary education) - male
+- People and Society: School life expectancy (primary to tertiary education) - note
+- People and Society: School life expectancy (primary to tertiary education) - total
+- People and Society: Sex ratio
+- People and Society: Sex ratio - 0-14 years
+- People and Society: Sex ratio - 15-64 years
+- People and Society: Sex ratio - 65 years and over
+- People and Society: Sex ratio - at birth
+- People and Society: Sex ratio - note
+- People and Society: Sex ratio - total population
+- People and Society: Tobacco use - female
+- People and Society: Tobacco use - male
+- People and Society: Tobacco use - total
+- People and Society: Total fertility rate
+- People and Society: Total fertility rate - note
+- People and Society: Urbanization - note
+- People and Society: Urbanization - rate of urbanization
+- People and Society: Urbanization - urban population
+- People and Society: Youth unemployment rate (ages 15-24) - female
+- People and Society: Youth unemployment rate (ages 15-24) - male
+- People and Society: Youth unemployment rate (ages 15-24) - note
+- People and Society: Youth unemployment rate (ages 15-24) - total
+- Space: Space agency/agencies
+- Space: Space agency/agencies - note
+- Space: Space launch site(s)
+- Space: Space program overview
+- Space: Space program overview - note
+- Terrorism: Terrorist group(s) - 
+- Terrorism: Terrorist group(s) - Terrorist group(s)
+- Terrorism: Terrorist group(s) - note
+- Terrorism: Terrorist group(s) - note 1
+- Terrorism: Terrorist group(s) - note 2
+- Transnational Issues: Disputes - international
+- Transnational Issues: Disputes - international - 
+- Transnational Issues: Disputes - international - Bassas da India, Europa Island, Glorioso Islands, Juan de Nova Island (Iles Eparses)
+- Transnational Issues: Disputes - international - Tromelin Island (Iles Eparses)
+- Transnational Issues: Illicit drugs
+- Transnational Issues: Illicit drugs - French Guiana
+- Transnational Issues: Illicit drugs - Martinique
+- Transnational Issues: Illicit drugs - cocaine
+- Transnational Issues: Illicit drugs - metropolitan France
+- Transnational Issues: Illicit drugs - opiates
+- Transnational Issues: Refugees and internally displaced persons
+- Transnational Issues: Refugees and internally displaced persons - IDPs
+- Transnational Issues: Refugees and internally displaced persons - note
+- Transnational Issues: Refugees and internally displaced persons - refugees (country of origin)
+- Transnational Issues: Refugees and internally displaced persons - stateless persons
+- Transnational Issues: Trafficking in persons - 
+- Transnational Issues: Trafficking in persons - Tier 2 Watch List
+- Transnational Issues: Trafficking in persons - Tier 3
+- Transnational Issues: Trafficking in persons - note
+- Transnational Issues: Trafficking in persons - tier rating
+- Transnational Issues: Trafficking in persons - trafficking profile
+- Transportation: Airports
+- Transportation: Airports - 
+- Transportation: Airports - Midway Islands
+- Transportation: Airports - note
+- Transportation: Airports - top ten by cargo (metric tons)
+- Transportation: Airports - top ten by passengers
+- Transportation: Airports - with paved runways
+- Transportation: Airports - with paved runways - civil airports
+- Transportation: Airports - with paved runways - joint use (civil-military) airports
+- Transportation: Airports - with paved runways - military airports
+- Transportation: Airports - with paved runways - note
+- Transportation: Airports - with paved runways - note 1
+- Transportation: Airports - with paved runways - note 2
+- Transportation: Airports - with paved runways - other airports
+- Transportation: Airports - with unpaved runways
+- Transportation: Airports - with unpaved runways - note
+- Transportation: Airports - with unpaved runways - note 1
+- Transportation: Airports - with unpaved runways - note 2
+- Transportation: Civil aircraft registration country code prefix
+- Transportation: Heliports
+- Transportation: Heliports - Note
+- Transportation: Heliports - note
+- Transportation: Merchant marine - by type
+- Transportation: Merchant marine - note
+- Transportation: Merchant marine - total
+- Transportation: National air transport system - annual freight traffic on registered air carriers
+- Transportation: National air transport system - annual passenger traffic on registered air carriers
+- Transportation: National air transport system - inventory of registered aircraft operated by air carriers
+- Transportation: National air transport system - number of registered air carriers
+- Transportation: Pipelines
+- Transportation: Ports and terminals
+- Transportation: Ports and terminals - Ascension Island
+- Transportation: Ports and terminals - LNG terminal(s) (export)
+- Transportation: Ports and terminals - LNG terminal(s) (import)
+- Transportation: Ports and terminals - Saint Helena
+- Transportation: Ports and terminals - Tristan da Cunha
+- Transportation: Ports and terminals - bulk cargo port(s)
+- Transportation: Ports and terminals - cargo ports
+- Transportation: Ports and terminals - container port(s) (TEUs)
+- Transportation: Ports and terminals - cruise departure ports (passengers)
+- Transportation: Ports and terminals - cruise port(s)
+- Transportation: Ports and terminals - cruise/ferry port(s)
+- Transportation: Ports and terminals - dry bulk cargo port(s)
+- Transportation: Ports and terminals - lake port(s)
+- Transportation: Ports and terminals - major seaport(s)
+- Transportation: Ports and terminals - note
+- Transportation: Ports and terminals - oil terminal(s)
+- Transportation: Ports and terminals - river and lake port(s)
+- Transportation: Ports and terminals - river or lake port(s)
+- Transportation: Ports and terminals - river port(s)
+- Transportation: Ports and terminals - top twenty container ports as measured by Twenty-Foot Equivalent Units (TEUs) throughput
+- Transportation: Railways - broad gauge
+- Transportation: Railways - dual gauge
+- Transportation: Railways - narrow gauge
+- Transportation: Railways - note
+- Transportation: Railways - other
+- Transportation: Railways - standard gauge
+- Transportation: Railways - total
+- Transportation: Roadways - Turkish Cypriot control
+- Transportation: Roadways - government control
+- Transportation: Roadways - highways
+- Transportation: Roadways - non-urban
+- Transportation: Roadways - note
+- Transportation: Roadways - paved
+- Transportation: Roadways - paved/oiled gravel
+- Transportation: Roadways - private and forest roads
+- Transportation: Roadways - total
+- Transportation: Roadways - unpaved
+- Transportation: Roadways - urban
+- Transportation: Transportation - note
+- Transportation: Transportation - note - note 1
+- Transportation: Transportation - note - note 2
+- Transportation: Waterways
+- Transportation: Waterways - metropolitan France
+- Transportation: Waterways - note 1
+- Transportation: Waterways - note 2
+- Transportation: Waterways - note 3
+- Transportation: Waterways - top ten largest natural lakes (by surface area)
+- Transportation: Waterways - top ten longest rivers
+- url
