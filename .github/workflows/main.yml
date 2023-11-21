@@ -43,15 +43,16 @@ jobs:
     - name: Install Dependencies
       run: |
         pip install pandas
-        pip install pycontry
+        pip install pycountry
         pip install webdriver_manager
         pip install selenium
+        pip install beautifulsoup4
     - name: Process JSON Files
       run: |
         cd World-FactBook-Vis/.github/
         ls -lah
         echo "Now in $(pwd)"
-        python cia_factbook_scraper.py
+        python cia_factbook_scaper.py
         
     - name: Push changes
       working-directory: World-FactBook-Vis
