@@ -51,7 +51,7 @@ jobs:
         cd World-FactBook-Vis/.github/
         ls -lah
         echo "Now in $(pwd)"
-        python cia_factbook_scraper.py
+        python cia_factbook_scaper.py
         
     - name: Push changes
       working-directory: World-FactBook-Vis
