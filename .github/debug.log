@@ -11,3 +11,5 @@
 2023-11-21 20:27:32,242 [INFO] Driver has been saved in cache [/home/runner/.wdm/drivers/chromedriver/linux64/119.0.6045.105]
 2023-11-21 20:42:03,522 [WARNING] Information not found for section " " in "https://www.cia.gov/the-world-factbook/countries/comoros/".
 2023-11-21 20:42:06,313 [WARNING] Information not found for section "" in "https://www.cia.gov/the-world-factbook/countries/guinea/".
+2023-11-27 00:58:37,141 [WARNING] Information not found for section " " in "https://www.cia.gov/the-world-factbook/countries/comoros/".
+2023-11-27 00:58:39,867 [WARNING] Information not found for section "" in "https://www.cia.gov/the-world-factbook/countries/guinea/".
