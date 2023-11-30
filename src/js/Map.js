@@ -1,7 +1,7 @@
 class Map {
-    constructor(container, dataset, color_range = ["white", "darkblue"],
+    constructor(container, dataset, yColName, color_range = ["white", "darkblue"],
                 margin = { top: 10, right: 10, bottom: 10, left: 10 },
-                xColName = 'ISO Code', yColName = 'Exports') {
+                xColName = 'ISO Code') {
         this.container = container;
         this.dataset = dataset;
         this.color_range = color_range;
@@ -104,7 +104,6 @@ class Map {
 
         return colorScale;
     }
-
 
     // Loads the data into a simple dictionary
     // Uses async/await and promises to ensure DOM is loaded

@@ -15,7 +15,7 @@ class Main {
             console.log("Map Exists");
             this.map.remove();
         }
-        this.map = new Map(mapContainer, dataSetPath);
+        this.map = new Map(mapContainer, dataSetPath, 'GDP');
         console.log("Map Created");
     }
 
@@ -33,7 +33,14 @@ class Main {
             }
         }
     }
-
+    updateMap(dataColumn) {
+        console.log("Updating map with column: ", dataColumn);
+        if (this.map) {
+            this.map.updateData(dataColumn); // Assuming you have a method in your Map class to update the data
+        } else {
+            console.error("Map object not initialized");
+        }
+    }
     // change projection when user selects new map mode
     changeProjection(projectionType) {
         console.log("Before Change", this.map);
@@ -50,33 +57,32 @@ class Main {
         }
     }
     async getCountryColumns(csvPath) {
-        try {
-            // Check if file exists
-            const fileExists = await this.checkFileExists(csvPath);
-            let selector = document.getElementById('dataSelector');
-            if (!fileExists) {
-                console.error(`File not found: ${csvPath}`);
-                return null;
-            }
-            await new Promise((resolve) => {
-                d3.csv(csvPath, (rawData) => {
-                    rawData.columns.forEach(column => {
-                        let option = document.createElement('option');
-                        option.value = column;
-                        option.text = column;
-                        selector.appendChild(option);
-                    });
-
-                });
-            });
-            selector.addEventListener('change', function () {
-                // TODO
-            });
-        } catch (error) {
-            console.error("Error loading dataset:", error);
-            throw error;
+        // Check if file exists
+        const fileExists = await this.checkFileExists(csvPath);
+        let selector = document.getElementById('dataSelector');
+        if (!fileExists) {
+            console.error(`File not found: ${csvPath}`);
+            return null;
         }
+        // Load CSV and populate the selector
+        d3.csv(csvPath, rawData => {
+            rawData.columns.forEach(column => {
+                let option = document.createElement('option');
+                option.value = column;
+                option.text = column;
+                selector.appendChild(option);
+            });
+        });
+
+        let mainContext = this;
+        selector.addEventListener('change', function () {
+            console.log("HELLO!");
+            let selectedColumn = this.value;
+            mainContext.updateMap(selectedColumn);
+            console.log("selectedColumn", selectedColumn);
+        });
     }
+
 
 }
 
