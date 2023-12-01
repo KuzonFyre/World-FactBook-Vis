@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <head>
     <!-- Add css import-->
     <link rel="stylesheet" href="../css/style.css">
@@ -11,12 +12,23 @@
     <link href="https://d3-geomap.github.io//d3-geomap/css/d3.geomap.css" rel="stylesheet">
     <script src="https://d3-geomap.github.io//d3-geomap/vendor/d3.geomap.dependencies.min.js"></script>
     <script src="https://d3-geomap.github.io//d3-geomap/js/d3.geomap.min.js"></script>
+    <style>
+        /* Style for the map and selector */
+        #map {
+            width: 1000px;
+            height: 600px;
+        }
 
+        .country {
+            stroke: #fff;
+            stroke-width: 0.5px;
+        }
+    </style>
 </head>
 
 <body>
     <!-- Drop down main menu -->
-    <div class="menu">
+    <!-- <div class="menu">
         <button class="button" onclick="main.toggleDropdown()">Change Projection</button>
         <div id="dropdown" class="dropdown-content">
             <a href="#" onclick="main.changeProjection('albers')">Albers</a>
@@ -28,16 +40,28 @@
         </div>
     </div>
     <select id="dataSelector">
-    </select>
+    </select> -->
 
-    <!-- Main Map Container -->
-    <div class="mapContainer"></div>
+    <!-- Main Map Container
+    <div class="mapContainer"></div> -->
 
+    <div id="map">
+        <select id="data-selector"></select>
+        <select id="projection-selector">
+            <option value="mercator">Mercator</option>
+            <option value="albers">Albers</option>
+            <option value="orthographic">Orthographic</option>
+            <option value="stereographic">Stereographic</option>
+            <option value="miller">Miller</option>
+            <option value="azimuthalEqualArea">Azimuthal Equal Area</option>
+        </select>
+    </div>
     <!-- Add JavaScript Classes -->
-    <script src="../js/Main.js"></script>
+    <!-- <script src="../js/Main.js"></script>
     <script src="../js/Map.js"></script>
-    <script src="../js/Menu.js"></script>
+    <script src="../js/Menu.js"></script> -->
+    <script src="../js/script.js"></script>
 
 </body>
-</html>
 
+</html>
