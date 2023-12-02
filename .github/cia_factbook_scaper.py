@@ -45,22 +45,6 @@ def countries_with_urls():
         countries[country_name] = {"url": url}
     return countries
 
-# def scrape_pages(countries):
-#     """Scrape the page source from the CIA Factbook"""
-
-#     driver = webdriver.Firefox(service=FirefoxService(GeckoDriverManager().install()))
-#     for country in countries.values():
-#         try:
-#             url = country["url"]
-#             driver.get(url)
-#             time.sleep(3)
-#             country["page_source"] = driver.page_source
-#         except Exception as e:
-#             logging.warning("Could not scrape the source from {}.\n{}".format(url, e))
-#     driver.quit()
-#     return countries
-
-
 def scrape_pages(countries):
     """Scrape the page source from the CIA Factbook using Chrome in headless mode."""
 
@@ -245,12 +229,7 @@ def export_list_of_columns(countries):
 
 
 if __name__ == "__main__":
-    pickle_name = "countries_with_page_source.pickle" 
-    if os.path.exists(pickle_name):
-        countries = pickle.load(open(pickle_name, "rb"))
-    else:
-        countries = scrape_pages(countries_with_urls())
-        pickle.dump(countries, open(pickle_name, "wb"))
+    countries = scrape_pages(countries_with_urls())
     countries = parse_countries(countries)
     export_countries_urls(countries)
     export_list_of_columns(countries)

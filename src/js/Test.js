@@ -43,9 +43,6 @@ async function createMap() {
 
     let json = await d3.json("https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson");
     let csvData = await d3.csv("../extracted_data.csv");
-    console.log(csvData); // To check what's actually loaded
-    console.log(typeof csvData); // To check the type of csvData
-    console.log(Array.isArray(csvData));
     color.domain([
         d3.min(csvData, function (d) {
             return d.value;
