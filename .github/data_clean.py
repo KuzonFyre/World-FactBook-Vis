@@ -1,7 +1,7 @@
 import pandas as pd
 import pycountry
 
-file_path = 'countries.csv'
+file_path = '../world-factbook/data/countries.csv'
 df = pd.read_csv(file_path)
 final_df = pd.DataFrame()
 

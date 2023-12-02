@@ -34,15 +34,17 @@ def countries_with_urls():
     # {"name":"Italy","path":"/countries/italy/"},"ITA","IT | ITA | 380","ITA",".it",""
     lines_list = open("country_data_codes.csv", "rt").read().splitlines()[1:]
     # {"name":"Italy","path":"/countries/italy/
-    lines_list = [txt.split("\"}", 1)[0] for txt in lines_list]
+    lines = [txt.split("\"}") for txt in lines_list]
     countries = {}
-    for line in lines_list:
-        country_name = line.removeprefix("{\"name\":\"").split("\",", 1)[0]
-        if line.find("\"path\":\"") == -1:
+    for line in lines:
+        country_name = line[0].removeprefix("{\"name\":\"").split("\",", 1)[0]
+        iso_code = line[1].removeprefix(",\"").split("\",")[0]
+        if line[0].find("\"path\":\"") == -1:
             continue
-        url = line.split("\"path\":\"", 1)[1]
+        url = line[0].split("\"path\":\"", 1)[1]
         url = "https://www.cia.gov/the-world-factbook" + url
-        countries[country_name] = {"url": url}
+        countries[country_name] = {"url": url, "iso_code": iso_code}
+        # print(countries)
     return countries
 
 def scrape_pages(countries):
@@ -231,7 +233,7 @@ def export_list_of_columns(countries):
 if __name__ == "__main__":
     countries = scrape_pages(countries_with_urls())
     countries = parse_countries(countries)
-    export_countries_urls(countries)
-    export_list_of_columns(countries)
-    json.dump(countries, open("countries.json", "wt"), indent=4)
-    pd.DataFrame.from_dict(countries, orient="index").to_csv("../src/countries.csv", index_label="Country")
+    # export_countries_urls(countries)
+    # export_list_of_columns(countries)
+    json.dump(countries, open("../world-factbook/data/countries.json", "wt"), indent=4)
+    pd.DataFrame.from_dict(countries, orient="index").to_csv("../world-factbook/data/countries.csv", index_label="Country")
