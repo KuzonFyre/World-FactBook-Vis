@@ -60,3 +60,15 @@
 2023-12-02 12:48:23,900 [INFO] Driver [C:\Users\hamil\.wdm\drivers\chromedriver\win64\119.0.6045.105\chromedriver-win32/chromedriver.exe] found in cache
 2023-12-02 12:50:01,080 [INFO] ====== WebDriver manager ======
 2023-12-02 12:50:02,533 [INFO] Get LATEST chromedriver version for google-chrome
+2023-12-02 13:51:43,672 [INFO] ====== WebDriver manager ======
+2023-12-02 13:51:45,535 [INFO] Get LATEST chromedriver version for google-chrome
+2023-12-02 13:51:45,665 [INFO] Get LATEST chromedriver version for google-chrome
+2023-12-02 13:51:45,761 [INFO] Driver [C:\Users\hamil\.wdm\drivers\chromedriver\win64\119.0.6045.105\chromedriver-win32/chromedriver.exe] found in cache
+2023-12-02 14:08:27,224 [WARNING] Information not found for section " " in "https://www.cia.gov/the-world-factbook/countries/comoros/".
+2023-12-02 14:08:35,299 [WARNING] Information not found for section "" in "https://www.cia.gov/the-world-factbook/countries/guinea/".
+2023-12-02 14:30:54,045 [INFO] ====== WebDriver manager ======
+2023-12-02 14:30:56,218 [INFO] Get LATEST chromedriver version for google-chrome
+2023-12-02 14:30:56,380 [INFO] Get LATEST chromedriver version for google-chrome
+2023-12-02 14:30:56,459 [INFO] Driver [C:\Users\hamil\.wdm\drivers\chromedriver\win64\119.0.6045.105\chromedriver-win32/chromedriver.exe] found in cache
+2023-12-02 14:46:18,453 [WARNING] Information not found for section " " in "https://www.cia.gov/the-world-factbook/countries/comoros/".
+2023-12-02 14:46:26,889 [WARNING] Information not found for section "" in "https://www.cia.gov/the-world-factbook/countries/guinea/".
