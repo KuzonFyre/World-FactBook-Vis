@@ -246,4 +246,4 @@ final_df['Paved Roadways (km)'] = df['Transportation: Roadways - paved'].apply(c
 final_df['Unpaved Roadways (km)'] = df['Transportation: Roadways - unpaved'].apply(convert_mil_to_number)
 final_df['Military expenditures (% of GDP)'] = df['Military and Security: Military expenditures'].apply(convert_percentage)
 
-final_df.to_csv('extracted_data.csv', index=False)
+final_df.to_csv('../world-factbook/data/extracted_data.csv', index=False)
