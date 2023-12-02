@@ -5,6 +5,7 @@ var projections = {
     orthographic: d3.geoOrthographic().scale(250).translate([width / 2, height / 2]),
 };
 var currentProjection = projections.mercator;
+
 function drawTileMapGrid() {
     const width = 1000, height = 600;
     var svg = d3.select("#map")
@@ -25,16 +26,25 @@ function drawTileMapGrid() {
         var yScale = d3.scaleLinear()
             .domain([0, d3.max(world, d => d.coordinates[1])])
             .range([0, height]);
-        svg.selectAll("rect")
+        svg.selectAll(".country")
             .data(world)
             .enter()
             .append("rect")
+            .attr("class", "country")
             .attr("x", d => xScale(d.coordinates[0]))
             .attr("y", d => yScale(d.coordinates[1]))
             .attr("width", 20)
             .attr("height", 20)
-            .attr("fill", "#6baed6")
-            .attr("stroke", "white");
+            .on("mouseover", function (d) {
+                d3.select(this).style("fill", "orange");
+            })
+            .on("mouseout", function (d) {
+                var ogColor = d3.select(this).attr("data-original-color");
+                d3.select(this).style("fill", ogColor);
+            })
+            .on("click", function (d) {
+                console.log(d);
+            });
     });
 
 }
@@ -62,7 +72,6 @@ function drawMercator() {
             svg.attr("transform", d3.event.transform);
         }))
         .append("g");
-    var sens = 200;
 
     var countries;
     d3.json("https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson", function (world) {
@@ -87,15 +96,14 @@ function drawMercator() {
 d3.select("#projection-selector").on("change", function () {
     var selectedValue = d3.select(this).property("value");
     currentProjection = projections[selectedValue];
-
+    d3.select("#map").select("svg").remove();
     if (selectedValue === "orthographic") {
         svg.call(drag); // Apply drag behavior for rotation
     } else if (selectedValue === "tileMap") {
-        d3.select("#map").select("svg").remove();
         drawTileMapGrid();
     } else {
         drawMercator();
-        updateProjection();
+        // updateProjection();
     }
 
 
@@ -127,8 +135,6 @@ d3.csv("../data/extracted_data.csv", function (data) {
 });
 
 function updateMap(column, data) {
-    console.log(column);
-    console.log(data);
     // Create a map of country names/IDs to data values
     var dataMap = {};
     data.forEach(function (d) {
@@ -140,14 +146,19 @@ function updateMap(column, data) {
         .domain(d3.extent(data, function (d) { return +d[column]; }));
 
     // Update the map colors based on the data
-    svg.selectAll(".country")
+    d3.select("#map").selectAll(".country")
         .transition()
         .duration(500)
         .style("fill", function (d) {
-            var color = dataMap[d.id] ? colorScale(dataMap[d.id]) : '#ccc';
+            var color;
+            if (dataMap[d.id]) {
+                color = colorScale(dataMap[d.id]);
+            }else if (dataMap[d['alpha-3']]) {
+                color = colorScale(dataMap[d['alpha-3']]);
+            } else {
+                color = '#ccc';
+            }
             d3.select(this).attr("data-original-color", color);
             return color;
         });
-
-    // Optionally, you can add tooltips or other interactive elements here
 }
