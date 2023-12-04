@@ -61,6 +61,7 @@ print(df.columns)
 final_df['Country'] = df['Country'].apply(lambda x: x.split(",")[0])
 final_df['ISO Code'] = final_df['Country'].apply(get_iso_code)
 final_df = final_df.dropna(subset=['ISO Code'])
+final_df['url'] = df['url']
 final_df['GDP'] = df['Economy: Real GDP (purchasing power parity)'].apply(extract_first)
 final_df['Population'] = df['People and Society: Population'].apply(extract_comma)
 final_df['Population growth rate'] = df['People and Society: Population growth rate'].apply(convert_percentage)
@@ -245,5 +246,7 @@ final_df['Total Roadways (km)'] = df['Transportation: Roadways - total'].apply(c
 final_df['Paved Roadways (km)'] = df['Transportation: Roadways - paved'].apply(convert_mil_to_number)
 final_df['Unpaved Roadways (km)'] = df['Transportation: Roadways - unpaved'].apply(convert_mil_to_number)
 final_df['Military expenditures (% of GDP)'] = df['Military and Security: Military expenditures'].apply(convert_percentage)
+
+# trade_df['Economy: Imports - partners']
 
 final_df.to_csv('../world-factbook/data/extracted_data.csv', index=False)
