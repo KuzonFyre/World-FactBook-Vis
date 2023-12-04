@@ -43,7 +43,7 @@ jobs:
         ls -lah
         echo "Now in $(pwd)"
         python cia_factbook_scaper.py
-        
+        python data_clean.py
     - name: Push changes
       working-directory: World-FactBook-Vis
       run: |
