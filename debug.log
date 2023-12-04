@@ -72,3 +72,19 @@
 2023-12-02 14:30:56,459 [INFO] Driver [C:\Users\hamil\.wdm\drivers\chromedriver\win64\119.0.6045.105\chromedriver-win32/chromedriver.exe] found in cache
 2023-12-02 14:46:18,453 [WARNING] Information not found for section " " in "https://www.cia.gov/the-world-factbook/countries/comoros/".
 2023-12-02 14:46:26,889 [WARNING] Information not found for section "" in "https://www.cia.gov/the-world-factbook/countries/guinea/".
+2023-12-02 15:02:47,285 [INFO] ====== WebDriver manager ======
+2023-12-02 15:02:49,275 [INFO] Get LATEST chromedriver version for google-chrome
+2023-12-02 15:02:49,409 [INFO] Get LATEST chromedriver version for google-chrome
+2023-12-02 15:02:49,511 [INFO] Driver [C:\Users\hamil\.wdm\drivers\chromedriver\win64\119.0.6045.105\chromedriver-win32/chromedriver.exe] found in cache
+2023-12-04 12:26:18,095 [INFO] ====== WebDriver manager ======
+2023-12-04 12:26:19,547 [INFO] Get LATEST chromedriver version for google-chrome
+2023-12-04 12:26:20,240 [INFO] Get LATEST chromedriver version for google-chrome
+2023-12-04 12:26:20,317 [INFO] Get LATEST chromedriver version for google-chrome
+2023-12-04 12:26:20,473 [INFO] WebDriver version 119.0.6045.105 selected
+2023-12-04 12:26:20,473 [INFO] Modern chrome version https://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/119.0.6045.105/win32/chromedriver-win32.zip
+2023-12-04 12:26:20,473 [INFO] About to download new driver from https://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/119.0.6045.105/win32/chromedriver-win32.zip
+2023-12-04 12:26:20,603 [INFO] Driver downloading response is 200
+2023-12-04 12:26:20,953 [INFO] Get LATEST chromedriver version for google-chrome
+2023-12-04 12:26:21,196 [INFO] Driver has been saved in cache [C:\Users\hamil\.wdm\drivers\chromedriver\win64\119.0.6045.105]
+2023-12-04 12:42:00,210 [WARNING] Information not found for section " " in "https://www.cia.gov/the-world-factbook/countries/comoros/".
+2023-12-04 12:42:03,803 [WARNING] Information not found for section "" in "https://www.cia.gov/the-world-factbook/countries/guinea/".

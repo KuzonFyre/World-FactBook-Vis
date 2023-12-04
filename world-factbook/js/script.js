@@ -8,6 +8,7 @@ var currentProjection = projections.mercator;
 
 function drawTileMapGrid() {
     const width = 1000, height = 600;
+    const tileSize = 20;
     var svg = d3.select("#map")
         .append("svg")
         .attr("preserveAspectRatio", "xMidYMid meet")
@@ -33,8 +34,8 @@ function drawTileMapGrid() {
             .attr("class", "country")
             .attr("x", d => xScale(d.coordinates[0]))
             .attr("y", d => yScale(d.coordinates[1]))
-            .attr("width", 20)
-            .attr("height", 20)
+            .attr("width", tileSize)
+            .attr("height", tileSize)
             .on("mouseover", function (d) {
                 d3.select(this).style("fill", "orange");
             })
@@ -45,9 +46,19 @@ function drawTileMapGrid() {
             .on("click", function (d) {
                 console.log(d);
             });
+        svg.selectAll("text")
+            .data(world)
+            .enter()
+            .append("text")
+            .attr("x", d => xScale(d.coordinates[0]) + tileSize / 2)
+            .attr("y", d => yScale(d.coordinates[1]) + tileSize / 2)
+            .attr("text-anchor", "middle")
+            .text(d => d["alpha-2"]); // Display the alpha-2 code
     });
 
 }
+
+
 var drag = d3.drag()
     .subject(function () { var r = currentProjection.rotate(); return { x: r[0] / sens, y: -r[1] / sens }; })
     .on('drag', function () {
@@ -98,13 +109,14 @@ d3.select("#projection-selector").on("change", function () {
     currentProjection = projections[selectedValue];
     d3.select("#map").select("svg").remove();
     if (selectedValue === "orthographic") {
-        svg.call(drag); // Apply drag behavior for rotation
+        svg.call(drag);
     } else if (selectedValue === "tileMap") {
         drawTileMapGrid();
     } else {
         drawMercator();
         // updateProjection();
     }
+    
 
 
 });
@@ -126,7 +138,6 @@ d3.csv("../data/extracted_data.csv", function (data) {
             .text(column)
             .attr("value", column);
     });
-
     // Update function for selector
     d3.select("#data-selector").on("change", function () {
         var selectedColumn = d3.select(this).property("value");
@@ -153,9 +164,10 @@ function updateMap(column, data) {
             var color;
             if (dataMap[d.id]) {
                 color = colorScale(dataMap[d.id]);
-            }else if (dataMap[d['alpha-3']]) {
+            } else if (dataMap[d['alpha-3']]) {
                 color = colorScale(dataMap[d['alpha-3']]);
             } else {
+                console.log("No data for: ", d);
                 color = '#ccc';
             }
             d3.select(this).attr("data-original-color", color);
