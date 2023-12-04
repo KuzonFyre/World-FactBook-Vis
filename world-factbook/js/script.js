@@ -1,10 +1,5 @@
 var width = 1000, height = 600;
 const margin = { top: 10, right: 10, bottom: 10, left: 10 };
-var projections = {
-    mercator: d3.geoMercator(),
-    orthographic: d3.geoOrthographic().scale(250).translate([width / 2, height / 2]),
-};
-var currentProjection = projections.mercator;
 
 function drawTileMapGrid() {
     const width = 1000, height = 600;
@@ -43,9 +38,9 @@ function drawTileMapGrid() {
                 var ogColor = d3.select(this).attr("data-original-color");
                 d3.select(this).style("fill", ogColor);
             })
-            .on("click", function (d) {
-                console.log(d);
-            });
+        // .on("click", function (d) {
+        //     console.log(d);
+        // });
         svg.selectAll("text")
             .data(world)
             .enter()
@@ -57,16 +52,6 @@ function drawTileMapGrid() {
     });
 
 }
-
-
-var drag = d3.drag()
-    .subject(function () { var r = currentProjection.rotate(); return { x: r[0] / sens, y: -r[1] / sens }; })
-    .on('drag', function () {
-        var rotate = currentProjection.rotate();
-        var k = sens / currentProjection.scale();
-        currentProjection.rotate([d3.event.x * k, -d3.event.y * k, rotate[2]]);
-        updateProjection();
-    });
 
 function drawMercator() {
     // Define path generator with initial projection
@@ -86,37 +71,39 @@ function drawMercator() {
 
     var countries;
     d3.json("https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson", function (world) {
+        console.log(world);
         countries = svg.selectAll(".country")
             .data(world.features)
             .enter()
             .append("path")
             .attr("class", "country")
             .attr("d", path)
+        var tooltip = countries.append("div")
+            .style("position", "absolute")
+            .style("visibility", "hidden")
+            .text("HELLO");
+        countries
             .on("mouseover", function (d) {
+                tooltip.style("visibility", "visible");
                 d3.select(this).style("fill", "orange");
             })
             .on("mouseout", function (d) {
+                tooltip.style("visibility", "hidden");
                 var ogColor = d3.select(this).attr("data-original-color");
                 d3.select(this).style("fill", ogColor);
             })
-            .on("click", function (d) {
-                console.log(d);
-            });
+
     });
 }
 d3.select("#projection-selector").on("change", function () {
     var selectedValue = d3.select(this).property("value");
-    currentProjection = projections[selectedValue];
     d3.select("#map").select("svg").remove();
-    if (selectedValue === "orthographic") {
-        svg.call(drag);
-    } else if (selectedValue === "tileMap") {
+    if (selectedValue === "tileMap") {
         drawTileMapGrid();
     } else {
         drawMercator();
-        // updateProjection();
     }
-    
+
 
 
 });
@@ -133,6 +120,7 @@ d3.csv("../data/extracted_data.csv", function (data) {
     // Extract columns for the selector
     var columns = Object.keys(data[0]);
     columns.forEach(function (column) {
+        if (column === "ISO Code" || column === "Country") return;
         d3.select("#data-selector")
             .append("option")
             .text(column)
@@ -156,6 +144,16 @@ function updateMap(column, data) {
     var colorScale = d3.scaleSequential(d3.interpolateBlues)
         .domain(d3.extent(data, function (d) { return +d[column]; }));
 
+    d3.select("#map").selectAll(".country")
+        .on("click", function (d) {
+            console.log("HELLO")
+            console.log(data);
+            data.forEach(function (da) {
+                if (da['ISO Code'] === d.id) {
+                    window.open(da["url"]);
+                }
+            })
+        });
     // Update the map colors based on the data
     d3.select("#map").selectAll(".country")
         .transition()

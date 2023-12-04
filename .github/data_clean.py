@@ -73,9 +73,7 @@ final_df['Coastline (km)'] = df['Geography: Coastline'].apply(extract_area)
 final_df['Irrigated Land (sq km)'] = df['Geography: Irrigated land'].apply(extract_area)
 final_df['Total area'] = df['Geography: Area - total'].apply(extract_area)
 final_df['Age structure - 0-14 years Rate'] = df['People and Society: Age structure - 0-14 years'].apply(convert_percentage)
-final_df['Age structure - 15-24 years Rate'] = df['People and Society: Age structure - 15-24 years'].apply(convert_percentage)
-final_df['Age structure - 25-54 years Rate'] = df['People and Society: Age structure - 25-54 years'].apply(convert_percentage)
-final_df['Age structure - 55-64 years Rate'] = df['People and Society: Age structure - 55-64 years'].apply(convert_percentage)
+final_df['Age structure - 15-64 years Rate'] = df['People and Society: Age structure - 15-24 years'].apply(convert_percentage)
 final_df['Age structure - 65 years and over Rate'] = df['People and Society: Age structure - 65 years and over'].apply(convert_percentage)
 final_df['Total dependency ratio'] = df['People and Society: Dependency ratios - total dependency ratio']
 final_df['Youth dependency ratio'] = df['People and Society: Dependency ratios - youth dependency ratio']
@@ -247,6 +245,7 @@ final_df['Paved Roadways (km)'] = df['Transportation: Roadways - paved'].apply(c
 final_df['Unpaved Roadways (km)'] = df['Transportation: Roadways - unpaved'].apply(convert_mil_to_number)
 final_df['Military expenditures (% of GDP)'] = df['Military and Security: Military expenditures'].apply(convert_percentage)
 
-# trade_df['Economy: Imports - partners']
+trade_df['Economy: Imports - partners'] = df['Economy: Imports - partners'].apply(lambda x: x.split('(')[0])
+trade_df['Economy: Exports - partners'] = df['Economy: Exports - partners'].apply(lambda x: x.split('(')[0])
 
 final_df.to_csv('../world-factbook/data/extracted_data.csv', index=False)
