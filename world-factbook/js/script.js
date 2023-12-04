@@ -146,8 +146,6 @@ function updateMap(column, data) {
 
     d3.select("#map").selectAll(".country")
         .on("click", function (d) {
-            console.log("HELLO")
-            console.log(data);
             data.forEach(function (da) {
                 if (da['ISO Code'] === d.id) {
                     window.open(da["url"]);
