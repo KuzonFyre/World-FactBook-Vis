@@ -1,18 +1,38 @@
 import pandas as pd
 import pycountry
+import re
 
 file_path = '../world-factbook/data/countries.csv'
 df = pd.read_csv(file_path)
 final_df = pd.DataFrame()
-
+trade_df = pd.DataFrame()
+bad_countries = []
 def get_iso_code(country_name):
     try:
+        if country_name == "Korea, South":
+            return "KOR"
+        elif country_name == "Korea, North":
+            return "PRK"
         return pycountry.countries.search_fuzzy(country_name)[0].alpha_3
     except LookupError:
-        return None
+        if country_name == "Laos":
+            return "LAO"
+        elif country_name == "Congo, Republic of the":
+            return "COG"
+        elif country_name == "Congo, Democratic Republic of the":
+            return "COD"
+        elif country_name == "Cote d'Ivoire":
+            return "CIV"
+        elif country_name == "Turkey (Turkiye)":
+            return "TUR"
+        else:
+            bad_countries.append(country_name)
+            return None
+# countries = pycountry.countries
+# for country in countries:
+#     print(country.name)
+# print(get_iso_code('Lao'))
 
-for country in pycountry.countries:
-    print("Name:", country.name)
 def extract_comma(pop_string):
     # Find and extract the first numerical part
     for part in pop_string.split():
@@ -36,7 +56,7 @@ def extract_area(area_string):
             return int(part.replace(',', ''))
     return None
 def convert_mil_to_number(string):
-    string = string.replace('$','').replace(',','')
+    string = str(string).replace('$','').replace(',','').split(' (')[0]
     if 'billion' in string:
         number = float(string.split(' billion')[0]) * 1e9
     elif 'million' in string:
@@ -51,14 +71,11 @@ def split_field(word):
 
 def extract_three(data_str):
     # Using regular expressions to find all percentages
-    percentages = re.findall(r'(\d+)%', data_str)
-    
-    if len(percentages) == 3:
-        return percentages[:3]
-    else:
-        return None
-print(df.columns)
-final_df['Country'] = df['Country'].apply(lambda x: x.split(",")[0])
+    percentages = re.findall(r'(\d+(?:\.\d+)?)%', str(data_str))
+    print(percentages)
+    return percentages[:3]
+# print(df.columns)
+final_df['Country'] = df['Country']
 final_df['ISO Code'] = final_df['Country'].apply(get_iso_code)
 final_df = final_df.dropna(subset=['ISO Code'])
 final_df['url'] = df['url']
@@ -90,9 +107,7 @@ final_df['Urban Population ratio'] =df['People and Society: Urbanization - urban
 final_df['Urban population growth rate'] = df['People and Society: Urbanization - rate of urbanization'].apply(convert_percentage)
 final_df['Sex ratio at birth(male/female)'] = df['People and Society: Sex ratio - at birth'].apply(split_field)
 final_df['Sex ratio 0-14 years(male/female)'] = df['People and Society: Sex ratio - 0-14 years'].apply(split_field)
-final_df['Sex ratio 15-24 years(male/female)'] = df['People and Society: Sex ratio - 15-24 years'].apply(split_field)
-final_df['Sex ratio 25-54 years(male/female)'] = df['People and Society: Sex ratio - 25-54 years'].apply(split_field)
-final_df['Sex ratio 55-64 years(male/female)'] = df['People and Society: Sex ratio - 55-64 years'].apply(split_field)
+final_df['Sex ratio 15-64 years(male/female)'] = df['People and Society: Sex ratio - 15-64 years'].apply(split_field)
 final_df['Sex ratio 65 years and over(male/female)'] = df['People and Society: Sex ratio - 65 years and over'].apply(split_field)
 final_df['Sex ratio - total population(male/female)'] = df['People and Society: Sex ratio - total population'].apply(split_field)
 final_df['Mother\'s mean age at first birth'] = df['People and Society: Mother\'s mean age at first birth'].apply(split_field)
@@ -106,7 +121,6 @@ final_df['Life expectancy at birth - female'] = df['People and Society: Life exp
 final_df['Fertility rate (children born/women)'] = df['People and Society: Total fertility rate'].apply(split_field)
 final_df['Gross reproduction rate'] = df['People and Society: Gross reproduction rate'].apply(split_field)
 final_df['Contraceptive prevalence rate'] = df['People and Society: Contraceptive prevalence rate'].apply(convert_percentage)
-
 temp_df = pd.DataFrame(df['People and Society: Drinking water source - improved'].apply(extract_three).tolist(), columns=['Improved Drinking Access Urban', 'Improved Drinking Access Rural', 'Improved Drinking Access Total'])
 final_df = pd.concat([final_df, temp_df], axis=1)
 temp_df = pd.DataFrame(df['People and Society: Drinking water source - unimproved'].apply(extract_three).tolist(), columns=['Unimproved Drinking Access Urban', 'Unimproved Drinking Access Rural', 'Unimproved Drinking Access Total'])
@@ -122,7 +136,7 @@ final_df['Obesity - adult prevalence rate'] = df['People and Society: Obesity - 
 final_df['Alcohol consumption per capita (liters of pure alcohol)'] = df['People and Society: Alcohol consumption per capita - total'].apply(split_field)
 final_df['Alcohol consumption per capita - beer (liters of pure alcohol)'] = df['People and Society: Alcohol consumption per capita - beer'].apply(split_field)
 final_df['Alcohol consumption per capita - wind (liters of pure alcohol)'] = df['People and Society: Alcohol consumption per capita - wine'].apply(split_field)
-final_df['Alcohol consumption per capita - spiritS (liters of pure alcohol)'] = df['People and Society: Alcohol consumption per capita - spiritS'].apply(split_field)
+final_df['Alcohol consumption per capita - spirits (liters of pure alcohol)'] = df['People and Society: Alcohol consumption per capita - spirits'].apply(split_field)
 final_df['Alcohol consumption per capita - other alcohols (liters of pure alcohol)'] = df['People and Society: Alcohol consumption per capita - other alcohols'].apply(split_field)
 final_df['Tobacco use rate'] = df['People and Society: Tobacco use - total'].apply(convert_percentage)
 final_df['Tobacco use rate - male'] = df['People and Society: Tobacco use - male'].apply(convert_percentage)
@@ -134,7 +148,7 @@ final_df['Women married by age 18 rate'] = df['People and Society: Child marriag
 final_df['Education expenditures (% of GDP)'] = df['People and Society: Education expenditures'].apply(convert_percentage)
 final_df['Literacy rate'] = df['People and Society: Literacy - total population'].apply(convert_percentage)
 final_df['Literacy rate - male'] = df['People and Society: Literacy - male'].apply(convert_percentage)
-final_df['Literacy rate - female'] = df['People and Society: Literacy - female'].apply
+final_df['Literacy rate - female'] = df['People and Society: Literacy - female'].apply(convert_percentage)
 final_df['School life expectancy'] = df['People and Society: School life expectancy (primary to tertiary education) - total'].apply(split_field)
 final_df['School life expectancy - male'] = df['People and Society: School life expectancy (primary to tertiary education) - male'].apply(split_field)
 final_df['School life expectancy - female'] = df['People and Society: School life expectancy (primary to tertiary education) - female'].apply(split_field)
@@ -142,15 +156,15 @@ final_df['Youth unemployment rate (ages 15-24)'] = df['People and Society: Youth
 final_df['Youth unemployment rate (ages 15-24) - male'] = df['People and Society: Youth unemployment rate (ages 15-24) - male'].apply(convert_percentage)
 final_df['Youth unemployment rate (ages 15-24) - female'] = df['People and Society: Youth unemployment rate (ages 15-24) - female'].apply(convert_percentage)
 
-final_df['Forest land (% of land area)'] = df['Environment: Land use - forest)'].apply(convert_percentage)
+final_df['Forest land (% of land area)'] = df['Environment: Land use - forest'].apply(convert_percentage)
 final_df['Agricultural land (% of land area)'] = df['Environment: Land use - agricultural land'].apply(convert_percentage)
-final_df['Other land (% of land area)'] = df['Environment: Land use - other land'].apply(convert_percentage)
+final_df['Other land (% of land area)'] = df['Environment: Land use - other'].apply(convert_percentage)
 final_df['Revenue from forest resources (% of GDP)'] = df['Environment: Revenue from forest resources'].apply(convert_percentage)
 final_df['Revenue from coal (% of GDP)'] = df['Environment: Revenue from coal'].apply(convert_percentage)
 final_df['Particulate matter emissions (micrograms per cubic meter)'] = df['Environment: Air pollutants - particulate matter emissions'].apply(split_field)
 final_df['Carbon dioxide emissions (megatons)'] = df['Environment: Air pollutants - carbon dioxide emissions'].apply(split_field)
 final_df['Methane emissions (megatons)'] = df['Environment: Air pollutants - methane emissions'].apply(split_field)
-final_df['Annual municipal solid waste (tons)'] = df['Environment: Waste and recycling - municipal solid waste generated annually'].apply(extract_comma)
+final_df['Annual municipal solid waste (tons)'] = df['Environment: Waste and recycling - municipal solid waste generated annually'].apply(convert_mil_to_number)
 final_df['Municipal water withdrawal (cubic meters)'] = df['Environment: Total water withdrawal - municipal'].apply(convert_mil_to_number)
 final_df['Industrial water withdrawal (cubic meters)'] = df['Environment: Total water withdrawal - industrial'].apply(convert_mil_to_number)
 final_df['Agricultural water withdrawal (cubic meters)'] = df['Environment: Total water withdrawal - agricultural'].apply(convert_mil_to_number)
@@ -214,7 +228,6 @@ final_df['Petroleum production (bbl/day)'] = df['Energy: Petroleum - total petro
 final_df['Petroleum consumption (bbl/day)'] = df['Energy: Petroleum - refined petroleum consumption'].apply(split_field)
 final_df['Petroleum exports (bbl/day)'] = df['Energy: Petroleum - crude oil and lease condensate exports'].apply(split_field)
 final_df['Petroleum imports (bbl/day)'] = df['Energy: Petroleum - crude oil and lease condensate imports'].apply(split_field)
-final_df['Petroleum reserves (barrels)'] = df['Energy: Petroleum - proven reserves'].apply(convert_mil_to_number)
 final_df['Refined petroleum products production (bbl/day)'] = df['Energy: Refined petroleum products - production'].apply(split_field)
 final_df['Refined petroleum products exports (bbl/day)'] = df['Energy: Refined petroleum products - exports'].apply(split_field)
 final_df['Refined petroleum products imports (bbl/day)'] = df['Energy: Refined petroleum products - imports'].apply(split_field)
@@ -245,7 +258,20 @@ final_df['Paved Roadways (km)'] = df['Transportation: Roadways - paved'].apply(c
 final_df['Unpaved Roadways (km)'] = df['Transportation: Roadways - unpaved'].apply(convert_mil_to_number)
 final_df['Military expenditures (% of GDP)'] = df['Military and Security: Military expenditures'].apply(convert_percentage)
 
-trade_df['Economy: Imports - partners'] = df['Economy: Imports - partners'].apply(lambda x: x.split('(')[0])
-trade_df['Economy: Exports - partners'] = df['Economy: Exports - partners'].apply(lambda x: x.split('(')[0])
+trade_df['Country'] = df['Country'])
+trade_df['ISO Code'] = trade_df['Country'].apply(get_iso_code)
 
+def trade(data):
+    clean_data = str(data).split('(')[0].split(',')
+    return [(get_iso_code(' '.join(part.strip().split(' ')[:-1])), float(part.strip().split(' ')[-1].replace('%',''))) for part in clean_data if '%' in part]
+trade_df['Exports Partners'] = df['Economy: Exports - partners'].apply(trade)
+trade_data = []
+for index, row in trade_df.iterrows():
+    print(row)
+    iso = row['ISO Code']
+    for country, value in row['Exports Partners']:
+        trade_data.append({'source': iso, 'target': country, 'value': value})
+temp = pd.DataFrame(trade_data)
+temp.to_json('../world-factbook/data/trade_data.json', orient='records', indent=4)
+print(bad_countries)
 final_df.to_csv('../world-factbook/data/extracted_data.csv', index=False)
