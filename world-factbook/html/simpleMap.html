@@ -12,29 +12,46 @@
     <link href="https://d3-geomap.github.io//d3-geomap/css/d3.geomap.css" rel="stylesheet">
     <script src="https://d3-geomap.github.io//d3-geomap/vendor/d3.geomap.dependencies.min.js"></script>
     <script src="https://d3-geomap.github.io//d3-geomap/js/d3.geomap.min.js"></script>
+    <script src="//unpkg.com/globe.gl"></script>
     <style>
-        /* Style for the map and selector */
-        #map {
-            width: 95%;
-            height: 95%;
+
+        #container {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
 
-        .country {
-            stroke: #fff;
-            stroke-width: 0.5px;
+        #map, #scatterPlot {
+            flex: 5;
+            min-width: 90%;
+            height: auto;
         }
+        #container > select {
+            flex: 0 1 autp;
+            margin: 5px 0;
+        }
+
+
     </style>
 </head>
 
 <body>
 
-    <div id="map">
+    <div id="container">
         <select id="data-selector"></select>
         <select id="projection-selector">
             <option value="mercator">Mercator</option>
-            <option value="orthographic">Orthographic</option>
+            <option value="fancy">Fancy</option>
             <option value="tileMap">Tile Map Grid</option>
+            <option value="tradeMap">Trade Map</option>
+            <option value="fancyTrade">fancyTrade</option>
         </select>
+        <div id="map"></div>
+        <select id="scatter-selector1"></select>
+        <select id="scatter-selector2"></select>
+        <div id="scatterPlot"></div>
     </div>
     <script src="../js/script.js"></script>
 
