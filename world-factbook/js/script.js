@@ -52,6 +52,9 @@ function drawTileMapGrid() {
     });
 
 }
+function drawTradeMap() {
+    drawMercator();
+}
 
 function drawMercator() {
     // Define path generator with initial projection
@@ -92,8 +95,9 @@ function drawMercator() {
                 var ogColor = d3.select(this).attr("data-original-color");
                 d3.select(this).style("fill", ogColor);
             })
-
+        drawTradeLinks(svg, world)
     });
+
 }
 d3.select("#projection-selector").on("change", function () {
     var selectedValue = d3.select(this).property("value");
@@ -115,12 +119,48 @@ function updateProjection() {
         .attr("d", path);
 }
 
-// Load CSV data
+function drawTradeLinks(svg, world) {
+    console.log(world)
+    // Load CSV data
+    d3.json("../data/trade_data.json", function (data) {
+        const projection = d3.geoMercator();
+        const pathGenerator = d3.geoPath().projection(projection);
+        console.log(data);
+        console.log(d3.geoCentroid(data[0].source));
+        const links = data.map(function (link) {
+            const sourceCountry = world.features.find(d => d.id === link.source);
+            const targetCountry = world.features.find(d => d.id === link.target);
+            if(!sourceCountry || !targetCountry) return null;
+            return {
+                source: projection(d3.geoCentroid(sourceCountry)),
+                target: projection(d3.geoCentroid(targetCountry)),
+                value: link.value
+            }
+        }
+        ).filter(d => d !== null);
+        var widthScale = d3.scaleLinear()
+        .domain(d3.extent(links, d => d.value))
+        .range([1, 10]);
+        svg.selectAll('.trade-link')
+            .data(links)
+            .enter()
+            .append('line')
+            .attr('class', 'trade-link')
+            .attr('x1', function (d) { return d.source[0]; })
+            .attr('y1', function (d) { return d.source[1]; })
+            .attr('x2', function (d) { return d.target[0]; })
+            .attr('y2', function (d) { return d.target[1]; })
+            .attr('stroke-width', d => widthScale(d.value))
+            .attr('stroke', 'black');
+
+    });
+}
+
 d3.csv("../data/extracted_data.csv", function (data) {
     // Extract columns for the selector
     var columns = Object.keys(data[0]);
     columns.forEach(function (column) {
-        if (column === "ISO Code" || column === "Country") return;
+        if (column === "ISO Code" || column === "Country" || column === "url") return;
         d3.select("#data-selector")
             .append("option")
             .text(column)

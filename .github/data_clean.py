@@ -258,7 +258,8 @@ final_df['Paved Roadways (km)'] = df['Transportation: Roadways - paved'].apply(c
 final_df['Unpaved Roadways (km)'] = df['Transportation: Roadways - unpaved'].apply(convert_mil_to_number)
 final_df['Military expenditures (% of GDP)'] = df['Military and Security: Military expenditures'].apply(convert_percentage)
 
-trade_df['Country'] = df['Country'])
+trade_df['Country'] = df['Country']
+print(trade_df['Country'])
 trade_df['ISO Code'] = trade_df['Country'].apply(get_iso_code)
 
 def trade(data):

@@ -335,27 +335,27 @@
         "value":5.0
     },
     {
-        "source":"BHS",
+        "source":null,
         "target":"USA",
         "value":26.0
     },
     {
-        "source":"BHS",
+        "source":null,
         "target":"DEU",
         "value":16.0
     },
     {
-        "source":"BHS",
+        "source":null,
         "target":"SGP",
         "value":13.0
     },
     {
-        "source":"BHS",
+        "source":null,
         "target":"POL",
         "value":13.0
     },
     {
-        "source":"BHS",
+        "source":null,
         "target":"THA",
         "value":9.0
     },
@@ -1060,22 +1060,22 @@
         "value":7.0
     },
     {
-        "source":"COG",
+        "source":"COD",
         "target":"CHN",
         "value":53.0
     },
     {
-        "source":"COG",
+        "source":"COD",
         "target":"ARE",
         "value":11.0
     },
     {
-        "source":"COG",
+        "source":"COD",
         "target":"SAU",
         "value":6.0
     },
     {
-        "source":"COG",
+        "source":"COD",
         "target":"KOR",
         "value":5.0
     },
@@ -1690,22 +1690,22 @@
         "value":5.0
     },
     {
-        "source":"GMB",
+        "source":null,
         "target":"CHN",
         "value":38.0
     },
     {
-        "source":"GMB",
+        "source":null,
         "target":"IND",
         "value":22.0
     },
     {
-        "source":"GMB",
+        "source":null,
         "target":"MLI",
         "value":7.0
     },
     {
-        "source":"GMB",
+        "source":null,
         "target":"CHL",
         "value":5.0
     },
@@ -2445,27 +2445,27 @@
         "value":6.0
     },
     {
-        "source":"PRK",
+        "source":"KOR",
         "target":"CHN",
         "value":24.0
     },
     {
-        "source":"PRK",
+        "source":"KOR",
         "target":"USA",
         "value":15.0
     },
     {
-        "source":"PRK",
+        "source":"KOR",
         "target":"VNM",
         "value":9.0
     },
     {
-        "source":"PRK",
+        "source":"KOR",
         "target":"HKG",
         "value":6.0
     },
     {
-        "source":"PRK",
+        "source":"KOR",
         "target":"JPN",
         "value":5.0
     },
@@ -3900,27 +3900,27 @@
         "value":27.0
     },
     {
-        "source":"SHN",
+        "source":null,
         "target":"USA",
         "value":47.0
     },
     {
-        "source":"SHN",
+        "source":null,
         "target":"JPN",
         "value":12.0
     },
     {
-        "source":"SHN",
+        "source":null,
         "target":"KOR",
         "value":10.0
     },
     {
-        "source":"SHN",
+        "source":null,
         "target":"FRA",
         "value":9.0
     },
     {
-        "source":"SHN",
+        "source":null,
         "target":"AUS",
         "value":5.0
     },
