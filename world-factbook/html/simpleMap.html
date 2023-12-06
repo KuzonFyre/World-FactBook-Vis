@@ -14,44 +14,61 @@
     <script src="https://d3-geomap.github.io//d3-geomap/js/d3.geomap.min.js"></script>
     <script src="//unpkg.com/globe.gl"></script>
     <style>
-
         #container {
             width: 100%;
             height: 100vh;
             display: flex;
-            flex-direction: column;
-            align-items: center;
+            flex-direction: row;
+            align-items: stretch;
         }
 
-        #map, #scatterPlot {
-            flex: 5;
-            min-width: 90%;
+        #map {
+            flex: 1;
+            max-width: 60vw;
             height: auto;
         }
-        #container > select {
-            flex: 0 1 autp;
-            margin: 5px 0;
+
+        #scatterPlot {
+            flex: 1;
+            max-width: 40vw;
+            height: auto;
         }
 
+        #container>select {
+            display: none;
+        }
 
+        .tooltip {
+            background-color: white;
+            padding: 5px;
+            border: 1px solid black;
+            border-radius: 5px;
+            opacity: 0.9;
+        }
     </style>
 </head>
+`
 
 <body>
 
     <div id="container">
-        <select id="data-selector"></select>
-        <select id="projection-selector">
-            <option value="mercator">Mercator</option>
-            <option value="fancy">Fancy</option>
-            <option value="tileMap">Tile Map Grid</option>
-            <option value="tradeMap">Trade Map</option>
-            <option value="fancyTrade">fancyTrade</option>
-        </select>
-        <div id="map"></div>
-        <select id="scatter-selector1"></select>
-        <select id="scatter-selector2"></select>
-        <div id="scatterPlot"></div>
+
+        <div id="map">
+            <select id="data-selector"></select>
+            <select id="projection-selector">
+                <option value="mercator">Mercator</option>
+                <option value="fancy">Fancy</option>
+                <option value="tileMap">Tile Map Grid</option>
+                <option value="exportTradeMap">Export Trade Map</option>
+                <option value="importTradeMap">Import Trade Map</option>
+                <option value="fancyTrade">fancyTrade</option>
+            </select>
+        </div>
+        <div id="scatterPlot">
+            <select id="scatter-selector1"></select>
+            <select id="scatter-selector2"></select>
+
+        </div>
     </div>
     <script src="../js/script.js"></script>
 

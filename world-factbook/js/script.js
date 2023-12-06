@@ -2,56 +2,12 @@
 const margin = { top: 10, right: 10, bottom: 10, left: 10 };
 
 function drawTileMapGrid() {
-
-    const tileSize = 20;
     var svg = d3.select("#map")
         .append("svg")
-        .attr("preserveAspectRatio", "xMidYMid meet")
-        .attr("transform-origin", "center")
         .style("width", "100%")
-        .style("height", "auto")
+        .style("height", "100%")
         .style("background", "rgba(135,206,235, 0.6)")
         .append("g");
-    const container = svg.node();
-    const width = container.getBoundingClientRect().width;
-    const height = container.getBoundingClientRect().height;
-    d3.json("https://raw.githubusercontent.com/mustafasaifee42/Tile-Grid-Map/master/Tile-Grid-Map-Cleaned.json", function (world) {
-        // Define scale factors
-        var xScale = d3.scaleLinear()
-            .domain([0, d3.max(world, d => d.coordinates[0])])
-            .range([0, width]);
-
-        var yScale = d3.scaleLinear()
-            .domain([0, d3.max(world, d => d.coordinates[1])])
-            .range([0, height]);
-        svg.selectAll(".country")
-            .data(world)
-            .enter()
-            .append("rect")
-            .attr("class", "country")
-            .attr("x", d => xScale(d.coordinates[0]))
-            .attr("y", d => yScale(d.coordinates[1]))
-            .attr("width", tileSize)
-            .attr("height", tileSize)
-            .on("mouseover", function (d) {
-                d3.select(this).style("fill", "orange");
-            })
-            .on("mouseout", function (d) {
-                var ogColor = d3.select(this).attr("data-original-color");
-                d3.select(this).style("fill", ogColor);
-            })
-        // .on("click", function (d) {
-        //     console.log(d);
-        // });
-        svg.selectAll("text")
-            .data(world)
-            .enter()
-            .append("text")
-            .attr("x", d => xScale(d.coordinates[0]) + tileSize / 2)
-            .attr("y", d => yScale(d.coordinates[1]) + tileSize / 2)
-            .attr("text-anchor", "middle")
-            .text(d => d["alpha-2"]); // Display the alpha-2 code
-    });
 
 }
 function drawMercator(trade) {
@@ -70,28 +26,43 @@ function drawMercator(trade) {
 
     var countries;
     d3.json("https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson", function (world) {
-        console.log(world);
         countries = svg.selectAll(".country")
             .data(world.features)
             .enter()
             .append("path")
             .attr("class", d => "country " + d.id)
             .attr("d", path)
-        var tooltip = countries.append("div")
+        var tooltip = d3.select("body").append("div")
+            .attr("class", "tooltip")
             .style("position", "absolute")
-            .style("visibility", "hidden")
-            .text("HELLO");
+            .style("visibility", "hidden");
+        if (trade=== "imports") drawTradeLinks(svg, world, true);
+        if (trade=== "exports") drawTradeLinks(svg, world, false);
         countries
             .on("mouseover", function (d) {
-                tooltip.style("visibility", "visible");
-                d3.select(this).style("fill", "orange");
+                tooltip.html("Country Name: " + d.properties.name) // Example content
+                    .style("visibility", "visible");
+                d3.select(this).style("fill", "blue");
+                if (trade === "imports" || trade === "exports") {
+                    console.log(d.id)
+                    d3.select("#map").selectAll(`.trade-link.${d.id}`)
+                        .style("opacity", 1)
+                }
+            })
+            .on("mousemove", function () {
+                tooltip.style("top", (d3.event.pageY - 10) + "px")
+                    .style("left", (d3.event.pageX + 10) + "px");
             })
             .on("mouseout", function (d) {
                 tooltip.style("visibility", "hidden");
                 var ogColor = d3.select(this).attr("data-original-color");
                 d3.select(this).style("fill", ogColor);
-            })
-        if (trade) drawTradeLinks(svg, world)
+                if (trade === "imports" || trade === "exports") {
+                    d3.select("#map").selectAll(".trade-link")
+                        .style("opacity", 0)
+                }
+            });
+
     });
 
 }
@@ -166,21 +137,25 @@ d3.select("#projection-selector").on("change", function () {
     if (selectedValue === "tileMap") {
         drawTileMapGrid();
     } else if (selectedValue === "mercator") {
-        drawMercator(false);
-    } else if (selectedValue === "tradeMap") {
-        drawMercator(true);
+        drawMercator("");
+    } else if (selectedValue === "exportTradeMap") {
+        drawMercator("exports");
+    } else if (selectedValue === "importTradeMap") {
+        drawMercator("imports");
     } else if (selectedValue === "fancy") {
         world = drawFancy();
     } else if (selectedValue === "fancyTrade") {
         world = drawFancyTrade();
     }
 });
-drawMercator(false);
+drawMercator("");
 
-function drawTradeLinks(svg, world) {
-    console.log(world)
+function drawTradeLinks(svg, world, isImport) {
     // Load CSV data
-    d3.json("../data/trade_data.json", function (data) {
+    var dataPath;
+    if (isImport) dataPath = "../data/import_data.json";
+    else dataPath = "../data/export_data.json";
+    d3.json(dataPath, function (data) {
         const projection = d3.geoMercator();
         const pathGenerator = d3.geoPath().projection(projection);
         console.log(data);
@@ -190,8 +165,10 @@ function drawTradeLinks(svg, world) {
             const targetCountry = world.features.find(d => d.id === link.target);
             if (!sourceCountry || !targetCountry) return null;
             return {
-                source: projection(d3.geoCentroid(sourceCountry)),
-                target: projection(d3.geoCentroid(targetCountry)),
+                source: link.source,
+                target: link.target,
+                sourceXY: projection(d3.geoCentroid(sourceCountry)),
+                targetXY: projection(d3.geoCentroid(targetCountry)),
                 value: link.value
             }
         }
@@ -203,14 +180,14 @@ function drawTradeLinks(svg, world) {
             .data(links)
             .enter()
             .append('line')
-            .attr('class', 'trade-link')
-            .attr('x1', function (d) { return d.source[0]; })
-            .attr('y1', function (d) { return d.source[1]; })
-            .attr('x2', function (d) { return d.target[0]; })
-            .attr('y2', function (d) { return d.target[1]; })
+            .attr('class', function (d) {return `trade-link ${d.source} ${d.target}`})
+            .attr('x1', function (d) { return d.sourceXY[0]; })
+            .attr('y1', function (d) { return d.sourceXY[1]; })
+            .attr('x2', function (d) { return d.targetXY[0]; })
+            .attr('y2', function (d) { return d.targetXY[1]; })
             .attr('stroke-width', d => widthScale(d.value))
-            .attr('stroke', 'black');
-
+            .attr('stroke', 'black')
+            .style("opacity", 0)
     });
 }
 d3.select("#scatterPlot")
@@ -220,6 +197,7 @@ d3.select("#scatterPlot")
     .style("height", "100%")
 
 function updateScatterPlot(s1, s2, data) {
+
     d3.select("#scatterPlot").select("svg").selectAll("g").remove();
     var svg = d3.select("#scatterPlot").select("svg")
     const container = svg.node();
@@ -229,10 +207,10 @@ function updateScatterPlot(s1, s2, data) {
 
     var x = d3.scaleLinear()
         .domain(d3.extent(data, function (d) { return +d[s1]; }))
-        .range([20,width-20]);
+        .range([20, width - 20]);
     var y = d3.scaleLinear()
         .domain(d3.extent(data, function (d) { return +d[s2]; }))
-        .range([height-20,20]);
+        .range([height - 20, 20]);
     svg.append("g")
         .selectAll("dot")
         .data(data.filter(d => d[s1] !== "" && d[s2] !== ""))
@@ -303,14 +281,61 @@ d3.csv("../data/extracted_data.csv", function (data) {
     // Update function for selector
     d3.select("#data-selector").on("change", function () {
         var selectedColumn = d3.select(this).property("value");
-        if (d3.select('#projection-selector').property("value") === "fancy") {
+        var selectedMap = d3.select('#projection-selector').property("value");
+        if (selectedMap === "fancy") {
             drawFancy(selectedColumn);
+        } else if (selectedMap === "tileMap") {
+            updateTileMap(selectedColumn, data);
         } else {
             updateMap(selectedColumn, data);
         }
     });
 });
+function updateTileMap(column, data) {
+    const tileSize = 10;
+    var svg = d3.select("#map").select("svg");
+    const container = svg.node();
+    const width = container.getBoundingClientRect().width;
+    const height = container.getBoundingClientRect().height;
+    d3.json("https://raw.githubusercontent.com/mustafasaifee42/Tile-Grid-Map/master/Tile-Grid-Map-Cleaned.json", function (world) {
+        // Define scale factors
+        var xScale = d3.scaleLinear()
+            .domain([0, d3.max(world, d => d.coordinates[0])])
+            .range([0, width]);
 
+        var yScale = d3.scaleLinear()
+            .domain([0, d3.max(world, d => d.coordinates[1])])
+            .range([0, height]);
+        var tooltip = d3.select("body").append("div")
+            .attr("class", "tooltip")
+            .style("position", "absolute")
+            .style("visibility", "hidden");
+        svg.selectAll(".country")
+            .data(world)
+            .enter()
+            .append("rect")
+            .attr("class", "country")
+            .attr("x", d => xScale(d.coordinates[0]))
+            .attr("y", d => yScale(d.coordinates[1]))
+            .attr("width", tileSize)
+            .attr("height", tileSize)
+            .on("mouseover", function (d) {
+                console.log(d);
+                tooltip.html("Tile Info: " + d.name) // Replace with appropriate content
+                    .style("visibility", "visible");
+                d3.select(this).style("fill", "orange");
+            })
+            .on("mousemove", function () {
+                tooltip.style("top", (d3.event.pageY - 10) + "px")
+                    .style("left", (d3.event.pageX + 10) + "px");
+            })
+            .on("mouseout", function (d) {
+                tooltip.style("visibility", "hidden");
+                d3.select(this).style("fill", d3.select(this).attr("data-original-color"));
+            });
+    });
+    updateMap(column, data);
+}
 function updateMap(column, data) {
     console.log("Updating map with column: ", column);
     // Create a map of country names/IDs to data values
@@ -320,7 +345,7 @@ function updateMap(column, data) {
     });
 
     // Define a color scale for your data
-    var colorScale = d3.scaleSequential(d3.interpolateBlues)
+    const colorScale = d3.scaleSequential(d3.interpolateYlOrRd)
         .domain(d3.extent(data, function (d) { return +d[column]; }));
     console.log(d3.select('#map'))
     d3.select("#map").selectAll(".country")

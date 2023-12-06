@@ -273,6 +273,14 @@ for index, row in trade_df.iterrows():
     for country, value in row['Exports Partners']:
         trade_data.append({'source': iso, 'target': country, 'value': value})
 temp = pd.DataFrame(trade_data)
-temp.to_json('../world-factbook/data/trade_data.json', orient='records', indent=4)
+temp.to_json('../world-factbook/data/export_data.json', orient='records', indent=4)
+trade_df['Imports Partners'] = df['Economy: Imports - partners'].apply(trade)
+trade_data = []
+for index, row in trade_df.iterrows():
+    iso = row['ISO Code']
+    for country, value in row['Imports Partners']:
+        trade_data.append({'source': iso, 'target': country, 'value': value})
+temp = pd.DataFrame(trade_data)
+temp.to_json('../world-factbook/data/import_data.json', orient='records', indent=4)
 print(bad_countries)
 final_df.to_csv('../world-factbook/data/extracted_data.csv', index=False)
