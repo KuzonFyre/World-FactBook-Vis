@@ -1,5 +1,4 @@
 
-const margin = { top: 10, right: 10, bottom: 10, left: 10 };
 
 function drawTileMapGrid() {
     var svg = d3.select("#map")
@@ -36,8 +35,8 @@ function drawMercator(trade) {
             .attr("class", "tooltip")
             .style("position", "absolute")
             .style("visibility", "hidden");
-        if (trade=== "imports") drawTradeLinks(svg, world, true);
-        if (trade=== "exports") drawTradeLinks(svg, world, false);
+        if (trade === "imports") drawTradeLinks(svg, world, true);
+        if (trade === "exports") drawTradeLinks(svg, world, false);
         countries
             .on("mouseover", function (d) {
                 tooltip.html("Country Name: " + d.properties.name) // Example content
@@ -109,7 +108,7 @@ function drawFancy(selectedColumn) {
                 .polygonSideColor(() => 'rgba(0, 100, 0, 0.15)')
                 .polygonStrokeColor(() => '#111')
                 .polygonLabel(({ properties: d }) => `
-            <b>${d.ADMIN} (${d.ISO_A3}):</b> <br />: <i></i><br/>
+            <b>${d.ADMIN} (${d.ISO_A3}):</b>
           `)
                 .polygonCapColor(d => {
                     const entry = data.find(da => da['ISO Code'] === d.properties['ISO_A3'])
@@ -125,7 +124,7 @@ function drawFancy(selectedColumn) {
                     })
                 )
                 .polygonsTransitionDuration(300)
-                (document.getElementById('map'))
+                (document.getElementById('#fancy'))
         })
     });
 }
@@ -180,7 +179,7 @@ function drawTradeLinks(svg, world, isImport) {
             .data(links)
             .enter()
             .append('line')
-            .attr('class', function (d) {return `trade-link ${d.source} ${d.target}`})
+            .attr('class', function (d) { return `trade-link ${d.source}` })
             .attr('x1', function (d) { return d.sourceXY[0]; })
             .attr('y1', function (d) { return d.sourceXY[1]; })
             .attr('x2', function (d) { return d.targetXY[0]; })
@@ -190,6 +189,7 @@ function drawTradeLinks(svg, world, isImport) {
             .style("opacity", 0)
     });
 }
+
 d3.select("#scatterPlot")
     .append("svg")
     .style("background", "rgba(135,206,235, 0.6)")
@@ -198,22 +198,34 @@ d3.select("#scatterPlot")
 
 function updateScatterPlot(s1, s2, data) {
 
-    d3.select("#scatterPlot").select("svg").selectAll("g").remove();
+    d3.select("#scatterPlot").select("svg").selectAll("*").remove();
     var svg = d3.select("#scatterPlot").select("svg")
+    var margin = { top: 40, right: 40, bottom: 40, left: 40 };
     const container = svg.node();
-    const width = container.getBoundingClientRect().width;
-    const height = container.getBoundingClientRect().height;
+    const width = parseInt(container.getBoundingClientRect().width) - margin.right - margin.left;
+    const height = parseInt(container.getBoundingClientRect().height) - margin.top - margin.bottom;
     console.log(width, height)
-
+    const dScatter = data.filter(d => d[s1] !== "" && d[s2] !== "" && d[s1] !== "nan" && d[s2] !== "nan")
     var x = d3.scaleLinear()
         .domain(d3.extent(data, function (d) { return +d[s1]; }))
-        .range([20, width - 20]);
+        .range([0, width]);
     var y = d3.scaleLinear()
         .domain(d3.extent(data, function (d) { return +d[s2]; }))
-        .range([height - 20, 20]);
-    svg.append("g")
-        .selectAll("dot")
-        .data(data.filter(d => d[s1] !== "" && d[s2] !== ""))
+        .range([height, 0]);
+    var tooltip = d3.select("body").append("div")
+        .attr("class", "tooltip")
+        .style("position", "absolute")
+        .style("visibility", "hidden");
+    var g = svg.append("g").attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+    g.append("g")
+        .attr("class", "x-axis")
+        .attr("transform", "translate(0," + height + ")")
+        .call(d3.axisBottom(x));
+    g.append("g")
+        .attr("class", "y-axis")
+        .call(d3.axisLeft(y));
+    g.selectAll(".dot")
+        .data(dScatter)
         .enter()
         .append("circle")
         .attr("class", "dot")
@@ -222,17 +234,19 @@ function updateScatterPlot(s1, s2, data) {
         .attr("r", 7)
         .style("fill", "#69b3a2")
         .on("mouseover", function (d) {
-            d3.select(this).style("fill", "orange")
+            d3.select(this).style("fill", "blue")
                 .style("stroke", "black")
-                .style("stroke-width", "1px")
             d3.select("#map").selectAll(".country")
                 .style("opacity", 0.5)
             d3.select("#map").selectAll(".country." + d["ISO Code"])
                 .style("opacity", 1)
-                .style("fill", "orange")
+                .style("fill", "blue")
                 .style("stroke", "black")
                 .style("stroke-width", "1px")
+            tooltip.html("Country Name: " + d["Country"] + "<br/>" + s1 + ": " + d[s1] + "<br/>" + s2 + ": " + d[s2])
+                .style("visibility", "visible");
         }).on("mouseout", function (d) {
+            tooltip.style("visibility", "hidden");
             d3.select(this).style("fill", "#69b3a2")
                 .style("stroke", "none")
             d3.select("#map").selectAll(".country")
@@ -241,14 +255,10 @@ function updateScatterPlot(s1, s2, data) {
                 .style("fill", d3.select("#map").selectAll(".country." + d["ISO Code"]).attr("data-original-color"))
                 .style("stroke", "none")
         })
-    svg.append("g")
-        .attr("class", "x-axis")
-        .attr("transform", "translate(0," + (height - 20) + ")")
-        .call(d3.axisBottom(x));
-    svg.append("g")
-        .attr("class", "y-axis")
-        .attr("transform", "translate(50,0)")
-        .call(d3.axisLeft(y));
+        .on("mousemove", function () {
+            tooltip.style("top", (d3.event.pageY - 10) + "px")
+                .style("left", (d3.event.pageX + 10) + "px");
+        })
 
 }
 d3.csv("../data/extracted_data.csv", function (data) {
@@ -323,7 +333,7 @@ function updateTileMap(column, data) {
                 console.log(d);
                 tooltip.html("Tile Info: " + d.name) // Replace with appropriate content
                     .style("visibility", "visible");
-                d3.select(this).style("fill", "orange");
+                d3.select(this).style("fill", "blue");
             })
             .on("mousemove", function () {
                 tooltip.style("top", (d3.event.pageY - 10) + "px")
