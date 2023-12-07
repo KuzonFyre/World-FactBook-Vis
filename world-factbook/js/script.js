@@ -124,7 +124,7 @@ function drawFancy(selectedColumn) {
                     })
                 )
                 .polygonsTransitionDuration(300)
-                (document.getElementById('#fancy'))
+                (document.getElementById('map'))
         })
     });
 }
