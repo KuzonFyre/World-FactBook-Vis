@@ -316,7 +316,7 @@
     },
     {
         "source":"AZE",
-        "target":"TUR",
+        "target":null,
         "value":15.0
     },
     {
@@ -751,7 +751,7 @@
     },
     {
         "source":"BGR",
-        "target":"TUR",
+        "target":null,
         "value":7.0
     },
     {
@@ -1051,7 +1051,7 @@
     },
     {
         "source":"COM",
-        "target":"TUR",
+        "target":null,
         "value":9.0
     },
     {
@@ -1396,7 +1396,7 @@
     },
     {
         "source":"EGY",
-        "target":"TUR",
+        "target":null,
         "value":7.0
     },
     {
@@ -1736,7 +1736,7 @@
     },
     {
         "source":"GEO",
-        "target":"TUR",
+        "target":null,
         "value":6.0
     },
     {
@@ -1831,7 +1831,7 @@
     },
     {
         "source":"GRC",
-        "target":"TUR",
+        "target":null,
         "value":5.0
     },
     {
@@ -2161,7 +2161,7 @@
     },
     {
         "source":"IRN",
-        "target":"TUR",
+        "target":null,
         "value":6.0
     },
     {
@@ -3046,7 +3046,7 @@
     },
     {
         "source":"MDA",
-        "target":"TUR",
+        "target":null,
         "value":6.0
     },
     {
@@ -3561,7 +3561,7 @@
     },
     {
         "source":"PLW",
-        "target":"TUR",
+        "target":null,
         "value":16.0
     },
     {
@@ -3816,28 +3816,28 @@
     },
     {
         "source":"QAT",
-        "target":"JPN",
-        "value":17.0
-    },
-    {
-        "source":"QAT",
-        "target":"KOR",
-        "value":16.0
-    },
-    {
-        "source":"QAT",
-        "target":"IND",
-        "value":14.0
-    },
-    {
-        "source":"QAT",
         "target":"CHN",
         "value":13.0
     },
     {
         "source":"QAT",
+        "target":"JPN",
+        "value":11.0
+    },
+    {
+        "source":"QAT",
+        "target":"IND",
+        "value":11.0
+    },
+    {
+        "source":"QAT",
+        "target":"KOR",
+        "value":10.0
+    },
+    {
+        "source":"QAT",
         "target":"SGP",
-        "value":7.0
+        "value":6.0
     },
     {
         "source":"ROU",
@@ -4112,26 +4112,26 @@
     {
         "source":"SAU",
         "target":"CHN",
-        "value":20.0
+        "value":19.0
     },
     {
         "source":"SAU",
         "target":"IND",
-        "value":11.0
+        "value":10.0
     },
     {
         "source":"SAU",
         "target":"JPN",
-        "value":11.0
-    },
-    {
-        "source":"SAU",
-        "target":"KOR",
         "value":9.0
     },
     {
         "source":"SAU",
-        "target":"USA",
+        "target":"KOR",
+        "value":8.0
+    },
+    {
+        "source":"SAU",
+        "target":"ARE",
         "value":5.0
     },
     {
@@ -4581,7 +4581,7 @@
     },
     {
         "source":"SYR",
-        "target":"TUR",
+        "target":null,
         "value":18.0
     },
     {
@@ -4636,7 +4636,7 @@
     },
     {
         "source":"TJK",
-        "target":"TUR",
+        "target":null,
         "value":24.0
     },
     {
@@ -4946,7 +4946,7 @@
     },
     {
         "source":"UKR",
-        "target":"TUR",
+        "target":null,
         "value":6.0
     },
     {
@@ -5086,7 +5086,7 @@
     },
     {
         "source":"UZB",
-        "target":"TUR",
+        "target":null,
         "value":8.0
     },
     {

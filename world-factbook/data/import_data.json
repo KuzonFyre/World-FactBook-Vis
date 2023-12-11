@@ -41,7 +41,7 @@
     },
     {
         "source":"ALB",
-        "target":"TUR",
+        "target":null,
         "value":9.0
     },
     {
@@ -76,7 +76,7 @@
     },
     {
         "source":"DZA",
-        "target":"TUR",
+        "target":null,
         "value":5.0
     },
     {
@@ -226,7 +226,7 @@
     },
     {
         "source":"ARM",
-        "target":"TUR",
+        "target":null,
         "value":5.0
     },
     {
@@ -291,7 +291,7 @@
     },
     {
         "source":"AZE",
-        "target":"TUR",
+        "target":null,
         "value":12.0
     },
     {
@@ -721,7 +721,7 @@
     },
     {
         "source":"BGR",
-        "target":"TUR",
+        "target":null,
         "value":7.0
     },
     {
@@ -1151,7 +1151,7 @@
     },
     {
         "source":"COK",
-        "target":"TUR",
+        "target":null,
         "value":12.0
     },
     {
@@ -1271,7 +1271,7 @@
     },
     {
         "source":"CYP",
-        "target":"TUR",
+        "target":null,
         "value":8.0
     },
     {
@@ -1356,7 +1356,7 @@
     },
     {
         "source":"DJI",
-        "target":"TUR",
+        "target":null,
         "value":5.0
     },
     {
@@ -1451,7 +1451,7 @@
     },
     {
         "source":"EGY",
-        "target":"TUR",
+        "target":null,
         "value":5.0
     },
     {
@@ -1526,7 +1526,7 @@
     },
     {
         "source":"ERI",
-        "target":"TUR",
+        "target":null,
         "value":5.6
     },
     {
@@ -1796,7 +1796,7 @@
     },
     {
         "source":"GEO",
-        "target":"TUR",
+        "target":null,
         "value":17.0
     },
     {
@@ -2126,7 +2126,7 @@
     },
     {
         "source":"HTI",
-        "target":"TUR",
+        "target":null,
         "value":3.0
     },
     {
@@ -2331,7 +2331,7 @@
     },
     {
         "source":"IRN",
-        "target":"TUR",
+        "target":null,
         "value":7.0
     },
     {
@@ -2351,7 +2351,7 @@
     },
     {
         "source":"IRQ",
-        "target":"TUR",
+        "target":null,
         "value":21.0
     },
     {
@@ -2406,7 +2406,7 @@
     },
     {
         "source":"ISR",
-        "target":"TUR",
+        "target":null,
         "value":6.0
     },
     {
@@ -2451,7 +2451,7 @@
     },
     {
         "source":"JAM",
-        "target":"TUR",
+        "target":null,
         "value":5.0
     },
     {
@@ -2511,7 +2511,7 @@
     },
     {
         "source":"JOR",
-        "target":"TUR",
+        "target":null,
         "value":3.0
     },
     {
@@ -2611,7 +2611,7 @@
     },
     {
         "source":"SRB",
-        "target":"TUR",
+        "target":null,
         "value":13.0
     },
     {
@@ -2686,7 +2686,7 @@
     },
     {
         "source":"KGZ",
-        "target":"TUR",
+        "target":null,
         "value":5.0
     },
     {
@@ -2751,7 +2751,7 @@
     },
     {
         "source":"LBN",
-        "target":"TUR",
+        "target":null,
         "value":7.0
     },
     {
@@ -2791,7 +2791,7 @@
     },
     {
         "source":"LBY",
-        "target":"TUR",
+        "target":null,
         "value":14.0
     },
     {
@@ -3016,7 +3016,7 @@
     },
     {
         "source":"MLT",
-        "target":"TUR",
+        "target":null,
         "value":5.0
     },
     {
@@ -3171,7 +3171,7 @@
     },
     {
         "source":"MDA",
-        "target":"TUR",
+        "target":null,
         "value":6.0
     },
     {
@@ -3281,7 +3281,7 @@
     },
     {
         "source":"MAR",
-        "target":"TUR",
+        "target":null,
         "value":5.0
     },
     {
@@ -3516,7 +3516,7 @@
     },
     {
         "source":"NGA",
-        "target":"TUR",
+        "target":null,
         "value":5.0
     },
     {
@@ -3931,33 +3931,28 @@
     },
     {
         "source":"QAT",
-        "target":"USA",
-        "value":15.0
+        "target":"CHN",
+        "value":14.0
     },
     {
         "source":"QAT",
-        "target":"FRA",
-        "value":13.0
+        "target":"ARE",
+        "value":8.0
+    },
+    {
+        "source":"QAT",
+        "target":"USA",
+        "value":7.0
     },
     {
         "source":"QAT",
         "target":"GBR",
-        "value":9.0
+        "value":6.0
     },
     {
         "source":"QAT",
-        "target":"CHN",
-        "value":9.0
-    },
-    {
-        "source":"QAT",
-        "target":"DEU",
-        "value":5.0
-    },
-    {
-        "source":"QAT",
-        "target":"ITA",
-        "value":5.0
+        "target":"IND",
+        "value":6.0
     },
     {
         "source":"ROU",
@@ -4237,22 +4232,27 @@
     {
         "source":"SAU",
         "target":"CHN",
-        "value":18.0
+        "value":19.0
     },
     {
         "source":"SAU",
         "target":"ARE",
-        "value":12.0
+        "value":15.0
     },
     {
         "source":"SAU",
         "target":"USA",
-        "value":9.0
+        "value":8.0
+    },
+    {
+        "source":"SAU",
+        "target":"IND",
+        "value":6.0
     },
     {
         "source":"SAU",
         "target":"DEU",
-        "value":5.0
+        "value":4.0
     },
     {
         "source":"SEN",
@@ -4306,7 +4306,7 @@
     },
     {
         "source":"SRB",
-        "target":"TUR",
+        "target":null,
         "value":5.0
     },
     {
@@ -4371,7 +4371,7 @@
     },
     {
         "source":"SLE",
-        "target":"TUR",
+        "target":null,
         "value":5.0
     },
     {
@@ -4496,7 +4496,7 @@
     },
     {
         "source":"SOM",
-        "target":"TUR",
+        "target":null,
         "value":7.0
     },
     {
@@ -4681,7 +4681,7 @@
     },
     {
         "source":"SYR",
-        "target":"TUR",
+        "target":null,
         "value":27.0
     },
     {
@@ -4961,7 +4961,7 @@
     },
     {
         "source":"TKM",
-        "target":"TUR",
+        "target":null,
         "value":25.0
     },
     {
@@ -5176,7 +5176,7 @@
     },
     {
         "source":"UZB",
-        "target":"TUR",
+        "target":null,
         "value":6.0
     },
     {
@@ -5316,7 +5316,7 @@
     },
     {
         "source":"YEM",
-        "target":"TUR",
+        "target":null,
         "value":10.0
     },
     {
