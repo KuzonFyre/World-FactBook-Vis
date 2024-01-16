@@ -153,8 +153,8 @@ final_df['School life expectancy'] = df['People and Society: School life expecta
 final_df['School life expectancy - male'] = df['People and Society: School life expectancy (primary to tertiary education) - male'].apply(split_field)
 final_df['School life expectancy - female'] = df['People and Society: School life expectancy (primary to tertiary education) - female'].apply(split_field)
 # final_df['Youth unemployment rate (ages 15-24)'] = df['People and Society: Youth unemployment rate (ages 15-24) - total'].apply(convert_percentage)
-final_df['Youth unemployment rate (ages 15-24) - male'] = df['People and Society: Youth unemployment rate (ages 15-24) - male'].apply(convert_percentage)
-final_df['Youth unemployment rate (ages 15-24) - female'] = df['People and Society: Youth unemployment rate (ages 15-24) - female'].apply(convert_percentage)
+# final_df['Youth unemployment rate (ages 15-24) - male'] = df['People and Society: Youth unemployment rate (ages 15-24) - male'].apply(convert_percentage)
+# final_df['Youth unemployment rate (ages 15-24) - female'] = df['People and Society: Youth unemployment rate (ages 15-24) - female'].apply(convert_percentage)
 
 final_df['Forest land (% of land area)'] = df['Environment: Land use - forest'].apply(convert_percentage)
 final_df['Agricultural land (% of land area)'] = df['Environment: Land use - agricultural land'].apply(convert_percentage)
